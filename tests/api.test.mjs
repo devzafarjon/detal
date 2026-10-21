@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+const base='http://127.0.0.1:5173';
+const initial=await (await fetch(base+'/api/catalog')).json();
+assert.ok(initial.models.length===3);
+assert.equal(initial.models[0].parts.find(p=>p.id===12).article,'TEST-P25');
+const send=(body,origin=base)=>fetch(base+'/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json',Origin:origin},body:JSON.stringify(body)});
+const broken=structuredClone(initial);broken.models[0].parts[0].price=-1;
+assert.equal((await send(broken)).status,400);
+assert.equal((await send(initial,'https://elsewhere.invalid')).status,403);
+assert.equal((await send({...initial,revision:initial.revision+50})).status,409);
+const after=await (await fetch(base+'/api/catalog')).json();assert.equal(after.revision,initial.revision);
+const badImage=await fetch(base+'/api/upload',{method:'POST',headers:{Origin:base,'Content-Type':'image/png'},body:'<svg>not an image</svg>'});assert.equal(badImage.status,400);
+console.log('PASS: persisted edit, invalid price, foreign origin, revision conflict, invalid image');

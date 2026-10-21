@@ -1,0 +1,71 @@
+let admin=false,dirty=false,revision=0,loaded=false,busy=false,workingFile=null;
+window.placementMode=null;
+const hint=t=>$('actionHint').textContent=t;
+function changed(){dirty=true;$('syncStatus').textContent='Saqlanmagan o‘zgarishlar';}
+function updateAdmin(){ $('adminBar').hidden=!admin;$('editor').hidden=!admin||!current.parts.length;$('adminToggle').textContent=admin?'← Katalogga qaytish':'⚙ Admin panel';window.placementMode=null;syncEditor();}
+window.syncEditor=function(){if(!$('editor'))return;const p=current.parts.find(p=>p.id===selected);$('editor').hidden=!admin||!p;if(!p)return;$('editModel').value=current.name;$('editNumber').value=p.id;$('editName').value=p.name;$('editArticle').value=p.article;$('editPrice').value=p.price??'';$('editDemo').checked=p.demoPrice!==false;$('editReviewed').checked=!p.needsReview;document.querySelectorAll('.hotspot').forEach(g=>g.classList.toggle('review',!!current.parts.find(p=>p.id===+g.dataset.id)?.needsReview));};
+$('adminToggle').onclick=()=>{if(!loaded){hint('Katalog yuklanishini kuting. Xatolik bo‘lsa sahifani yangilang.');return;}admin=!admin;updateAdmin()};
+window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});
+function applyFields(){if(!$('editForm').reportValidity())return false;const p=current.parts.find(p=>p.id===selected);if(!p)return true;const n=Number($('editNumber').value);if(current.parts.some(q=>q.id===n&&q!==p)){hint('Bu pozitsiya raqami mavjud. Boshqa raqam kiriting.');return false;}const price=$('editPrice').value===''?null:Number($('editPrice').value);Object.assign(p,{id:n,name:$('editName').value.trim(),article:$('editArticle').value.trim(),price,demoPrice:$('editDemo').checked,demoArticle:$('editArticle').value.startsWith('DEMO'),needsReview:!$('editReviewed').checked});current.name=$('editModel').value.trim();selected=n;changed();renderModel();hint('Tahrir qo‘llandi. Bazaga yozish uchun “O‘zgarishlarni saqlash”ni bosing.');return true;}
+$('editForm').onsubmit=e=>{e.preventDefault();applyFields()};
+$('removePart').onclick=()=>{const p=current.parts.find(p=>p.id===selected);if(!p)return;if(!confirm(`${p.id} — ${p.name} pozitsiyasini qoralamadan olib tashlaysizmi?`))return;current.parts=current.parts.filter(p=>p.id!==selected);selected=current.parts[0]?.id||1;changed();renderModel();hint('Pozitsiya qoralamadan olib tashlandi. Saqlamaguncha bazadagi nusxa o‘zgarmaydi.');};
+$('addPart').onclick=()=>{window.placementMode='add';hint('Yangi raqam turadigan joyga chizma ustida bosing. Escape — bekor qilish.');};
+$('movePart').onclick=()=>{if(!current.parts.length)return;window.placementMode='move';hint(`${selected}-pozitsiya turadigan yangi joyga bosing. Escape — bekor qilish.`)};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){window.placementMode=null;hint('')}});
+$('diagram').addEventListener('click',e=>{if(!window.placementMode)return;e.stopImmediatePropagation();const point=new DOMPoint(e.clientX,e.clientY).matrixTransform($('diagram').getScreenCTM().inverse());if(point.x<0||point.y<0||point.x>current.size[0]||point.y>current.size[1]){hint('Rasm ichidagi joyni tanlang.');return;}if(window.placementMode==='add'){const id=Math.max(0,...current.parts.map(p=>p.id))+1;current.parts.push({id,name:`Detal ${id}`,article:'',price:null,demoPrice:false,demoArticle:false,needsReview:true,x:point.x,y:point.y});selected=id;}else Object.assign(current.parts.find(p=>p.id===selected),{x:point.x,y:point.y});window.placementMode=null;changed();renderModel();hint('Belgi joylashtirildi. Nom, narx va artikulni tahrirlang.');},true);
+$('saveAll').onclick=async()=>{if(busy||!loaded)return;if(admin&&current.parts.length&&!applyFields())return;const snapshot=JSON.stringify(models);busy=true;$('saveAll').disabled=true;$('syncStatus').textContent='Bazaga saqlanmoqda…';try{const r=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({models,revision})});const d=await r.json();if(!r.ok)throw Error(d.error);revision=d.revision;dirty=JSON.stringify(models)!==snapshot;$('syncStatus').textContent=dirty?'Yangi o‘zgarishlar saqlanmagan':'✓ Bazaga saqlandi';hint('Barcha o‘zgarishlar saqlandi. Boshqa qurilmada ham shu katalog ochiladi.');}catch(e){hint('Saqlanmadi: '+e.message);$('syncStatus').textContent='Saqlash xatosi — qayta urining';}finally{busy=false;$('saveAll').disabled=false}};
+$('exportData').onclick=()=>{const a=document.createElement('a');const u=URL.createObjectURL(new Blob([JSON.stringify({revision,models},null,2)],{type:'application/json'}));a.href=u;a.download='detal-katalog.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)};
+$('newDrawing').onclick=()=>{$('uploadDialog').showModal();$('scanStatus').textContent='';};
+$('closeUpload').onclick=()=>{if(!busy)$('uploadDialog').close()};
+$('uploadDialog').addEventListener('cancel',e=>{if(busy)e.preventDefault()});
+$('diagramSplit').oninput=()=>$('splitValue').textContent=$('diagramSplit').value+'%';
+$('diagramSide').onchange=()=>$('splitLabel').hidden=$('diagramSide').value==='full';
+$('uploadFile').onchange=async()=>{const file=$('uploadFile').files[0];if(!file)return;workingFile=file;const u=URL.createObjectURL(file);$('uploadPreview').src=u;$('uploadPreview').hidden=false;$('uploadPreview').onload=()=>URL.revokeObjectURL(u)};
+function wordsFromTSV(tsv){return (tsv||'').split('\n').slice(1).map(l=>{const c=l.split('\t');return {text:c.slice(11).join('\t').trim(),x:+c[6],y:+c[7],w:+c[8],h:+c[9],confidence:+c[10],line:c.slice(1,5).join('-')}}).filter(w=>w.text&&w.confidence>=0);}
+function groupLines(words){const groups=new Map();for(const w of words){const key=w.line;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(w)}return [...groups.values()].map(ws=>({words:ws,text:ws.map(w=>w.text).join(' '),y:ws[0].y}));}
+async function loadOCR(){if(window.Tesseract)return;await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/tesseract.js@6.0.1/dist/tesseract.min.js';s.onload=resolve;s.onerror=()=>{s.remove();reject(Error('OCR kutubxonasi yuklanmadi. Internetni tekshiring yoki qo‘lda belgilang.'))};document.head.append(s)});}
+async function cropForOCR(img,rect){const scale=Math.min(3,2600/Math.max(rect.width,rect.height));const c=document.createElement('canvas');c.width=Math.round(rect.width*scale);c.height=Math.round(rect.height*scale);const ctx=c.getContext('2d');ctx.fillStyle='white';ctx.fillRect(0,0,c.width,c.height);ctx.drawImage(img,rect.left,rect.top,rect.width,rect.height,0,0,c.width,c.height);return {canvas:c,scale};}
+function cleanOCRCanvas(canvas,scale,diagram=false){
+ const ctx=canvas.getContext('2d'),image=ctx.getImageData(0,0,canvas.width,canvas.height),w=canvas.width,h=canvas.height,bits=new Uint8Array(w*h);
+ for(let i=0;i<bits.length;i++)bits[i]=(image.data[i*4]+image.data[i*4+1]+image.data[i*4+2])/3<210?1:0;
+ const erased=new Uint8Array(bits.length),run=Math.round((diagram?22:35)*scale);
+ for(let y=0;y<h;y++){let start=-1;for(let x=0;x<=w;x++){if(x<w&&bits[y*w+x]){if(start<0)start=x;}else if(start>=0){if(x-start>=run)for(let k=start;k<x;k++)erased[y*w+k]=1;start=-1;}}}
+ for(let x=0;x<w;x++){let start=-1;for(let y=0;y<=h;y++){if(y<h&&bits[y*w+x]){if(start<0)start=y;}else if(start>=0){if(y-start>=run)for(let k=start;k<y;k++)erased[k*w+x]=1;start=-1;}}}
+ for(let i=0;i<bits.length;i++)if(erased[i])bits[i]=0;
+ if(diagram){const seen=new Uint8Array(bits.length),queue=new Int32Array(bits.length);for(let root=0;root<bits.length;root++){if(!bits[root]||seen[root])continue;let tail=1,head=0,minX=w,minY=h,maxX=0,maxY=0;queue[0]=root;seen[root]=1;while(head<tail){const p=queue[head++],x=p%w,y=Math.floor(p/w);minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);for(const n of [p-1,p+1,p-w,p+w]){if(n<0||n>=bits.length||Math.abs(n%w-x)>1||seen[n]||!bits[n])continue;seen[n]=1;queue[tail++]=n;}}if(maxX-minX>40*scale||maxY-minY>30*scale||tail<3)for(let j=0;j<tail;j++)bits[queue[j]]=0;}}
+ for(let i=0;i<bits.length;i++){const v=bits[i]?0:255;image.data[i*4]=v;image.data[i*4+1]=v;image.data[i*4+2]=v;image.data[i*4+3]=255;}ctx.putImageData(image,0,0);return canvas;
+}
+function parseRows(words){const rows=new Map();for(const l of groupLines(words)){let text=l.text.replace(/[|丨]/g,' ').replace(/\s+/g,' ').replace(/[①-⑳]/g,c=>String(c.charCodeAt(0)-9311));const match=text.match(/^\s*(\d{1,4})\s+(.+)$/);if(!match)continue;const id=+match[1];if(id<1||id>9999)continue;let rest=match[2].trim();if(/^(序号|名称|数量|单价)/.test(rest))continue;let article='';const code=rest.match(/^((?:\d{6,12}|GB\s*\/?T?\s*\d+[.\d/-]*(?:\s*-\s*\d+)?)\b)\s*/i);if(code){article=code[1];rest=rest.slice(code[0].length)}// Quantity/price columns are not guessed as product prices.
+rest=rest.replace(/\s+\d+(?:\s+.*)?$/,'').trim();if(rest&&/[A-Za-z\u3400-\u9fff\u0400-\u04ff]/.test(rest))rows.set(id,{name:rest.slice(0,300),article});}return rows;}
+async function scanModel(model,img){
+ await loadOCR();let worker;
+ try{worker=await Tesseract.createWorker('eng',1,{logger:m=>{if(m.status==='recognizing text'){$('scanProgress').value=m.progress;$('scanStatus').textContent=`Raqamlar / jadval o‘qilmoqda… ${Math.round(m.progress*100)}%`}}});
+ const rect={left:model.view[0],top:0,width:model.view[2],height:model.size[1]};const crop=await cropForOCR(img,rect);
+ await worker.setParameters({tessedit_pageseg_mode:'11',tessedit_char_whitelist:'',user_defined_dpi:'300'});
+ const result=await worker.recognize(crop.canvas,{}, {text:true,tsv:true});const cleaned=cleanOCRCanvas(crop.canvas,crop.scale,true);const second=await worker.recognize(cleaned,{}, {text:true,tsv:true});const words=[...wordsFromTSV(result.data.tsv),...wordsFromTSV(second.data.tsv)];
+ const candidates=new Map();for(const w of words){if(!/^\d{1,4}$/.test(w.text)||w.confidence<25)continue;const id=+w.text;if(id<1||id>9999||w.h>crop.canvas.height*.08)continue;const p={id,name:`Detal ${id}`,article:'',price:null,demoPrice:false,demoArticle:false,needsReview:true,x:rect.left+(w.x+w.w/2)/crop.scale,y:(w.y+w.h/2)/crop.scale,ocrConfidence:Math.round(w.confidence)};if(!candidates.has(id)||candidates.get(id).ocrConfidence<p.ocrConfidence)candidates.set(id,p);}
+ let rows=new Map();const side=$('diagramSide').value;
+ if(side!=='full'){
+  $('scanStatus').textContent='Jadval tili yuklanmoqda…';await worker.reinitialize($('ocrLanguage').value);await worker.setParameters({tessedit_pageseg_mode:'6',tessedit_char_whitelist:'',preserve_interword_spaces:'1'});
+  const tableLeft=side==='left'?model.view[2]:0;const tableWidth=model.size[0]-model.view[2];const columns=$('twoColumns').checked?2:1;
+  for(let column=0;column<columns;column++){const t=await cropForOCR(img,{left:tableLeft+column*tableWidth/columns,top:0,width:tableWidth/columns,height:model.size[1]});cleanOCRCanvas(t.canvas,t.scale);const r=await worker.recognize(t.canvas,{}, {text:true,tsv:true});for(const [id,entry] of parseRows(wordsFromTSV(r.data.tsv)))rows.set(id,entry);}
+ }
+ for(const [id,p] of candidates){if(rows.has(id))Object.assign(p,rows.get(id));}
+ model.parts=[...candidates.values()].sort((a,b)=>a.id-b.id);return {found:model.parts.length,matched:model.parts.filter(p=>p.name!==`Detal ${p.id}`).length};
+ }finally{if(worker)await worker.terminate()}
+}
+async function upload(scan){
+ if(busy||!$('uploadForm').reportValidity())return;const file=$('uploadFile').files[0];if(!file)return;
+ if(file.size>12*1024*1024){$('scanStatus').textContent='Fayl 12 MB dan kichik bo‘lsin.';return;}
+ busy=true;['scanUpload','manualUpload','closeUpload'].forEach(id=>$(id).disabled=true);$('scanProgress').hidden=!scan;$('scanStatus').textContent='Rasm yuklanmoqda…';let model=null;
+ try{const img=new Image();const local=URL.createObjectURL(file);try{img.src=local;await img.decode();}finally{URL.revokeObjectURL(local)}if(img.naturalWidth*img.naturalHeight>24000000||img.naturalWidth>16000||img.naturalHeight>16000)throw Error('Rasm 24 megapikseldan va tomonlari 16000 pikseldan oshmasin.');
+ const r=await fetch('/api/upload',{method:'POST',headers:{'Content-Type':file.type},body:file});const d=await r.json();if(!r.ok)throw Error(d.error);
+ const w=img.naturalWidth,h=img.naturalHeight,side=$('diagramSide').value,width=side==='full'?w:Math.round(w*+$('diagramSplit').value/100);model={id:Math.max(...models.map(m=>m.id))+1,name:$('uploadName').value.trim(),image:d.url,size:[w,h],view:[side==='right'?w-width:0,0,width,h],parts:[]};models.push(model);changed();
+ let result={found:0,matched:0};if(scan)result=await scanModel(model,img);current=model;selected=model.parts[0]?.id||1;renderModel();$('uploadDialog').close();hint(scan?`OCR ${result.found} ta raqam va ${result.matched} ta nomni bog‘ladi. Barcha natijalar qoralama: tekshiring, xatolarini tuzating va saqlang.`:'Chizma yuklandi. ＋ Pozitsiya tugmasi orqali raqamlarni belgilang.');
+ }catch(e){$('scanStatus').textContent='Xatolik: '+e.message;if(model){current=model;selected=1;renderModel();$('scanStatus').textContent+=' Rasm qoralamada saqlandi. Oynani yopib, qo‘lda belgilashingiz mumkin.';}}
+ finally{busy=false;['scanUpload','manualUpload','closeUpload'].forEach(id=>$(id).disabled=false);$('scanProgress').hidden=true;}
+}
+$('uploadForm').onsubmit=e=>{e.preventDefault();upload(true)};$('manualUpload').onclick=()=>upload(false);
+(async()=>{try{const r=await fetch('/api/catalog',{cache:'no-store'});const d=await r.json();if(!r.ok)throw Error(d.error);revision=d.revision;if(d.models){models.splice(0,models.length,...d.models);current=models[0];selected=current.parts[0]?.id||1;}loaded=true;renderModel();$('syncStatus').textContent=revision?'✓ Bazadan yuklandi':'Boshlang‘ich katalog';}catch(e){$('syncStatus').textContent='Baza yuklanmadi';hint(e.message+' Tahrirlashdan oldin sahifani yangilang.')}})();
+
+$('removeModel').onclick=()=>{if(models.length===1){hint('Kamida bitta model qolishi kerak.');return;}if(!confirm(current.name+' chizmasini katalog qoralamasidan olib tashlaysizmi?'))return;models.splice(models.indexOf(current),1);current=models[0];selected=current.parts[0]?.id||1;changed();renderModel();hint('Chizma qoralamadan olib tashlandi. Bazaga qo‘llash uchun saqlang.');};
