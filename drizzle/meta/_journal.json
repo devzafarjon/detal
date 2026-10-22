@@ -36,6 +36,13 @@
       "when": 1792645000000,
       "tag": "0004_batch_diagrams",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792650000000,
+      "tag": "0005_part_name_review",
+      "breakpoints": true
     }
   ]
 }
