@@ -30,3 +30,5 @@ nav#models{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(240px,1fr);
  #uploadFile::file-selector-button{min-height:44px;font:inherit;margin:0 8px 0 0;border:1px solid var(--line);border-radius:6px;background:#edf8f2;color:var(--ink)}
  #editor .caption{font-size:13px}.admin-mode #actionHint{font-size:15px}.admin-mode .part{min-height:48px}.admin-mode .part b{font-size:14px}
 }
+
+#uploadQueue{display:grid;gap:8px;margin:16px 0;max-height:280px;overflow:auto}.upload-queue-item{display:grid;gap:6px;padding:12px;border:1px solid #d8e5df;border-radius:10px;background:#f6faf8;overflow-wrap:anywhere}.upload-queue-item span{font-size:14px;color:#43564d}#pauseQueue{min-height:48px;width:100%;margin-bottom:12px}#uploadFile{min-height:52px;width:100%}

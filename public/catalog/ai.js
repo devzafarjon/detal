@@ -5,7 +5,7 @@ window.scanWithAI=async function(model,img){
  if(!aiReady)throw Error('AI hali ulanmagan. Oddiy OCR usulini tanlang.');
  const [x,y,w,h]=model.view;const tiles=[imageTile(img,[0,0,...model.size])];for(const row of [0,1])for(const col of [0,1])tiles.push(imageTile(img,[x+col*w*.44,y+row*h*.44,w*.56,h*.56]));
  $('scanStatus').textContent='AI raqamlarni o‘qib, detal nomlarini jadval va internetdan izlamoqda…';$('scanProgress').removeAttribute('value');
- const r=await fetch('/api/scan-ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({size:model.size,modelName:model.name,tiles}),signal:AbortSignal.timeout(120000)});const d=await r.json();if(!r.ok)throw Error(d.error||'AI so‘rovi bajarilmadi.');
+ const r=await fetch('/api/scan-ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({size:model.size,modelName:model.name,tiles}),signal:AbortSignal.timeout(120000)});const d=await r.json();if(!r.ok)throw Object.assign(Error(d.error||'AI so‘rovi bajarilmadi.'),{status:r.status});
  // Do not replace existing catalog data until a complete, validated response is received.
  model.parts=d.parts;return {engine:'ai',found:d.parts.length,matched:d.parts.filter(p=>p.name!==`Detal ${p.id}`).length,warnings:d.warnings||[]};
 };
