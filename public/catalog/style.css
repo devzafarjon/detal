@@ -8,3 +8,25 @@ nav#models{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(240px,1fr);
 .model-search{position:relative}.model-suggestions{position:absolute;left:0;right:0;top:70px;z-index:20;max-height:320px;overflow-y:auto;background:white;border:1px solid var(--line);border-radius:9px;box-shadow:0 12px 30px #152d3220;padding:5px}nav#models .model-suggestions button{display:block;width:100%;min-width:0;margin:0;border:0;border-radius:5px;padding:12px;text-align:left;background:white;color:var(--ink)}.model-suggestions button strong{display:block;font-size:13px}.model-suggestions button span{display:block;font-size:11px;color:var(--muted);margin-top:4px}nav#models .model-suggestions button:hover,nav#models .model-suggestions button:focus{background:#e9f5ee;outline:2px solid #087b66;outline-offset:-2px}.model-suggestions p{padding:10px;font-size:12px}
 
 .name-review{padding:10px 12px;margin:0 0 16px;border:1px solid #d4e5dd;border-radius:7px;background:#f2f8f5;font-size:11px}.name-review.uncertain{background:#fff7e9;border-color:#e7d1a4}.name-review p{font-size:11px;margin:5px 0 0;line-height:1.5}
+
+/* Touch-friendly owner controls; visitor layout is unchanged. */
+#mobileAdmin{display:none}#quickEdit{width:100%;min-height:48px;border-radius:10px;margin:0 0 12px;font:inherit;font-weight:650}#editor{scroll-margin-top:18px}
+@media(max-width:730px){
+ body.admin-mode{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
+ .header-actions{flex-wrap:wrap;justify-content:flex-end;min-width:0}#adminToggle{min-height:46px;font-size:14px}#syncStatus{max-width:150px}
+ #adminBar{padding:16px}#adminBar strong{font-size:18px}#adminBar p{font-size:14px}
+ .admin-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.admin-actions button{min-height:52px!important;font-size:15px!important;padding:12px!important;white-space:normal}
+ #newDrawing,#saveAll{grid-column:1/-1;font-weight:700;font-size:17px!important}
+ #editor{padding:16px}#editor h3{font-size:20px}#editor label,#uploadDialog label{font-size:15px}
+ #editor input:not([type=checkbox]),#uploadDialog input:not([type=checkbox]):not([type=range]),#uploadDialog select{min-height:50px;font-size:16px;padding:12px;width:100%}
+ #editor .form-row,#uploadDialog .form-row{display:grid;grid-template-columns:1fr;gap:10px}#editor .form-row>label,#uploadDialog .form-row>label{min-width:0}
+ #editor button,#uploadDialog button{min-height:50px;font-size:16px!important}#editor .check,#uploadDialog .check{min-height:48px}.check input[type=checkbox]{width:22px;height:22px;flex-shrink:0}
+ #mobileAdmin{display:grid;position:fixed;bottom:0;left:0;right:0;z-index:40;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -5px 22px #152d3215}
+ #mobileAdmin button{min-width:0;min-height:58px;margin:0;padding:8px 4px;border-radius:10px;border:1px solid #a6cdbb;background:#edf8f2;color:var(--ink);text-align:center;font-size:16px;font-weight:700}#mobileAdmin small{font-size:11px;font-weight:400;opacity:.85;margin-top:3px}
+ #uploadDialog{box-sizing:border-box;width:calc(100vw - 16px);max-width:none;max-height:calc(100dvh - 24px);padding:0 16px 18px;overflow-y:auto;overscroll-behavior:contain}
+ .upload-heading{position:sticky;top:0;background:white;z-index:2;padding:14px 0;border-bottom:1px solid var(--line);gap:12px}.upload-heading h2{font-size:20px}.upload-heading #closeUpload{min-width:48px;flex-shrink:0}
+ #uploadDialog .upload-actions{position:sticky;bottom:-18px;padding:12px 0 calc(12px + env(safe-area-inset-bottom));background:white;border-top:1px solid var(--line);z-index:1}
+ #uploadDialog .upload-actions button{margin:0;line-height:1.35}#uploadDialog #scanStatus{font-size:15px;padding-bottom:8px}
+ #uploadFile::file-selector-button{min-height:44px;font:inherit;margin:0 8px 0 0;border:1px solid var(--line);border-radius:6px;background:#edf8f2;color:var(--ink)}
+ #editor .caption{font-size:13px}.admin-mode #actionHint{font-size:15px}.admin-mode .part{min-height:48px}.admin-mode .part b{font-size:14px}
+}
