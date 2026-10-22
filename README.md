@@ -21,7 +21,7 @@ Test: npx tsx tests/diagram-ai.test.ts. Verifies coordinate mapping, invalid mod
 
 The Netlify target uses `netlify.toml` and `npm run build:netlify`. It bundles the existing API handlers with a Neon Postgres adapter and Netlify Blobs storage; the Cloudflare target remains available through `npm run dev`.
 
-- Production: https://detal-devzafarjon.netlify.app
+- Production: https://detal-demo.netlify.app
 - Admin: `/admin/` (email/password, secure 8-hour cookie; no public registration).
 - Required secret variables: `DATABASE_URL`, `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH` (`salt:scrypt_hex`), `SESSION_SECRET`, and `OPENAI_API_KEY`. Optional: `OPENAI_VISION_MODEL`.
 - Schema: `netlify/migrations/001_catalog.sql`. Apply through a direct database connection before deploying. Existing rows are preserved.

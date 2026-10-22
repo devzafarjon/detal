@@ -12,7 +12,7 @@ if(!settings.ADMIN_PASSWORD_HASH){
  settings.ADMIN_EMAIL='developerzafarjon@gmail.com';
  settings.ADMIN_PASSWORD_HASH=salt+':'+scryptSync(password,salt,64).toString('hex');
  settings.SESSION_SECRET=randomBytes(48).toString('base64url');
- fs.writeFileSync('../detal-admin-access.txt',`Detal admin\nURL: https://detal-devzafarjon.netlify.app/admin/\nEmail: ${settings.ADMIN_EMAIL}\nParol: ${password}\n`,{mode:0o600});
+ fs.writeFileSync('../detal-admin-access.txt',`Detal admin\nURL: https://detal-demo.netlify.app/admin/\nEmail: ${settings.ADMIN_EMAIL}\nParol: ${password}\n`,{mode:0o600});
 }
 settings.OPENAI_API_KEY=local.OPENAI_API_KEY;
 if(local.OPENAI_VISION_MODEL)settings.OPENAI_VISION_MODEL=local.OPENAI_VISION_MODEL;
