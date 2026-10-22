@@ -9,7 +9,7 @@ function validate(models:any){
  for(const m of models){
   if(!Number.isSafeInteger(m.id)||ids.has(m.id))throw Error('Model ID noto‘g‘ri.');ids.add(m.id);
   if(typeof m.name!=='string'||!m.name.trim()||m.name.length>150)throw Error('Model nomi noto‘g‘ri.');
-  if(typeof m.image!=='string'||!(/^(assets\/model-[123]\.jpg|\/api\/image\/[a-f0-9-]{36})$/).test(m.image))throw Error('Rasm manzili noto‘g‘ri.');
+  if(typeof m.image!=='string'||!(/^(assets\/model-(?:[123]\.jpg|4\.png)|\/api\/image\/[a-f0-9-]{36})$/).test(m.image))throw Error('Rasm manzili noto‘g‘ri.');
   if(!Array.isArray(m.size)||m.size.length!==2||m.size.some((n:number)=>!Number.isFinite(n)||n<1||n>16000))throw Error('Rasm o‘lchami noto‘g‘ri.');
   if(!Array.isArray(m.view)||m.view.length!==4||m.view.some((n:number)=>!Number.isFinite(n))||m.view[0]<0||m.view[1]<0||m.view[2]<=0||m.view[3]<=0||m.view[0]+m.view[2]>m.size[0]+1||m.view[1]+m.view[3]>m.size[1]+1)throw Error('Chizma hududi noto‘g‘ri.');
   if(!Array.isArray(m.parts)||m.parts.length>1000)throw Error('Detallar soni noto‘g‘ri.');const ps=new Set();
