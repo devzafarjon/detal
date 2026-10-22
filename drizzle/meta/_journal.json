@@ -29,6 +29,13 @@
       "when": 1792640000000,
       "tag": "0003_replace_bosch_diagram",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792645000000,
+      "tag": "0004_batch_diagrams",
+      "breakpoints": true
     }
   ]
 }
