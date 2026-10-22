@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-22",
+  "site": "https://detal-demo.netlify.app",
+  "reason": "Live Netlify data had 1215 placeholder names and none of the reviewed name metadata. Repository already contained completed visual and web research; this publication applies it through revision-checked API writes.",
+  "method": "Existing per-position reviews in part-name-review.json, web-part-review.json and tentative-part-review.json were reused. Web search was repeated for available model names and primary sources. Product pages only identify machines, not numbered internal parts. No new exact part identifications were inferred from product-only pages.",
+  "limitations": [
+    "1165 names remain visual estimates, not web-verified factory names.",
+    "50 names use previously visually matched Hangbo drawing; EPA replacement-part compatibility is not guaranteed.",
+    "The Hangbo product page was accessible during this recheck; its separate image URL returned cache miss in web tool. Earlier image comparison is recorded in web-part-review.json.",
+    "User-modified name P25 motor — sinov is preserved rather than replaced by seed name.",
+    "No prices, article numbers, coordinates or other non-name model fields are changed."
+  ],
+  "models": [
+    {
+      "id": 1,
+      "name": "JN-201-60L",
+      "parts": 47,
+      "statuses": {
+        "diagram_table": 47
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "Supplied drawing table names retained."
+    },
+    {
+      "id": 2,
+      "name": "Changyutgich · P25 1200W",
+      "parts": 33,
+      "statuses": {
+        "diagram_table": 33
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "Supplied drawing table names retained."
+    },
+    {
+      "id": 3,
+      "name": "KK22-10 · Elektr drel",
+      "parts": 24,
+      "statuses": {
+        "diagram_table": 24
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "Supplied drawing table names retained."
+    },
+    {
+      "id": 4,
+      "name": "Bosch GSR 1410-7 · 0 601 410 732",
+      "parts": 75,
+      "statuses": {
+        "visual": 70,
+        "provided_catalog": 5
+      },
+      "recheckedPrimaryReferences": [
+        "https://www.bosch-professional.com/in/media/country_content/services/downloads/catalogues/2025/bosch_spare_parts_catalogue_2025.pdf"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 5,
+      "name": "EASH-20",
+      "parts": 22,
+      "statuses": {
+        "visual": 22
+      },
+      "recheckedPrimaryReferences": [
+        "https://epa.uz/uz/product/surupovert-akkumuliatornyi-epa-eash-20-20v"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 6,
+      "name": "Akkumulyatorli drel · chizma 02",
+      "parts": 19,
+      "statuses": {
+        "visual": 19
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 7,
+      "name": "EASH-20BP · reduktor",
+      "parts": 29,
+      "statuses": {
+        "visual": 29
+      },
+      "recheckedPrimaryReferences": [
+        "https://epa.uz/product/shurupovyort-akkumulyatorniy-eash-20bp-2-pro-20v"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 8,
+      "name": "Akkumulyatorli drel · chizma 04",
+      "parts": 14,
+      "statuses": {
+        "visual": 14
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 9,
+      "name": "EASH-14.4 / EASH-18.5",
+      "parts": 15,
+      "statuses": {
+        "diagram_table": 15
+      },
+      "recheckedPrimaryReferences": [
+        "https://t.me/s/epacompany/1759"
+      ],
+      "outcome": "Supplied drawing table names retained."
+    },
+    {
+      "id": 10,
+      "name": "EPD-24-1 · perforator",
+      "parts": 89,
+      "statuses": {
+        "visual": 89
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 11,
+      "name": "EPD-24-2 · perforator",
+      "parts": 102,
+      "statuses": {
+        "visual": 52,
+        "web_catalog": 50
+      },
+      "recheckedPrimaryReferences": [
+        "https://www.hbpowertools.com/spare-parts/spare-parts-for-26mm-rotary-hammer/rotary-hammer-spare-parts-for-26mm.html",
+        "https://epa.uz/en/product/perfodrel-epa-epd-24-2-790-vt"
+      ],
+      "outcome": "50 names from previously matched Hangbo numbered drawing; other 52 remain visual estimates."
+    },
+    {
+      "id": 12,
+      "name": "Perforator · chizma 08",
+      "parts": 97,
+      "statuses": {
+        "visual": 97
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 13,
+      "name": "Z1G-DW-25BT · zarbli bolg‘a",
+      "parts": 101,
+      "statuses": {
+        "visual": 101
+      },
+      "recheckedPrimaryReferences": [
+        "https://www.unihosen.com/hr/factory-customized-spline-socket-set-sds-max-10kg-demolition-breakerwith-etl1500wvariable-speed-uni-hosen-product/"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 14,
+      "name": "Z6G-DW-45E · buzish bolg‘asi",
+      "parts": 87,
+      "statuses": {
+        "visual": 87
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 15,
+      "name": "EOM-45-2 · buzish bolg‘asi",
+      "parts": 104,
+      "statuses": {
+        "visual": 104
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 16,
+      "name": "R6216B · mikser",
+      "parts": 26,
+      "statuses": {
+        "visual": 26
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 17,
+      "name": "EEL-580-1 · lobzik",
+      "parts": 109,
+      "statuses": {
+        "visual": 109
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 18,
+      "name": "EEL-600-1 · lobzik",
+      "parts": 90,
+      "statuses": {
+        "visual": 90
+      },
+      "recheckedPrimaryReferences": [],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 19,
+      "name": "EEL-750-1 · lobzik",
+      "parts": 92,
+      "statuses": {
+        "visual": 92
+      },
+      "recheckedPrimaryReferences": [
+        "https://epa.uz/uz/product/lobzik-epa-eel-750-1-750-vt"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 20,
+      "name": "EMVD-90-2 · bosimli yuvish apparati",
+      "parts": 63,
+      "statuses": {
+        "visual": 63
+      },
+      "recheckedPrimaryReferences": [
+        "https://epa.uz/en/catalog/equipments/high-pressure-washers"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 21,
+      "name": "EMVD-111-1 · bosimli yuvish apparati",
+      "parts": 56,
+      "statuses": {
+        "visual": 56
+      },
+      "recheckedPrimaryReferences": [
+        "https://epa.uz/en/product/moiushhii-apparat-s-vysokim-davleniem-epa-emvd-111-1-1800-vt"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    },
+    {
+      "id": 22,
+      "name": "EMVD-180-1 YANGI · bosimli yuvish apparati",
+      "parts": 45,
+      "statuses": {
+        "visual": 45
+      },
+      "recheckedPrimaryReferences": [
+        "https://epa.uz/product/moiushhii-apparat-s-vysokim-davleniem-epa-emvd-180-1-4800-vt"
+      ],
+      "outcome": "No exact numbered primary-source parts table confirmed. Existing visual estimates published with needsReview=true."
+    }
+  ]
+}
