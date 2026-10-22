@@ -11,7 +11,7 @@ window.scanWithAI=async function(model,img){
 };
 $('aiRescan').onclick=async()=>{
  if(busy||!aiReady)return;
- if(!confirm('Chizma OpenAI xizmatiga tahlil uchun yuboriladi. Natijalar tekshirish uchun qoralamaga qo‘shiladi. Davom etasizmi?'))return;
+ if(!await uiConfirm('Chizma OpenAI xizmatiga tahlil uchun yuboriladi. Natijalar tekshirish uchun qoralamaga qo‘shiladi. Davom etasizmi?'))return;
  busy=true;$('aiRescan').disabled=true;const target=current;const previous=structuredClone(target.parts);hint('AI chizmani tekshirmoqda. Bu bir oz vaqt olishi mumkin…');
  try{const img=new Image();img.src=target.image;await img.decode();const draft=structuredClone(target);const result=await scanWithAI(draft,img);const merged=new Map(previous.map(p=>[p.id,p]));for(const p of draft.parts){const old=merged.get(p.id);merged.set(p.id,old?{...old,x:p.x,y:p.y,aiConfidence:p.aiConfidence,needsReview:true,source:'ai',...(old.nameStatus!=='user'&&(old.needsReview||old.name===`Detal ${old.id}`)?{name:p.name,nameStatus:p.nameStatus,nameSource:p.nameSource,nameEvidence:p.nameEvidence}:{}),article:old.article||p.article,originalName:p.originalName}:p);}target.parts=[...merged.values()].sort((a,b)=>a.id-b.id);changed();if(current===target)renderModel();hint(`AI ${result.found} ta raqam nomzodini qaytardi. Mavjud narx va artikullar saqlandi. Qoralamani tekshiring, keyin saqlang. ${result.warnings.join(' ')}`);
  }catch(e){hint('AI tekshiruvi bajarilmadi: '+e.message+' Mavjud detallar o‘zgarmadi.');}finally{busy=false;$('aiRescan').disabled=!aiReady;}

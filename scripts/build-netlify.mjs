@@ -7,7 +7,7 @@ await mkdir(output+'/public/admin',{recursive:true});
 await cp('public/catalog',output+'/public/catalog',{recursive:true});
 await cp('netlify/client.js',output+'/public/catalog/netlify.js');
 await cp('netlify/admin.html',output+'/public/admin/index.html');
-await writeFile(output+'/public/admin/login.js',`const error=new URLSearchParams(location.search).get('error');document.getElementById('error').textContent=error==='limit'?'Ko‘p urinish. 15 daqiqadan keyin qayta urinib ko‘ring.':error?'Email yoki parol noto‘g‘ri.':'';`);
+await cp('netlify/login.js',output+'/public/admin/login.js');
 let html=await readFile(output+'/public/catalog/index.html','utf8');
 html=html.replace('/signin-with-chatgpt?return_to=%2Fcatalog%2F','/admin/').replace('<script>const models=[];</script>','<script src="netlify.js"></script><script>const models=[];</script>');
 await writeFile(output+'/public/catalog/index.html',html);
