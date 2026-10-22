@@ -4,7 +4,7 @@ const removedModels=new Map();
 window.placementMode=null;
 const hint=t=>$('actionHint').textContent=t;
 function changed(){current._dirty=true;dirty=true;$('syncStatus').textContent='Saqlanmagan o‘zgarishlar';}
-function updateAdmin(){document.body.classList.toggle('admin-mode',admin);$('mobileAdmin').hidden=!admin;$('quickEdit').hidden=!admin; $('adminBar').hidden=!admin;$('editor').hidden=!admin||!current.parts.length;$('adminToggle').textContent=admin?'← Katalogga qaytish':'⚙ Admin panel';window.placementMode=null;syncEditor();}
+function updateAdmin(){document.body.classList.toggle('admin-mode',admin);$('backgroundPanel').hidden=!admin;if(admin)window.refreshBackgroundJobs?.();$('mobileAdmin').hidden=!admin;$('quickEdit').hidden=!admin; $('adminBar').hidden=!admin;$('editor').hidden=!admin||!current.parts.length;$('adminToggle').textContent=admin?'← Katalogga qaytish':'⚙ Admin panel';window.placementMode=null;syncEditor();}
 window.syncEditor=function(){if(!$('editor'))return;$('mobileEdit').disabled=!current.parts.length;$('quickEdit').disabled=!current.parts.length;const p=current.parts.find(p=>p.id===selected);$('editor').hidden=!admin||!p;if(!p)return;$('editModel').value=current.name;$('editNumber').value=p.id;$('editLabel').value=p.label||String(p.id);$('editName').value=p.name;$('editArticle').value=p.article;$('editPrice').value=p.price??'';$('editDemo').checked=p.demoPrice!==false;$('editReviewed').checked=!p.needsReview;document.querySelectorAll('.hotspot').forEach(g=>g.classList.toggle('review',!!current.parts.find(p=>p.id===+g.dataset.id)?.needsReview));};
 $('adminToggle').onclick=()=>{if(!window.canAdmin)return;if(!loaded){hint('Katalog yuklanishini kuting. Xatolik bo‘lsa sahifani yangilang.');return;}admin=!admin;hint('');updateAdmin()};
 window.addEventListener('beforeunload',e=>{if(dirty||busy){e.preventDefault();e.returnValue=''}});
@@ -78,19 +78,19 @@ async function upload(scan){
  if(img.naturalWidth*img.naturalHeight>24000000||img.naturalWidth>16000||img.naturalHeight>16000)throw Error('Rasm 24 megapikseldan va tomonlari 16000 pikseldan oshmasin.');
  if(!item.model){const r=await fetch('/api/upload',{method:'POST',headers:{'Content-Type':file.type},body:file});const d=await r.json();if(!r.ok)throw Object.assign(Error(d.error),{status:r.status});
  const w=img.naturalWidth,h=img.naturalHeight,side=$('diagramSide').value,width=side==='full'?w:Math.round(w*+$('diagramSplit').value/100);
- item.model={id:Math.max(Date.now(),...models.map(m=>m.id+1)),name:(uploadQueue.length===1?$('uploadName').value.trim():'')||file.name.replace(/\.[^.]+$/,'').slice(0,150),image:d.url,size:[w,h],view:[side==='right'?w-width:0,0,width,h],parts:[],_revision:0,_dirty:true};models.push(item.model);dirty=true;}
+ item.model={id:Math.max(Date.now(),...models.map(m=>m.id+1)),name:(uploadQueue.length===1?$('uploadName').value.trim():'')||file.name.replace(/\.[^.]+$/,'').slice(0,150),image:d.url,size:[w,h],view:[side==='right'?w-width:0,0,width,h],parts:[],_revision:0,_dirty:true};if(!(scan&&$('scanEngine').value==='background')){models.push(item.model);dirty=true;}}
  item.status=scan?'Detallar tahlil qilinmoqda…':'Qoralama tayyor';renderQueue();
- let result={found:0,matched:0};if(scan)result=$('scanEngine').value==='ai'?await window.scanWithAI(item.model,img):await scanModel(item.model,img);
+ let result={found:0,matched:0};if(scan&&$('scanEngine').value==='background'){await window.submitBackground(item.model,img);item.done=true;item.status='Server qabul qildi — sahifani yopsangiz ham AI davom etadi.';item.model._dirty=false;renderQueue();continue;}if(!models.includes(item.model))models.push(item.model);if(scan)result=$('scanEngine').value==='ai'?await window.scanWithAI(item.model,img):await scanModel(item.model,img);
  item.model._dirty=true;dirty=true;item.done=true;item.status=scan?`Tayyor — ${result.found} ta detal, ${result.matched} ta nom. Tekshirib saqlang.`:'Yuklandi — qo‘lda belgilang va saqlang.';
  if(result.warnings?.length)item.status+=' '+result.warnings.join(' ');
  }catch(e){item.status='Xatolik: '+e.message+(item.model?' Rasm qoralamada.':'');if(e.status===429||e.status===401||e.status===403||/quota|balans|kredit|credit|limit/i.test(e.message))pauseRequested=true;}
  finally{if(img)img.src='';renderQueue();}
  }
  }finally{busy=false;controls.forEach((el,i)=>el.disabled=disabled[i]);$('pauseQueue').hidden=true;$('scanProgress').hidden=true;
- const last=uploadQueue.filter(item=>item.model).at(-1);if(last){current=last.model;selected=current.parts[0]?.id||1;renderModel();$('syncStatus').textContent='Saqlanmagan o‘zgarishlar';}
+ const last=uploadQueue.filter(item=>item.model&&models.includes(item.model)).at(-1);if(last){current=last.model;selected=current.parts[0]?.id||1;renderModel();$('syncStatus').textContent='Saqlanmagan o‘zgarishlar';}
  const remaining=uploadQueue.filter(item=>!item.done).length;$('scanUpload').textContent=remaining?'Qolganlarini davom ettirish':'Navbat tugadi';
  $('scanStatus').textContent=`${uploadQueue.filter(item=>item.done).length} / ${uploadQueue.length} ta tayyor. ${remaining?'Qolganlari uchun davom ettirishni bosing. ':''}Oynani yopib, natijalarni tekshiring va “O‘zgarishlarni saqlash”ni bosing.`;
- hint('Yangi chizmalar qoralamada. Natijalarni tekshirib, o‘zgarishlarni saqlang.');
+ if(scan&&$('scanEngine').value==='background'){$('scanStatus').textContent=`${uploadQueue.filter(item=>item.done).length} / ${uploadQueue.length} ta serverga yuborildi. Qabul qilingan tahlillar sahifa yopilganda ham davom etadi. Natijalar — Fon tahlillari bo‘limida.`;window.refreshBackgroundJobs?.();}else hint('Yangi chizmalar qoralamada. Natijalarni tekshirib, o‘zgarishlarni saqlang.');
  }
 }
 $('uploadForm').onsubmit=e=>{e.preventDefault();upload(true)};$('manualUpload').onclick=()=>upload(false);

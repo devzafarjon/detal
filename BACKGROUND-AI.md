@@ -1,0 +1,9 @@
+# Background diagram analysis
+
+Owner-only `/api/ai-jobs` submits Responses requests with `background: true` and explicit `store: true`. Browser upload/submission is sequential; accepted provider jobs can execute concurrently. This is not OpenAI Batch API and not a local timer or a Cloudflare `waitUntil` job. Keep the page open until every desired file says the server accepted it. Files not yet accepted do not run after closing.
+
+D1 retains job identity, model, crop coordinates, provider response ID and validated draft. R2 keeps the retry payload under a private `ai-input/` prefix that the public UUID-only image route cannot expose. Existing hourly budget of 10 submissions is shared with foreground scans. Failed requests require explicit retry; ambiguous submissions are not automatically repeated to prevent duplicate charges.
+
+On an admin visit/refresh, the server retrieves already-running/completed Responses. A completed result is validated and stored in D1; it remains editable and is not automatically published to the public catalog. Background Responses are retained by OpenAI for 30 days with store=true under the standard project data policy; the user must open results within that period so they are copied into D1. This implementation does not include webhooks or an unattended archival scheduler. ZDR overrides store=true and is not suitable for this retrieval window.
+
+Tests: `node tests/background-jobs.cjs`, `node tests/batch-upload.cjs`, `npx tsc --noEmit --incremental false`. Tests use real SQLite tables and mocked provider responses, including reconnect/retrieval, malformed output, duplicate prevention and access denial. Live minimal background request accepted 2026-10-22 but failed later with `credit_balance_exhausted`; replenish the existing API project's balance before end-to-end production analysis.
