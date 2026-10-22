@@ -21,7 +21,7 @@ db.execute('insert into catalogs values(?,?,?)',('main',json.dumps(custom),20))
 sql=(root/'drizzle/0007_tentative_part_names.sql').read_text()
 db.executescript(sql)
 out,revision=db.execute('select data,revision from catalogs').fetchone();out=json.loads(out)
-assert revision==21
+assert revision==20+9
 assert find(out,patches[0])==a
 assert find(out,patches[1])==b
 assert len(out)==len(custom)
