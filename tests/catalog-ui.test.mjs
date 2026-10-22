@@ -12,7 +12,7 @@ async function setup({models=[model],fail=false,admin=false}={}){
  w.HTMLDialogElement.prototype.close=function(value){this.open=false;this.returnValue=value||'';this.dispatchEvent(new w.Event('close'));};
  w.fetch=async url=>({ok:!fail,json:async()=>url==='/api/session'?{admin}:{models:structuredClone(models),error:'Aloqa xatosi'}});
  runInContext('const models=[];',dom.getInternalVMContext());
- for(const file of ['ui','app','admin'])runInContext(readFileSync(`public/catalog/${file}.js`,'utf8'),dom.getInternalVMContext());
+ for(const file of ['ui','app','admin','pdf'])runInContext(readFileSync(`public/catalog/${file}.js`,'utf8'),dom.getInternalVMContext());
  await new Promise(resolve=>setTimeout(resolve,10));return dom;
 }
 test('catalog loads, model search filters and selected part is accessible',async()=>{const dom=await setup(),w=dom.window,d=w.document;try{assert.equal(d.body.dataset.state,'ready');assert.equal(d.querySelectorAll('.metric').length,2);assert.equal(d.querySelectorAll('.part').length,2);d.querySelector('[data-part="2"]').click();assert.match(d.getElementById('detail').textContent,/Stator/);assert.equal(d.querySelector('[data-part="2"]').getAttribute('aria-pressed'),'true');const search=d.getElementById('search');search.value='missing';search.dispatchEvent(new w.Event('input'));assert.match(d.getElementById('parts').textContent,/Detal topilmadi/);const modelSearch=d.getElementById('modelSearch');modelSearch.value='750';modelSearch.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(d.querySelectorAll('[data-suggest-model]').length,1);modelSearch.value='missing';modelSearch.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(d.getElementById('modelPicker').disabled,true);}finally{w.close();}});

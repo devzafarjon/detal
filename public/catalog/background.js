@@ -4,7 +4,8 @@ window.submitBackground=async(model,img)=>{
  for(const row of [0,1])for(const col of [0,1])tiles.push(imageTile(img,[x+col*w*.44,y+row*h*.44,w*.56,h*.56]));
  const {_dirty,_revision,...clean}=model;
  const r=await fetch('/api/ai-jobs',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:clean,scan:{size:model.size,modelName:model.name,tiles}})});
- const d=await r.json();if(!r.ok)throw Object.assign(Error(d.error),{status:r.status});
+ let d=await r.json();if(!r.ok)throw Object.assign(Error(d.error),{status:r.status});
+ if(d.status==='failed'){const retry=await fetch('/api/ai-jobs',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'retry',id:model.id})});d=await retry.json();if(!retry.ok)throw Object.assign(Error(d.error),{status:retry.status});}
  if(!['queued','in_progress','ready'].includes(d.status))throw Error('Tahlil hali qabul qilinmagan. Fon tahlillari bo‘limidagi holatni tekshiring.');
 };
 const jobLabels={preparing:'Tayyorlanmoqda',submitting:'Yuborilmoqda',queued:'AI navbatida',in_progress:'AI tekshirmoqda',ready:'Tayyor — tekshirish kerak',failed:'Xatolik',unknown:'Yuborish holati noaniq'};

@@ -12,6 +12,7 @@ export async function scan(req:Request) {
  if(req.method==='GET'){
   const id=new URL(req.url).searchParams.get('id');if(!id||!/^[a-f0-9-]{36}$/.test(id))return reply({error:'ID noto‘g‘ri.'},400);
   const row=await DB.prepare('SELECT * FROM scan_requests WHERE id=?').bind(id).first<any>();if(!row)return reply({error:'Tahlil topilmadi.'},404);
+  if(!Array.isArray(JSON.parse(row.tiles)))return reply({error:'Tahlil topilmadi.'},404);
   if(row.result)return reply(JSON.parse(row.result));
   const r=await fetch('https://api.openai.com/v1/responses/'+encodeURIComponent(row.response_id),{headers,signal:AbortSignal.timeout(25000)});
   if(!r.ok)return reply({error:providerError(r.status,await r.json())},502);

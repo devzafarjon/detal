@@ -45,9 +45,22 @@ const scanBody={size:[100,100],modelName:'Fixture',tiles:Array.from({length:5},(
 r=await call('/api/scan-ai','POST',scanBody);assert.equal(r.status,202);const scanId=(await r.json()).id;
 r=await call('/api/scan-ai?id='+scanId);assert.equal(r.status,200);const scanResult=await r.json();assert.equal(scanResult.parts[0].price,null);assert.equal(scanResult.parts[0].x,50);
 r=await call('/api/scan-ai?id='+scanId);assert.equal(r.status,200);assert.equal(aiCalls,2);
+
+let layoutCalls=0;
+const layout={diagrams:[{name:'Alpha',regions:[{page:2,box:[0,0,450,1000],kind:'diagram'},{page:3,box:[0,0,1000,1000],kind:'table'}],note:''},{name:'Beta',regions:[{page:2,box:[500,0,500,1000],kind:'diagram'}],note:''}],warnings:[]};
+globalThis.fetch=async(_url:any,options:any)=>{layoutCalls++;if(layoutCalls===1){const payload=JSON.parse(options.body);assert.equal(payload.input[0].content.filter((c:any)=>c.type==='input_image').length,3);return Response.json({id:'resp_pdf',status:'queued'});}return Response.json({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify(layout)}]}]});};
+const pdfBody={name:'Catalog',pages:[1,2,3].map(page=>({page,image:'data:image/jpeg;base64,AAAA'}))};
+assert.equal((await call('/api/pdf-layout','POST',pdfBody,{origin:'https://evil.test'})).status,403);
+assert.equal((await call('/api/pdf-layout','POST',{...pdfBody,pages:[]})).status,400);
+r=await call('/api/pdf-layout','POST',pdfBody);assert.equal(r.status,202);const pdfId=(await r.json()).id;
+assert.equal((await call('/api/scan-ai?id='+pdfId)).status,404);
+assert.equal((await call('/api/pdf-layout?id='+scanId)).status,404);
+r=await call('/api/pdf-layout?id='+pdfId);assert.deepEqual(await r.json(),layout);
+r=await call('/api/pdf-layout?id='+pdfId);assert.deepEqual(await r.json(),layout);assert.equal(layoutCalls,2);
 globalThis.fetch=originalFetch;
 r=await call('/auth/logout','POST');assert.match(r.headers.get('set-cookie')!,/Max-Age=0/);cookie='';
 for(let i=0;i<10;i++)await call('/auth/login','POST','email=owner%40example.test&password=wrong');
 r=await call('/auth/login','POST','email=owner%40example.test&password=fixture-password');assert.equal(r.headers.get('location'),'/admin/?error=limit');
+assert.equal((await call('/api/pdf-layout','POST',{})).status,403);assert.equal((await call('/api/pdf-layout?id='+pdfId)).status,403);
 assert.equal((await call('/api/ai-jobs')).status,403);assert.equal((await call('/api/scan-ai','POST',{})).status,403);
 await db.close();console.log('PASS: catalog, revisions, concurrency, admin login/logout, CSRF, spoofed identity, rate limits, images and chunk uploads. No live AI requests.');
