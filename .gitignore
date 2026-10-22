@@ -46,3 +46,8 @@ yarn-error.log*
 
 preview.png
 admin-preview.png
+
+# Local Netlify folder
+.netlify
+
+/.netlify-build/

@@ -1,0 +1,34 @@
+[build]
+  command = "npm run build:netlify"
+  publish = ".netlify-build/public"
+  functions = ".netlify-build/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["@netlify/blobs", "@neondatabase/serverless"]
+
+[[redirects]]
+  from = "/"
+  to = "/catalog/"
+  status = 302
+
+[[redirects]]
+  from = "/signin-with-chatgpt"
+  to = "/admin/"
+  status = 302
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-store"
