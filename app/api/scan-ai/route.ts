@@ -1,9 +1,11 @@
+import {ownerGuard} from '../../../lib/catalog-access';
 import {env} from 'cloudflare:workers';
 import {validateScan,normalizeScan,scanSchema,scanInstructions,researchInstructions,responseSourceUrls} from '../../../lib/diagram-ai';
 const settings=()=>env as typeof env & {OPENAI_API_KEY?:string;OPENAI_VISION_MODEL?:string};
 const reply=(d:unknown,status=200)=>Response.json(d,{status,headers:{'Cache-Control':'no-store'}});
-export async function GET(){return reply({configured:!!settings().OPENAI_API_KEY,provider:'OpenAI',message:settings().OPENAI_API_KEY?'AI sozlangan; natijalarni tekshirish kerak.':'AI hali ulanmagan. OpenAI API kalitini serverda sozlash kerak.'})}
+export async function GET(){const denied=await ownerGuard();if(denied)return denied;return reply({configured:!!settings().OPENAI_API_KEY,provider:'OpenAI',message:settings().OPENAI_API_KEY?'AI sozlangan; natijalarni tekshirish kerak.':'AI hali ulanmagan. OpenAI API kalitini serverda sozlash kerak.'})}
 export async function POST(req:Request){
+ const denied=await ownerGuard(req);if(denied)return denied;
  if(req.headers.get('origin')!==new URL(req.url).origin)return reply({error:'Manba ruxsat etilmagan.'},403);
  const config=settings();if(!config.OPENAI_API_KEY)return reply({error:'AI hali ulanmagan. Hozir oddiy OCR yoki qo‘lda belgilashdan foydalaning.',code:'AI_NOT_CONFIGURED'},503);
  if(Number(req.headers.get('content-length'))>8000000)return reply({error:'Rasm hajmi juda katta.'},413);

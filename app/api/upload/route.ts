@@ -1,5 +1,7 @@
+import {ownerGuard} from '../../../lib/catalog-access';
 import {env} from 'cloudflare:workers';
 export async function POST(req:Request){
+ const denied=await ownerGuard(req);if(denied)return denied;
  if(req.headers.get('origin')!==new URL(req.url).origin)return Response.json({error:'Manba ruxsat etilmagan.'},{status:403});
  if(Number(req.headers.get('content-length'))>12*1024*1024)return Response.json({error:'Rasm 12 MB dan kichik bo‘lsin.'},{status:413});
  try{const bytes=new Uint8Array(await req.arrayBuffer());if(bytes.length>12*1024*1024)throw Error('Rasm 12 MB dan kichik bo‘lsin.');

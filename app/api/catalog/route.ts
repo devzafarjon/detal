@@ -1,30 +1,27 @@
 import {env} from 'cloudflare:workers';
+import {ownerGuard} from '../../../lib/catalog-access';
+import {validate} from '../../../lib/catalog-validation';
 export const dynamic='force-dynamic';
 const reply=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store'}});
-// This shared catalog is protected by the confirmed owner-private Sites access policy.
-export async function GET(){try{const row=await env.DB!.prepare('SELECT data,revision FROM catalogs WHERE id=?').bind('main').first<{data:string;revision:number}>();return reply(row?{models:JSON.parse(row.data),revision:row.revision}:{models:null,revision:0});}catch{return reply({error:'Katalog bazasini yuklab bo‘lmadi. Qayta urinib ko‘ring.'},503)}}
-function validate(models:any){
- if(!Array.isArray(models)||models.length<1||models.length>100)throw Error('1–100 ta model bo‘lishi kerak.');
- const ids=new Set();
- for(const m of models){
-  if(!Number.isSafeInteger(m.id)||ids.has(m.id))throw Error('Model ID noto‘g‘ri.');ids.add(m.id);
-  if(typeof m.name!=='string'||!m.name.trim()||m.name.length>150)throw Error('Model nomi noto‘g‘ri.');
-  if(typeof m.image!=='string'||!(/^(assets\/(?:model-(?:[123]\.jpg|4(?:-v2)?\.png)|batch-20261022-(?:[1-9]|1[0-8])\.jpg)|\/api\/image\/[a-f0-9-]{36})$/).test(m.image))throw Error('Rasm manzili noto‘g‘ri.');
-  if(!Array.isArray(m.size)||m.size.length!==2||m.size.some((n:number)=>!Number.isFinite(n)||n<1||n>16000))throw Error('Rasm o‘lchami noto‘g‘ri.');
-  if(!Array.isArray(m.view)||m.view.length!==4||m.view.some((n:number)=>!Number.isFinite(n))||m.view[0]<0||m.view[1]<0||m.view[2]<=0||m.view[3]<=0||m.view[0]+m.view[2]>m.size[0]+1||m.view[1]+m.view[3]>m.size[1]+1)throw Error('Chizma hududi noto‘g‘ri.');
-  if(!Array.isArray(m.parts)||m.parts.length>1000)throw Error('Detallar soni noto‘g‘ri.');const ps=new Set();
-  for(const p of m.parts){if(!Number.isSafeInteger(p.id)||p.id<1||p.id>9999||ps.has(p.id))throw Error('Pozitsiya takrorlangan yoki noto‘g‘ri.');ps.add(p.id);
-   if(p.label!==undefined&&(typeof p.label!=='string'||!p.label.trim()||p.label.length>20))throw Error('Chizma belgisi noto‘g‘ri.');
-   if(typeof p.name!=='string'||!p.name.trim()||p.name.length>300||typeof p.article!=='string'||p.article.length>150)throw Error('Detal nomi yoki artikuli noto‘g‘ri.');
-   if(p.price!==null&&(!Number.isFinite(p.price)||p.price<0||p.price>1e12))throw Error('Narx manfiy bo‘lishi mumkin emas.');
-   if(!Number.isFinite(p.x)||!Number.isFinite(p.y)||p.x<0||p.y<0||p.x>m.size[0]||p.y>m.size[1])throw Error('Belgi rasm tashqarisida.');
-  }
- }
-}
-export async function PUT(req:Request){
- if(req.headers.get('origin')!==new URL(req.url).origin)return reply({error:'Manba ruxsat etilmagan.'},403);
- try{const raw=await req.text();if(raw.length>5e6)return reply({error:'Katalog juda katta.'},413);const {models,revision}=JSON.parse(raw);validate(models);if(!Number.isSafeInteger(revision)||revision<0)throw Error('Versiya noto‘g‘ri.');
- const result=revision===0?await env.DB!.prepare('INSERT INTO catalogs(id,data,revision) VALUES(?,?,1) ON CONFLICT(id) DO NOTHING RETURNING revision').bind('main',JSON.stringify(models)).first():await env.DB!.prepare('UPDATE catalogs SET data=?,revision=revision+1 WHERE id=? AND revision=? RETURNING revision').bind(JSON.stringify(models),'main',revision).first();
- if(!result)return reply({error:'Katalog boshqa oynada o‘zgartirilgan. Nusxani yuklab oling, so‘ng sahifani yangilang.'},409);return reply(result);
- }catch(e){return reply({error:e instanceof Error?e.message:'Saqlash amalga oshmadi.'},400)}
-}
+// Legacy data stays intact; individual edits override it without rewriting the catalog.
+const listSQL=`SELECT id,name,part_count AS partCount,revision FROM drawings WHERE deleted=0 UNION ALL SELECT json_extract(j.value,'$.id') AS id,json_extract(j.value,'$.name') AS name,json_array_length(j.value,'$.parts') AS partCount,0 AS revision FROM catalogs c,json_each(c.data) j WHERE c.id='main' AND NOT EXISTS(SELECT 1 FROM drawings d WHERE d.id=json_extract(j.value,'$.id'))`;
+export async function GET(req:Request){try{
+ const id=new URL(req.url).searchParams.get('id');
+ if(id!==null){if(!/^[1-9][0-9]*$/.test(id))return reply({error:'ID noto‘g‘ri.'},400);
+ const row=await env.DB!.prepare(`SELECT data,revision,deleted FROM drawings WHERE id=? UNION ALL SELECT j.value AS data,0 AS revision,0 AS deleted FROM catalogs c,json_each(c.data) j WHERE c.id='main' AND json_extract(j.value,'$.id')=? AND NOT EXISTS(SELECT 1 FROM drawings WHERE id=?) LIMIT 1`).bind(+id,+id,+id).first<any>();
+ return row&&!row.deleted?reply({model:JSON.parse(row.data),revision:row.revision}):reply({error:'Chizma topilmadi.'},404);}
+ const rows=await env.DB!.prepare(listSQL+' ORDER BY id').all();return reply({models:rows.results});
+ }catch{return reply({error:'Katalog bazasini yuklab bo‘lmadi. Qayta urinib ko‘ring.'},503)}}
+export async function PUT(req:Request){const denied=await ownerGuard(req);if(denied)return denied;
+ try{const raw=await req.text();if(raw.length>1000000)return reply({error:'Bitta chizma ma’lumotlari juda katta.'},413);
+ const {model,revision}=JSON.parse(raw);validate([model]);if(!Number.isSafeInteger(revision)||revision<0)throw Error('Versiya noto‘g‘ri.');
+ const data=JSON.stringify(model);let row;
+ if(revision===0){row=await env.DB!.prepare(`INSERT INTO drawings(id,name,data,part_count,revision,deleted) SELECT ?,?,?,?,1,0 WHERE EXISTS(SELECT 1 FROM catalogs c,json_each(c.data) j WHERE c.id='main' AND json_extract(j.value,'$.id')=?) OR (SELECT count(*) FROM (${listSQL}))<1000 ON CONFLICT(id) DO NOTHING RETURNING revision`).bind(model.id,model.name,data,model.parts.length,model.id).first();}
+ else row=await env.DB!.prepare('UPDATE drawings SET name=?,data=?,part_count=?,revision=revision+1 WHERE id=? AND revision=? AND deleted=0 RETURNING revision').bind(model.name,data,model.parts.length,model.id,revision).first();
+ if(!row)return reply({error:'Chizma boshqa oynada o‘zgargan yoki 1 000 chizma limiti to‘lgan. Sahifani yangilang.'},409);return reply(row);
+ }catch(e){return reply({error:e instanceof Error?e.message:'Saqlash amalga oshmadi.'},400)}}
+export async function DELETE(req:Request){const denied=await ownerGuard(req);if(denied)return denied;
+ try{const {id,revision}=await req.json() as any;if(!Number.isSafeInteger(id)||!Number.isSafeInteger(revision)||id<1||revision<0)return reply({error:'ID yoki versiya noto‘g‘ri.'},400);
+ const row=revision===0?await env.DB!.prepare(`INSERT INTO drawings(id,name,data,part_count,revision,deleted) SELECT ?,'','{}',0,1,1 WHERE EXISTS(SELECT 1 FROM catalogs c,json_each(c.data) j WHERE c.id='main' AND json_extract(j.value,'$.id')=?) AND (SELECT count(*) FROM (${listSQL}))>1 ON CONFLICT(id) DO NOTHING RETURNING revision`).bind(id,id).first():await env.DB!.prepare(`UPDATE drawings SET deleted=1,revision=revision+1 WHERE id=? AND revision=? AND deleted=0 AND (SELECT count(*) FROM (${listSQL}))>1 RETURNING revision`).bind(id,revision).first();
+ return row?reply(row):reply({error:'O‘chirish amalga oshmadi: versiya o‘zgargan yoki oxirgi chizma.'},409);
+ }catch{return reply({error:'Yaroqsiz so‘rov.'},400)}}
