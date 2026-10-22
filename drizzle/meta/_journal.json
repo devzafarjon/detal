@@ -50,6 +50,13 @@
       "when": 1792660000000,
       "tag": "0006_web_part_names",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1792651800000,
+      "tag": "0007_tentative_part_names",
+      "breakpoints": true
     }
   ]
 }

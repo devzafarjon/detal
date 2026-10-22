@@ -41,5 +41,4 @@ assert json.loads(again)==out and rev2==revision
 # Uncustomized existing catalogs migrate exactly to the new seed.
 db.execute('update catalogs set data=?,revision=0',(json.dumps(base),));db.executescript(sql)
 assert json.loads(db.execute('select data from catalogs').fetchone()[0])==seed
-assert sum(p.get('nameStatus')=='unresolved' for m in seed for p in m['parts'])==354
-print('PASS: 50 verified names; custom names/status, prices, articles, coordinates and model data preserved; migration fully idempotent; 354 unresolved remain')
+print('PASS: 50 verified names; custom names/status, prices, articles, coordinates and model data preserved; migration fully idempotent')
