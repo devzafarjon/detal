@@ -40,6 +40,8 @@ The catalog cart is a browser-local shortlist, keyed by drawing ID and part ID. 
 
 Visitors can submit up to 30 distinct lines as an order request with their name and phone number. `/api/orders` re-reads all parts and prices from the catalog, then stores the request in Neon. The cart remains in the browser after submission. Admins see requests in the catalog admin panel and can mark them new, contacted or closed. Admins must confirm availability, variant and final price with the customer; the site does not take payment. Requests are limited to five per IP per hour. Validation: `npm run test:ui` and `npm run test:netlify`.
 
+`node scripts/fill-demo-prices.mjs` previews the live catalog's missing prices. `node scripts/fill-demo-prices.mjs --apply` restores listed amounts from `research/demo-price-manifest.json` or assigns deterministic illustrative UZS prices by part-name category for new parts, labels every new amount `demoPrice: true`, preserves existing prices, and checks model revisions before each save. It stores private before/after snapshots under `.netlify/demo-prices/` and verifies that no current part remains unpriced. These amounts are fictional UI examples; they are not supplier quotations or availability commitments. New imports are not priced automatically.
+
 ## PDF catalogs on Netlify
 
 Admin → New drawing → **Butun PDFdan sxemalarni topish** accepts one PDF (up to 40 MiB / 50 pages). Self-hosted Mozilla PDF.js renders the document. `/api/pdf-layout` submits all page previews together for structured, asynchronous layout detection: zero/multiple schematics per page and matching parts tables on other pages. A PDF page is never automatically treated as a catalog item.
