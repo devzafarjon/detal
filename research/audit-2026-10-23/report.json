@@ -1,0 +1,6528 @@
+{
+  "at": "2026-10-23T06:02:06.390Z",
+  "origin": "https://detal-demo.netlify.app",
+  "scope": "Read-only production data; local JSDOM interactions with the updated frontend.",
+  "quality": {
+    "tentativeNames": 1165,
+    "needsReview": 1338,
+    "demoArticles": 81,
+    "unpriced": 3150,
+    "demoPrices": 104
+  },
+  "counts": {
+    "sections": 237,
+    "parts": 3254,
+    "linked": 1563,
+    "unlinked": 1691,
+    "fullyLinked": 55,
+    "partlyLinked": 0,
+    "noLinked": 182,
+    "illustrated": 220,
+    "missingDiagrams": 165,
+    "missingDiagramParts": 1007,
+    "tableSections": 17,
+    "tableParts": 684,
+    "assets": 255,
+    "badAssets": 0,
+    "invalidSections": 0
+  },
+  "unchanged": true,
+  "interactions": {
+    "at": "2026-10-23T06:14:04.266Z",
+    "sections": 237,
+    "listClicks": 3254,
+    "hotspotClicks": 1650,
+    "keyboardChecks": 1650,
+    "manualLink": true,
+    "environment": "JSDOM; no browser layout or image alignment verification"
+  },
+  "sections": [
+    {
+      "id": 1,
+      "name": "JN-201-60L",
+      "device": "JN-201-60L",
+      "parts": 47,
+      "linked": 47,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/model-1.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        686,
+        468
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Changyutgich · P25 1200W",
+      "device": "Changyutgich · P25 1200W",
+      "parts": 33,
+      "linked": 33,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/model-2.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1574,
+        1001
+      ]
+    },
+    {
+      "id": 3,
+      "name": "KK22-10 · Elektr drel",
+      "device": "KK22-10 · Elektr drel",
+      "parts": 24,
+      "linked": 24,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/model-3.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bosch GSR 1410-7 · 0 601 410 732",
+      "device": "Bosch GSR 1410-7 · 0 601 410 732",
+      "parts": 75,
+      "linked": 75,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/model-4-v2.png",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1796,
+        1230
+      ]
+    },
+    {
+      "id": 5,
+      "name": "EASH-20",
+      "device": "EASH-20",
+      "parts": 22,
+      "linked": 22,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-1.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1123,
+        793
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Akkumulyatorli drel · chizma 02",
+      "device": "Akkumulyatorli drel · chizma 02",
+      "parts": 19,
+      "linked": 19,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-2.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 7,
+      "name": "EASH-20BP · reduktor",
+      "device": "EASH-20BP · reduktor",
+      "parts": 29,
+      "linked": 29,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-3.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Akkumulyatorli drel · chizma 04",
+      "device": "Akkumulyatorli drel · chizma 04",
+      "parts": 14,
+      "linked": 14,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-4.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 9,
+      "name": "EASH-14.4 / EASH-18.5",
+      "device": "EASH-14.4 / EASH-18.5",
+      "parts": 15,
+      "linked": 15,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-5.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        905
+      ]
+    },
+    {
+      "id": 10,
+      "name": "EPD-24-1 · perforator",
+      "device": "EPD-24-1 · perforator",
+      "parts": 89,
+      "linked": 89,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-6.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 11,
+      "name": "EPD-24-2 · perforator",
+      "device": "EPD-24-2 · perforator",
+      "parts": 102,
+      "linked": 102,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-7.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        901
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Perforator · chizma 08",
+      "device": "Perforator · chizma 08",
+      "parts": 97,
+      "linked": 97,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-8.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Z1G-DW-25BT · zarbli bolg‘a",
+      "device": "Z1G-DW-25BT · zarbli bolg‘a",
+      "parts": 101,
+      "linked": 101,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-9.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        865
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Z6G-DW-45E · buzish bolg‘asi",
+      "device": "Z6G-DW-45E · buzish bolg‘asi",
+      "parts": 87,
+      "linked": 87,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-10.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 15,
+      "name": "EOM-45-2 · buzish bolg‘asi",
+      "device": "EOM-45-2 · buzish bolg‘asi",
+      "parts": 104,
+      "linked": 104,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-11.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 16,
+      "name": "R6216B · mikser",
+      "device": "R6216B · mikser",
+      "parts": 26,
+      "linked": 26,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-12.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        930
+      ]
+    },
+    {
+      "id": 17,
+      "name": "EEL-580-1 · lobzik",
+      "device": "EEL-580-1 · lobzik",
+      "parts": 109,
+      "linked": 109,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-13.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 18,
+      "name": "EEL-600-1 · lobzik",
+      "device": "EEL-600-1 · lobzik",
+      "parts": 90,
+      "linked": 90,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-14.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        842,
+        595
+      ]
+    },
+    {
+      "id": 19,
+      "name": "EEL-750-1 · lobzik",
+      "device": "EEL-750-1 · lobzik",
+      "parts": 92,
+      "linked": 92,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-15.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        905
+      ]
+    },
+    {
+      "id": 20,
+      "name": "EMVD-90-2 · bosimli yuvish apparati",
+      "device": "EMVD-90-2 · bosimli yuvish apparati",
+      "parts": 63,
+      "linked": 63,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-16.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        905
+      ]
+    },
+    {
+      "id": 21,
+      "name": "EMVD-111-1 · bosimli yuvish apparati",
+      "device": "EMVD-111-1 · bosimli yuvish apparati",
+      "parts": 56,
+      "linked": 56,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-17.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        842,
+        595
+      ]
+    },
+    {
+      "id": 22,
+      "name": "EMVD-180-1 YANGI · bosimli yuvish apparati",
+      "device": "EMVD-180-1 YANGI · bosimli yuvish apparati",
+      "parts": 45,
+      "linked": 45,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/batch-20261022-18.jpg",
+      "source": "",
+      "sourcePages": [],
+      "size": [
+        1280,
+        904
+      ]
+    },
+    {
+      "id": 710001,
+      "name": "A7 · 01. Umumiy tuzilish",
+      "device": "A7",
+      "parts": 28,
+      "linked": 28,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "size": [
+        1440,
+        2283
+      ]
+    },
+    {
+      "id": 710002,
+      "name": "A7 · 02. Yuqori qism",
+      "device": "A7",
+      "parts": 19,
+      "linked": 19,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "size": [
+        1440,
+        1125
+      ]
+    },
+    {
+      "id": 710003,
+      "name": "A7 · 03. Elektronika bloki",
+      "device": "A7",
+      "parts": 13,
+      "linked": 13,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "size": [
+        1440,
+        1313
+      ]
+    },
+    {
+      "id": 710004,
+      "name": "A7 · 04. Ish yuzasi",
+      "device": "A7",
+      "parts": 12,
+      "linked": 12,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        11,
+        12
+      ],
+      "size": [
+        1440,
+        1266
+      ]
+    },
+    {
+      "id": 710005,
+      "name": "A7 · 05. Nafas konturining asosiy korpusi",
+      "device": "A7",
+      "parts": 16,
+      "linked": 16,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "size": [
+        1440,
+        1734
+      ]
+    },
+    {
+      "id": 710006,
+      "name": "A7 · 06. Pre-pak absorber idishi",
+      "device": "A7",
+      "parts": 5,
+      "linked": 5,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        15
+      ],
+      "size": [
+        1440,
+        891
+      ]
+    },
+    {
+      "id": 710007,
+      "name": "A7 · 07. Nafas olish va chiqarish klapanlari",
+      "device": "A7",
+      "parts": 4,
+      "linked": 4,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        16
+      ],
+      "size": [
+        1440,
+        1313
+      ]
+    },
+    {
+      "id": 710008,
+      "name": "A7 · 08. O₂ sensori",
+      "device": "A7",
+      "parts": 2,
+      "linked": 2,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        17
+      ],
+      "size": [
+        1440,
+        517
+      ]
+    },
+    {
+      "id": 710009,
+      "name": "A7 · 09. Displey yig‘masi",
+      "device": "A7",
+      "parts": 4,
+      "linked": 4,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "size": [
+        1440,
+        845
+      ]
+    },
+    {
+      "id": 710010,
+      "name": "A7 · 10. Displeyning asosiy korpusi",
+      "device": "A7",
+      "parts": 5,
+      "linked": 5,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "size": [
+        1440,
+        891
+      ]
+    },
+    {
+      "id": 710011,
+      "name": "A7 · 11. Bug‘latgich o‘rnatish kollektori",
+      "device": "A7",
+      "parts": 2,
+      "linked": 2,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        19
+      ],
+      "size": [
+        1440,
+        1359
+      ]
+    },
+    {
+      "id": 710012,
+      "name": "A7 · 12. Yordamchi gaz ta’minoti",
+      "device": "A7",
+      "parts": 1,
+      "linked": 1,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        20
+      ],
+      "size": [
+        1440,
+        1219
+      ]
+    },
+    {
+      "id": 710013,
+      "name": "A7 · 13. Taglik",
+      "device": "A7",
+      "parts": 2,
+      "linked": 2,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        21
+      ],
+      "size": [
+        1440,
+        985
+      ]
+    },
+    {
+      "id": 710014,
+      "name": "A7 · 14. Aravacha",
+      "device": "A7",
+      "parts": 4,
+      "linked": 4,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        22
+      ],
+      "size": [
+        1440,
+        938
+      ]
+    },
+    {
+      "id": 710015,
+      "name": "A7 · 15. EFCS yig‘masi",
+      "device": "A7",
+      "parts": 3,
+      "linked": 3,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-15.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        23,
+        24
+      ],
+      "size": [
+        1440,
+        1266
+      ]
+    },
+    {
+      "id": 710016,
+      "name": "A7 · 16. BFCS yig‘masi — O₂ va havo",
+      "device": "A7",
+      "parts": 4,
+      "linked": 4,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-16.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        24
+      ],
+      "size": [
+        1440,
+        798
+      ]
+    },
+    {
+      "id": 710017,
+      "name": "A7 · 17. Igna klapanining teleskopik mexanizmi",
+      "device": "A7",
+      "parts": 3,
+      "linked": 3,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-17.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        25
+      ],
+      "size": [
+        1440,
+        985
+      ]
+    },
+    {
+      "id": 710018,
+      "name": "A7 · 18. Qo‘shimcha detallar",
+      "device": "A7",
+      "parts": 43,
+      "linked": 0,
+      "unlinked": 43,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/a7/section-18.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/A7_Parts_EN_V1.0.pdf",
+      "sourcePages": [
+        26,
+        27
+      ],
+      "size": [
+        1440,
+        4077
+      ]
+    },
+    {
+      "id": 800501,
+      "name": "BeneFusion SP5 · 1.1 Host",
+      "device": "BeneFusion SP5",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-05-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-05.pdf",
+      "sourcePages": [
+        2
+      ],
+      "size": [
+        1500,
+        955
+      ]
+    },
+    {
+      "id": 800502,
+      "name": "BeneFusion SP5 · 1.2 Upper Cover Assembly",
+      "device": "BeneFusion SP5",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-05-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-05.pdf",
+      "sourcePages": [
+        3
+      ],
+      "size": [
+        1500,
+        1002
+      ]
+    },
+    {
+      "id": 800503,
+      "name": "BeneFusion SP5 · 1.3 Bottom Cover Assembly",
+      "device": "BeneFusion SP5",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-05-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-05.pdf",
+      "sourcePages": [
+        4
+      ],
+      "size": [
+        1500,
+        1002
+      ]
+    },
+    {
+      "id": 800504,
+      "name": "BeneFusion SP5 · 1.4 Pump Module Assembly",
+      "device": "BeneFusion SP5",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-05-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-05.pdf",
+      "sourcePages": [
+        5
+      ],
+      "size": [
+        1500,
+        1002
+      ]
+    },
+    {
+      "id": 800505,
+      "name": "BeneFusion SP5 · 1.5 Door Assembly",
+      "device": "BeneFusion SP5",
+      "parts": 10,
+      "linked": 0,
+      "unlinked": 10,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-05-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-05.pdf",
+      "sourcePages": [
+        6
+      ],
+      "size": [
+        1500,
+        1002
+      ]
+    },
+    {
+      "id": 800506,
+      "name": "BeneFusion SP5 · 1.6 Others",
+      "device": "BeneFusion SP5",
+      "parts": 44,
+      "linked": 0,
+      "unlinked": 44,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-05-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-05.pdf",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "size": [
+        1500,
+        2256
+      ]
+    },
+    {
+      "id": 800601,
+      "name": "BeneFusion VP5 · 1.1 Host",
+      "device": "BeneFusion VP5",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-06-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-06.pdf",
+      "sourcePages": [
+        2
+      ],
+      "size": [
+        1500,
+        1002
+      ]
+    },
+    {
+      "id": 800602,
+      "name": "BeneFusion VP5 · 1.2 Upper Cover Assembly",
+      "device": "BeneFusion VP5",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-06-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-06.pdf",
+      "sourcePages": [
+        3
+      ],
+      "size": [
+        1500,
+        1097
+      ]
+    },
+    {
+      "id": 800603,
+      "name": "BeneFusion VP5 · 1.3 Bottom Cover Assembly",
+      "device": "BeneFusion VP5",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-06-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-06.pdf",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "size": [
+        1500,
+        1050
+      ]
+    },
+    {
+      "id": 800604,
+      "name": "BeneFusion VP5 · 1.4 Pump Module Assembly",
+      "device": "BeneFusion VP5",
+      "parts": 9,
+      "linked": 0,
+      "unlinked": 9,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-06-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-06.pdf",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        1002
+      ]
+    },
+    {
+      "id": 800605,
+      "name": "BeneFusion VP5 · 1.5 Door Assembly",
+      "device": "BeneFusion VP5",
+      "parts": 9,
+      "linked": 0,
+      "unlinked": 9,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-06-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-06.pdf",
+      "sourcePages": [
+        8,
+        9
+      ],
+      "size": [
+        1500,
+        1050
+      ]
+    },
+    {
+      "id": 800606,
+      "name": "BeneFusion VP5 · 1.6 Others",
+      "device": "BeneFusion VP5",
+      "parts": 22,
+      "linked": 0,
+      "unlinked": 22,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-06-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-06.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        1996
+      ]
+    },
+    {
+      "id": 800701,
+      "name": "BeneHeart D3 / D2 · 1.1 Main Unit",
+      "device": "BeneHeart D3 / D2",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-07-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-07.pdf",
+      "sourcePages": [
+        3
+      ],
+      "size": [
+        1500,
+        722
+      ]
+    },
+    {
+      "id": 800702,
+      "name": "BeneHeart D3 / D2 · 1.2 Front Housing Assembly",
+      "device": "BeneHeart D3 / D2",
+      "parts": 21,
+      "linked": 0,
+      "unlinked": 21,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-07-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-07.pdf",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "size": [
+        1500,
+        722
+      ]
+    },
+    {
+      "id": 800703,
+      "name": "BeneHeart D3 / D2 · 1.3 Rear Housing Assembly",
+      "device": "BeneHeart D3 / D2",
+      "parts": 25,
+      "linked": 0,
+      "unlinked": 25,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        15,
+        16,
+        17,
+        22,
+        18,
+        20,
+        19,
+        23,
+        24,
+        25
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-07-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-07.pdf",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "size": [
+        1500,
+        1052
+      ]
+    },
+    {
+      "id": 800704,
+      "name": "BeneHeart D3 / D2 · 1.4 Paddle Tray Assembly",
+      "device": "BeneHeart D3 / D2",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-07-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-07.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        722
+      ]
+    },
+    {
+      "id": 800705,
+      "name": "BeneHeart D3 / D2 · 1.5 External Paddles Assembly",
+      "device": "BeneHeart D3 / D2",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-07-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-07.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        769
+      ]
+    },
+    {
+      "id": 800706,
+      "name": "BeneHeart D3 / D2 · 1.6 Others",
+      "device": "BeneHeart D3 / D2",
+      "parts": 23,
+      "linked": 0,
+      "unlinked": 23,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-07-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-07.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        2040
+      ]
+    },
+    {
+      "id": 800801,
+      "name": "BeneHeart D6 / D5 · 1.1 Main Unit",
+      "device": "BeneHeart D6 / D5",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-08-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-08.pdf",
+      "sourcePages": [
+        3
+      ],
+      "size": [
+        1500,
+        911
+      ]
+    },
+    {
+      "id": 800802,
+      "name": "BeneHeart D6 / D5 · 1.2 Front Housing Assembly",
+      "device": "BeneHeart D6 / D5",
+      "parts": 14,
+      "linked": 0,
+      "unlinked": 14,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-08-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-08.pdf",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "size": [
+        1500,
+        958
+      ]
+    },
+    {
+      "id": 800803,
+      "name": "BeneHeart D6 / D5 · 1.3 Rear Housing Assembly",
+      "device": "BeneHeart D6 / D5",
+      "parts": 24,
+      "linked": 0,
+      "unlinked": 24,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        24,
+        23,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        4,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-08-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-08.pdf",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "size": [
+        1500,
+        816
+      ]
+    },
+    {
+      "id": 800804,
+      "name": "BeneHeart D6 / D5 · 1.4 Paddle Tray Assembly",
+      "device": "BeneHeart D6 / D5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-08-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-08.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        532
+      ]
+    },
+    {
+      "id": 800805,
+      "name": "BeneHeart D6 / D5 · 1.5 External Paddles Assembly",
+      "device": "BeneHeart D6 / D5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-08-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-08.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        769
+      ]
+    },
+    {
+      "id": 800806,
+      "name": "BeneHeart D6 / D5 · 1.6 Others",
+      "device": "BeneHeart D6 / D5",
+      "parts": 45,
+      "linked": 0,
+      "unlinked": 45,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-08-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-08.pdf",
+      "sourcePages": [
+        11,
+        12
+      ],
+      "size": [
+        1500,
+        2114
+      ]
+    },
+    {
+      "id": 800901,
+      "name": "BeneView T1 · 1.1 Main Unit",
+      "device": "BeneView T1",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "size": [
+        1500,
+        958
+      ]
+    },
+    {
+      "id": 800902,
+      "name": "BeneView T1 · 1.2 Front Cover Assembly",
+      "device": "BeneView T1",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        4
+      ],
+      "size": [
+        1500,
+        911
+      ]
+    },
+    {
+      "id": 800903,
+      "name": "BeneView T1 · 1.3 Main Frame Assembly",
+      "device": "BeneView T1",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        5
+      ],
+      "size": [
+        1500,
+        959
+      ]
+    },
+    {
+      "id": 800904,
+      "name": "BeneView T1 · 1.4 Parameter Assembly",
+      "device": "BeneView T1",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        864
+      ]
+    },
+    {
+      "id": 800905,
+      "name": "BeneView T1 · 1.5 T1 Handle",
+      "device": "BeneView T1",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        8,
+        9
+      ],
+      "size": [
+        1500,
+        1620
+      ]
+    },
+    {
+      "id": 800907,
+      "name": "BeneView T1 · 1.6.1 Main Unit",
+      "device": "BeneView T1",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        868
+      ]
+    },
+    {
+      "id": 800908,
+      "name": "BeneView T1 · 1.6.2 Dock Top Housing Assembly",
+      "device": "BeneView T1",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        916
+      ]
+    },
+    {
+      "id": 800909,
+      "name": "BeneView T1 · 1.6.3 Dock Connector Assembly",
+      "device": "BeneView T1",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        1010
+      ]
+    },
+    {
+      "id": 800910,
+      "name": "BeneView T1 · 1.7 Other Replaceable Parts",
+      "device": "BeneView T1",
+      "parts": 24,
+      "linked": 0,
+      "unlinked": 24,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-09-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-09.pdf",
+      "sourcePages": [
+        11,
+        12
+      ],
+      "size": [
+        1500,
+        424
+      ]
+    },
+    {
+      "id": 801001,
+      "name": "BeneView T5 · 1.1 Main Unit",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        2
+      ],
+      "size": [
+        1500,
+        911
+      ]
+    },
+    {
+      "id": 801003,
+      "name": "BeneView T5 · 1.2.1 Front housing",
+      "device": "BeneView T5",
+      "parts": 12,
+      "linked": 0,
+      "unlinked": 12,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "size": [
+        1500,
+        908
+      ]
+    },
+    {
+      "id": 801005,
+      "name": "BeneView T5 · 1.3.1 Main Unit Assembly",
+      "device": "BeneView T5",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        5
+      ],
+      "size": [
+        1500,
+        719
+      ]
+    },
+    {
+      "id": 801006,
+      "name": "BeneView T5 · 1.3.2 Battery Compartment Assembly",
+      "device": "BeneView T5",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        6
+      ],
+      "size": [
+        1500,
+        577
+      ]
+    },
+    {
+      "id": 801007,
+      "name": "BeneView T5 · 1.3.3 Power Module assembly",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        672
+      ]
+    },
+    {
+      "id": 801008,
+      "name": "BeneView T5 · 1.3.4 Interface Board Assemby",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        627
+      ]
+    },
+    {
+      "id": 801009,
+      "name": "BeneView T5 · 1.3.5 Main Board Assembly",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        672
+      ]
+    },
+    {
+      "id": 801010,
+      "name": "BeneView T5 · 1.3.6 Integral module rack",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        766
+      ]
+    },
+    {
+      "id": 801011,
+      "name": "BeneView T5 · 1.3.7 Rear Housing Assembly",
+      "device": "BeneView T5",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        625
+      ]
+    },
+    {
+      "id": 801012,
+      "name": "BeneView T5 · 1.3.8 CF Card Assembly",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        12
+      ],
+      "size": [
+        1500,
+        627
+      ]
+    },
+    {
+      "id": 801013,
+      "name": "BeneView T5 · 1.3.9 5G WiFi Module",
+      "device": "BeneView T5",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        13
+      ],
+      "size": [
+        1500,
+        672
+      ]
+    },
+    {
+      "id": 801015,
+      "name": "BeneView T5 · 1.4.1 New MPM Module",
+      "device": "BeneView T5",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-15.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "size": [
+        1500,
+        722
+      ]
+    },
+    {
+      "id": 801017,
+      "name": "BeneView T5 · 1.5.1 Other Replaceable Parts",
+      "device": "BeneView T5",
+      "parts": 93,
+      "linked": 0,
+      "unlinked": 93,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-10-section-17.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-10.pdf",
+      "sourcePages": [
+        16,
+        17,
+        18
+      ],
+      "size": [
+        1500,
+        1917
+      ]
+    },
+    {
+      "id": 801101,
+      "name": "BeneView T6 / T8 / T9 · 1.1 Main Unit (T6/T8/T9））））",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        2
+      ],
+      "size": [
+        1500,
+        817
+      ]
+    },
+    {
+      "id": 801102,
+      "name": "BeneView T6 / T8 / T9 · 1.2 Base Assembly",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        3
+      ],
+      "size": [
+        1500,
+        722
+      ]
+    },
+    {
+      "id": 801104,
+      "name": "BeneView T6 / T8 / T9 · 1.3.1 15” LCD T6",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "size": [
+        1500,
+        1050
+      ]
+    },
+    {
+      "id": 801105,
+      "name": "BeneView T6 / T8 / T9 · 1.3.2 17” LCD T8",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        908
+      ]
+    },
+    {
+      "id": 801106,
+      "name": "BeneView T6 / T8 / T9 · 1.3.3 19” LCD Touchscreen T9",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 11,
+      "linked": 0,
+      "unlinked": 11,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        766
+      ]
+    },
+    {
+      "id": 801107,
+      "name": "BeneView T6 / T8 / T9 · 1.4 Rear Housing Assembly",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        770
+      ]
+    },
+    {
+      "id": 801108,
+      "name": "BeneView T6 / T8 / T9 · 1.4.1 Power module",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        861
+      ]
+    },
+    {
+      "id": 801109,
+      "name": "BeneView T6 / T8 / T9 · 1.4.2 Integral module rack",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        766
+      ]
+    },
+    {
+      "id": 801110,
+      "name": "BeneView T6 / T8 / T9 · 1.4.3 Interface Board Assembly",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        12
+      ],
+      "size": [
+        1500,
+        625
+      ]
+    },
+    {
+      "id": 801111,
+      "name": "BeneView T6 / T8 / T9 · 1.4.4 Main Support Assembly (T6/T8/T9)",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        13
+      ],
+      "size": [
+        1500,
+        814
+      ]
+    },
+    {
+      "id": 801112,
+      "name": "BeneView T6 / T8 / T9 · 1.4.5 Main Control Board Assembly",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        14
+      ],
+      "size": [
+        1500,
+        672
+      ]
+    },
+    {
+      "id": 801113,
+      "name": "BeneView T6 / T8 / T9 · 1.5 5G WiFi Module",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        15
+      ],
+      "size": [
+        1500,
+        722
+      ]
+    },
+    {
+      "id": 801114,
+      "name": "BeneView T6 / T8 / T9 · 1.6 New MPM Module",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        16,
+        17
+      ],
+      "size": [
+        1500,
+        769
+      ]
+    },
+    {
+      "id": 801116,
+      "name": "BeneView T6 / T8 / T9 · 1.7.1 Other Replaceable Parts",
+      "device": "BeneView T6 / T8 / T9",
+      "parts": 127,
+      "linked": 0,
+      "unlinked": 127,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-11-section-16.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-11.pdf",
+      "sourcePages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "size": [
+        1500,
+        1907
+      ]
+    },
+    {
+      "id": 801201,
+      "name": "BeneVision N17 / N15 / N12 · 1.1 N17N15N12 Whole Unit",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        2
+      ],
+      "size": [
+        1500,
+        1152
+      ]
+    },
+    {
+      "id": 801202,
+      "name": "BeneVision N17 / N15 / N12 · 1.2 N12 Front Housing view",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        3
+      ],
+      "size": [
+        1500,
+        1085
+      ]
+    },
+    {
+      "id": 801203,
+      "name": "BeneVision N17 / N15 / N12 · 1.3 N12 Rear Housing view",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        4
+      ],
+      "size": [
+        1500,
+        1217
+      ]
+    },
+    {
+      "id": 801204,
+      "name": "BeneVision N17 / N15 / N12 · 1.4 N12 internal module rack assembly",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        5
+      ],
+      "size": [
+        1500,
+        953
+      ]
+    },
+    {
+      "id": 801205,
+      "name": "BeneVision N17 / N15 / N12 · 1.5 N12 main bracket assembly",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        6
+      ],
+      "size": [
+        1500,
+        691
+      ]
+    },
+    {
+      "id": 801206,
+      "name": "BeneVision N17 / N15 / N12 · 1.6 N12 Bottom Housing",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        1085
+      ]
+    },
+    {
+      "id": 801207,
+      "name": "BeneVision N17 / N15 / N12 · 1.7 N15 Front Housing view",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        1020
+      ]
+    },
+    {
+      "id": 801208,
+      "name": "BeneVision N17 / N15 / N12 · 1.8 N15 Rear Housing view",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        1349
+      ]
+    },
+    {
+      "id": 801209,
+      "name": "BeneVision N17 / N15 / N12 · 1.9 N15 internal module rack assembly",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        1020
+      ]
+    },
+    {
+      "id": 801210,
+      "name": "BeneVision N17 / N15 / N12 · 1.10 N15 main bracket assembly",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        756
+      ]
+    },
+    {
+      "id": 801211,
+      "name": "BeneVision N17 / N15 / N12 · 1.11 N15 Bottom Housing",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        12
+      ],
+      "size": [
+        1500,
+        1217
+      ]
+    },
+    {
+      "id": 801212,
+      "name": "BeneVision N17 / N15 / N12 · 1.12 N17 Front Housing view",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        13
+      ],
+      "size": [
+        1500,
+        1020
+      ]
+    },
+    {
+      "id": 801213,
+      "name": "BeneVision N17 / N15 / N12 · 1.13 N17 Rear Housing view",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 9,
+      "linked": 0,
+      "unlinked": 9,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        14
+      ],
+      "size": [
+        1500,
+        887
+      ]
+    },
+    {
+      "id": 801214,
+      "name": "BeneVision N17 / N15 / N12 · 1.14 N17 main bracket assembly",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        15
+      ],
+      "size": [
+        1500,
+        1151
+      ]
+    },
+    {
+      "id": 801215,
+      "name": "BeneVision N17 / N15 / N12 · 1.15 N17 independent display assembly",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-15.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        16
+      ],
+      "size": [
+        1500,
+        1283
+      ]
+    },
+    {
+      "id": 801216,
+      "name": "BeneVision N17 / N15 / N12 · 1.16 N17 Bottom Housing",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-16.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        17
+      ],
+      "size": [
+        1500,
+        1217
+      ]
+    },
+    {
+      "id": 801217,
+      "name": "BeneVision N17 / N15 / N12 · 1.17 MPM module (M51A)",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-17.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "size": [
+        1500,
+        1283
+      ]
+    },
+    {
+      "id": 801218,
+      "name": "BeneVision N17 / N15 / N12 · 1.18 M51C Module(Platinum)",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-18.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        20,
+        21
+      ],
+      "size": [
+        1500,
+        953
+      ]
+    },
+    {
+      "id": 801219,
+      "name": "BeneVision N17 / N15 / N12 · 1.19 Others",
+      "device": "BeneVision N17 / N15 / N12",
+      "parts": 30,
+      "linked": 0,
+      "unlinked": 30,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-12-section-19.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-12.pdf",
+      "sourcePages": [
+        22,
+        23
+      ],
+      "size": [
+        1500,
+        2214
+      ]
+    },
+    {
+      "id": 801301,
+      "name": "BeneVision N1 · 1.1 Main Unit (without CO2)",
+      "device": "BeneVision N1",
+      "parts": 14,
+      "linked": 0,
+      "unlinked": 14,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "size": [
+        1500,
+        958
+      ]
+    },
+    {
+      "id": 801302,
+      "name": "BeneVision N1 · 1.2 Main Unit(with CO2)",
+      "device": "BeneVision N1",
+      "parts": 16,
+      "linked": 0,
+      "unlinked": 16,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "size": [
+        1500,
+        910
+      ]
+    },
+    {
+      "id": 801303,
+      "name": "BeneVision N1 · 1.3 N1/T1 Handle",
+      "device": "BeneVision N1",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        6
+      ],
+      "size": [
+        1500,
+        1147
+      ]
+    },
+    {
+      "id": 801305,
+      "name": "BeneVision N1 · 1.4.1 Main Unit",
+      "device": "BeneVision N1",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        908
+      ]
+    },
+    {
+      "id": 801306,
+      "name": "BeneVision N1 · 1.4.2 Dock Top Housing Assembly",
+      "device": "BeneVision N1",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        956
+      ]
+    },
+    {
+      "id": 801307,
+      "name": "BeneVision N1 · 1.4.3 Dock Connector Assembly",
+      "device": "BeneVision N1",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        1050
+      ]
+    },
+    {
+      "id": 801308,
+      "name": "BeneVision N1 · 1.5 Other Replaceable Parts",
+      "device": "BeneVision N1",
+      "parts": 21,
+      "linked": 0,
+      "unlinked": 21,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-13-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-13.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        1639
+      ]
+    },
+    {
+      "id": 801401,
+      "name": "BeneVision N22 / N19 · 1.1 Main Unit",
+      "device": "BeneVision N22 / N19",
+      "parts": 17,
+      "linked": 0,
+      "unlinked": 17,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "size": [
+        1500,
+        1100
+      ]
+    },
+    {
+      "id": 801402,
+      "name": "BeneVision N22 / N19 · 1.2 D22/D19 Display Assembly (Capacitive Screen)",
+      "device": "BeneVision N22 / N19",
+      "parts": 17,
+      "linked": 0,
+      "unlinked": 17,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "size": [
+        1500,
+        958
+      ]
+    },
+    {
+      "id": 801403,
+      "name": "BeneVision N22 / N19 · 1.3 D22/ D19 Display Assembly (Resistive Screen)",
+      "device": "BeneVision N22 / N19",
+      "parts": 19,
+      "linked": 0,
+      "unlinked": 19,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "size": [
+        1500,
+        863
+      ]
+    },
+    {
+      "id": 801404,
+      "name": "BeneVision N22 / N19 · 1.4 Display Cover Assembly",
+      "device": "BeneVision N22 / N19",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        1147
+      ]
+    },
+    {
+      "id": 801405,
+      "name": "BeneVision N22 / N19 · 1.5 Module Rack",
+      "device": "BeneVision N22 / N19",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        863
+      ]
+    },
+    {
+      "id": 801406,
+      "name": "BeneVision N22 / N19 · 1.6 iVIEW Module(Win7/win10 system)",
+      "device": "BeneVision N22 / N19",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        816
+      ]
+    },
+    {
+      "id": 801407,
+      "name": "BeneVision N22 / N19 · 1.7 Main Unit Separated Installation Auxiliary Accessories",
+      "device": "BeneVision N22 / N19",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        12
+      ],
+      "size": [
+        1500,
+        1194
+      ]
+    },
+    {
+      "id": 801408,
+      "name": "BeneVision N22 / N19 · 1.8 MPM module (M51A)",
+      "device": "BeneVision N22 / N19",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "size": [
+        1500,
+        1242
+      ]
+    },
+    {
+      "id": 801409,
+      "name": "BeneVision N22 / N19 · 1.9 M51C Module(Platinum)",
+      "device": "BeneVision N22 / N19",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        15,
+        16
+      ],
+      "size": [
+        1500,
+        911
+      ]
+    },
+    {
+      "id": 801410,
+      "name": "BeneVision N22 / N19 · 1.10 Others",
+      "device": "BeneVision N22 / N19",
+      "parts": 27,
+      "linked": 0,
+      "unlinked": 27,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-14-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-14.pdf",
+      "sourcePages": [
+        17
+      ],
+      "size": [
+        1500,
+        2080
+      ]
+    },
+    {
+      "id": 801501,
+      "name": "SV300 / SV350 · 1.1 SV300&SV350 Ventilator Main Unit Assembly",
+      "device": "SV300 / SV350",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "size": [
+        1500,
+        931
+      ]
+    },
+    {
+      "id": 801502,
+      "name": "SV300 / SV350 · 1.2 Display Front Housing Assembly",
+      "device": "SV300 / SV350",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "size": [
+        1500,
+        788
+      ]
+    },
+    {
+      "id": 801503,
+      "name": "SV300 / SV350 · 1.3 Kernel Assembly",
+      "device": "SV300 / SV350",
+      "parts": 10,
+      "linked": 0,
+      "unlinked": 10,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "size": [
+        1500,
+        1072
+      ]
+    },
+    {
+      "id": 801504,
+      "name": "SV300 / SV350 · 1.4 Main Unit Bracket Assembly",
+      "device": "SV300 / SV350",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 801505,
+      "name": "SV300 / SV350 · 1.5 Main Unit Rear Housing Assembly",
+      "device": "SV300 / SV350",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 801506,
+      "name": "SV300 / SV350 · 1.6 O2 Inlet Assembly（NIST（",
+      "device": "SV300 / SV350",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "size": [
+        1500,
+        977
+      ]
+    },
+    {
+      "id": 801507,
+      "name": "SV300 / SV350 · 1.7 Expiration Valve Assembly",
+      "device": "SV300 / SV350",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        883
+      ]
+    },
+    {
+      "id": 801508,
+      "name": "SV300 / SV350 · 1.8 Safety Valve Assembly",
+      "device": "SV300 / SV350",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        12
+      ],
+      "size": [
+        1500,
+        919
+      ]
+    },
+    {
+      "id": 801509,
+      "name": "SV300 / SV350 · 1.9 Safety Valve Detachable Part",
+      "device": "SV300 / SV350",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        13
+      ],
+      "size": [
+        1500,
+        883
+      ]
+    },
+    {
+      "id": 801510,
+      "name": "SV300 / SV350 · 1.10 Expiration Valve Detachable Part",
+      "device": "SV300 / SV350",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        14
+      ],
+      "size": [
+        1500,
+        836
+      ]
+    },
+    {
+      "id": 801511,
+      "name": "SV300 / SV350 · 1.11 Blower Box Assembly",
+      "device": "SV300 / SV350",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        15
+      ],
+      "size": [
+        1500,
+        1072
+      ]
+    },
+    {
+      "id": 801512,
+      "name": "SV300 / SV350 · 1.12 Trolley Assembly",
+      "device": "SV300 / SV350",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        16
+      ],
+      "size": [
+        1500,
+        1250
+      ]
+    },
+    {
+      "id": 801513,
+      "name": "SV300 / SV350 · 1.13 Trolley Handle Assembly",
+      "device": "SV300 / SV350",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        17
+      ],
+      "size": [
+        1500,
+        1120
+      ]
+    },
+    {
+      "id": 801514,
+      "name": "SV300 / SV350 · 1.14 Trolley Support Platform Assembly",
+      "device": "SV300 / SV350",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        18
+      ],
+      "size": [
+        1500,
+        883
+      ]
+    },
+    {
+      "id": 801515,
+      "name": "SV300 / SV350 · 1.15 Trolley Base Assembly",
+      "device": "SV300 / SV350",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-15.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        19
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 801516,
+      "name": "SV300 / SV350 · 1.16 Others",
+      "device": "SV300 / SV350",
+      "parts": 25,
+      "linked": 0,
+      "unlinked": 25,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-15-section-16.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-15.pdf",
+      "sourcePages": [
+        20,
+        21
+      ],
+      "size": [
+        1500,
+        2324
+      ]
+    },
+    {
+      "id": 801601,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.1 SV600/SV650/SV800/SV850 Main Unit",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 15,
+      "linked": 15,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "size": [
+        1500,
+        1037
+      ]
+    },
+    {
+      "id": 801602,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.3 Display Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 13,
+      "linked": 13,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "size": [
+        1500,
+        1237
+      ]
+    },
+    {
+      "id": 801603,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.5 Display Arm Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 3,
+      "linked": 3,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        4
+      ],
+      "size": [
+        1500,
+        1510
+      ]
+    },
+    {
+      "id": 801604,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.7 Main Unit Kernal Assembly(1)",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 8,
+      "linked": 8,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "size": [
+        1500,
+        2083
+      ]
+    },
+    {
+      "id": 801605,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.9 Proportional Valve Manifold",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 2,
+      "linked": 2,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        1165
+      ]
+    },
+    {
+      "id": 801606,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.11 Pipeline Air Inlet Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 4,
+      "linked": 4,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        990
+      ]
+    },
+    {
+      "id": 801607,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.13 Pipeline Oxygen Inlet Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 3,
+      "linked": 3,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        1085
+      ]
+    },
+    {
+      "id": 801608,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.15 Main Unit Kernal Assembly(2)",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 6,
+      "linked": 6,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        9
+      ],
+      "size": [
+        1500,
+        990
+      ]
+    },
+    {
+      "id": 801609,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.17 Power Module",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 4,
+      "linked": 4,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        10
+      ],
+      "size": [
+        1500,
+        1085
+      ]
+    },
+    {
+      "id": 801610,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.19 Main Unit Kernal Assembly(3)",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 6,
+      "linked": 6,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        11
+      ],
+      "size": [
+        1500,
+        801
+      ]
+    },
+    {
+      "id": 801611,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.21 Expiration Valve Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 3,
+      "linked": 3,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        12
+      ],
+      "size": [
+        1500,
+        754
+      ]
+    },
+    {
+      "id": 801612,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.23 Safety Module",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 2,
+      "linked": 2,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "size": [
+        1500,
+        781
+      ]
+    },
+    {
+      "id": 801613,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.25 Main Unit Left Panel Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 7,
+      "linked": 7,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        13
+      ],
+      "size": [
+        1500,
+        848
+      ]
+    },
+    {
+      "id": 801614,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.27 Turbine Blower Module",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 18,
+      "linked": 18,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "size": [
+        1500,
+        943
+      ]
+    },
+    {
+      "id": 801615,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.29 2/3 Valve Pilot Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 1,
+      "linked": 1,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-15.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        15
+      ],
+      "size": [
+        1500,
+        1085
+      ]
+    },
+    {
+      "id": 801616,
+      "name": "SV600 / SV650 / SV800 / SV850 · 1.31 Trolley Assembly",
+      "device": "SV600 / SV650 / SV800 / SV850",
+      "parts": 2,
+      "linked": 2,
+      "unlinked": 0,
+      "status": "linked",
+      "missingIds": [],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-16-section-16.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-16.pdf",
+      "sourcePages": [
+        16
+      ],
+      "size": [
+        1500,
+        1179
+      ]
+    },
+    {
+      "id": 801801,
+      "name": "SynoVent E3 / E5 · 1.1 E5 Main Unit",
+      "device": "SynoVent E3 / E5",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "size": [
+        1500,
+        1261
+      ]
+    },
+    {
+      "id": 801802,
+      "name": "SynoVent E3 / E5 · 1.2 E3 Main Unit",
+      "device": "SynoVent E3 / E5",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        930
+      ]
+    },
+    {
+      "id": 801803,
+      "name": "SynoVent E3 / E5 · 1.3 E5 Display Assembly",
+      "device": "SynoVent E3 / E5",
+      "parts": 15,
+      "linked": 0,
+      "unlinked": 15,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        8,
+        9,
+        10
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 801804,
+      "name": "SynoVent E3 / E5 · 1.4 E3 Display Assembly",
+      "device": "SynoVent E3 / E5",
+      "parts": 14,
+      "linked": 0,
+      "unlinked": 14,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        11,
+        12
+      ],
+      "size": [
+        1500,
+        930
+      ]
+    },
+    {
+      "id": 801805,
+      "name": "SynoVent E3 / E5 · 1.5 Hardware Box",
+      "device": "SynoVent E3 / E5",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "size": [
+        1500,
+        930
+      ]
+    },
+    {
+      "id": 801806,
+      "name": "SynoVent E3 / E5 · 1.6 Flow Sensor",
+      "device": "SynoVent E3 / E5",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        16,
+        17
+      ],
+      "size": [
+        1500,
+        1306
+      ]
+    },
+    {
+      "id": 801807,
+      "name": "SynoVent E3 / E5 · 1.7 Gas way assembly",
+      "device": "SynoVent E3 / E5",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 801808,
+      "name": "SynoVent E3 / E5 · 1.8 Safety Valve Assembly",
+      "device": "SynoVent E3 / E5",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        20,
+        21
+      ],
+      "size": [
+        1500,
+        1261
+      ]
+    },
+    {
+      "id": 801809,
+      "name": "SynoVent E3 / E5 · 1.9 Expiration Valve Seat Assembly",
+      "device": "SynoVent E3 / E5",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        22,
+        23
+      ],
+      "size": [
+        1500,
+        1450
+      ]
+    },
+    {
+      "id": 801810,
+      "name": "SynoVent E3 / E5 · 1.10 Expiration Valve Assembly (E3/E5)",
+      "device": "SynoVent E3 / E5",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        23,
+        24
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 801811,
+      "name": "SynoVent E3 / E5 · 1.11 Trolley Assembly",
+      "device": "SynoVent E3 / E5",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        25,
+        26
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 801812,
+      "name": "SynoVent E3 / E5 · 1.12 Others",
+      "device": "SynoVent E3 / E5",
+      "parts": 20,
+      "linked": 0,
+      "unlinked": 20,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-18-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-18.pdf",
+      "sourcePages": [
+        26,
+        27,
+        28
+      ],
+      "size": [
+        1500,
+        1423
+      ]
+    },
+    {
+      "id": 801901,
+      "name": "WATO EX-35 (KG) · 1.1 WATO EX-35 Main Unit",
+      "device": "WATO EX-35 (KG)",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 801902,
+      "name": "WATO EX-35 (KG) · 1.2 Gas bench receptacle assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 801903,
+      "name": "WATO EX-35 (KG) · 1.3 Liquid collection bottle assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "size": [
+        1500,
+        1214
+      ]
+    },
+    {
+      "id": 801904,
+      "name": "WATO EX-35 (KG) · 1.4 AGSS assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "size": [
+        1500,
+        1120
+      ]
+    },
+    {
+      "id": 801905,
+      "name": "WATO EX-35 (KG) · 1.5 Work table assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 11,
+      "linked": 0,
+      "unlinked": 11,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 801906,
+      "name": "WATO EX-35 (KG) · 1.6 Vaporizer bracket assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "size": [
+        1500,
+        1167
+      ]
+    },
+    {
+      "id": 801907,
+      "name": "WATO EX-35 (KG) · 1.7 Hardware box assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        16,
+        17
+      ],
+      "size": [
+        1500,
+        1356
+      ]
+    },
+    {
+      "id": 801908,
+      "name": "WATO EX-35 (KG) · 1.8 Flow meter and pressure gauge panel assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 10,
+      "linked": 0,
+      "unlinked": 10,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "size": [
+        1500,
+        1403
+      ]
+    },
+    {
+      "id": 801909,
+      "name": "WATO EX-35 (KG) · 1.9 Display assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        21
+      ],
+      "size": [
+        1500,
+        930
+      ]
+    },
+    {
+      "id": 801910,
+      "name": "WATO EX-35 (KG) · 1.10 Gas supply inlet assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 9,
+      "linked": 0,
+      "unlinked": 9,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        23,
+        24
+      ],
+      "size": [
+        1500,
+        1108
+      ]
+    },
+    {
+      "id": 801911,
+      "name": "WATO EX-35 (KG) · 1.11 Main body of the patient circuit",
+      "device": "WATO EX-35 (KG)",
+      "parts": 16,
+      "linked": 0,
+      "unlinked": 16,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        25,
+        26,
+        27
+      ],
+      "size": [
+        1500,
+        1356
+      ]
+    },
+    {
+      "id": 801912,
+      "name": "WATO EX-35 (KG) · 1.12 Lifting device",
+      "device": "WATO EX-35 (KG)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        28,
+        29
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 801913,
+      "name": "WATO EX-35 (KG) · 1.13 Sodalime canister assembly",
+      "device": "WATO EX-35 (KG)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        30,
+        31
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 801914,
+      "name": "WATO EX-35 (KG) · 1.14 Others",
+      "device": "WATO EX-35 (KG)",
+      "parts": 39,
+      "linked": 0,
+      "unlinked": 39,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-19-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-19.pdf",
+      "sourcePages": [
+        32,
+        33,
+        34
+      ],
+      "size": [
+        1500,
+        1938
+      ]
+    },
+    {
+      "id": 802001,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.1 Main Unit",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "id": 802002,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.2 Flow Meter Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        8,
+        9
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802003,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.3 Pressure Gauge Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802004,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.4 Work Table",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 11,
+      "linked": 0,
+      "unlinked": 11,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        12,
+        13,
+        14
+      ],
+      "size": [
+        1500,
+        1497
+      ]
+    },
+    {
+      "id": 802005,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.5 Top Plate Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        15
+      ],
+      "size": [
+        1500,
+        1356
+      ]
+    },
+    {
+      "id": 802006,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.6 Hardware Box I",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 802007,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.7 Hardware Box II",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        19,
+        20
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 802008,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.8 Display Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 8,
+      "linked": 0,
+      "unlinked": 8,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        21,
+        22
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 802009,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.9 Upper Half",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 802010,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.10 Auxiliary Output Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        29,
+        30
+      ],
+      "size": [
+        1500,
+        1261
+      ]
+    },
+    {
+      "id": 802011,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.11 Isolation Transformer Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        31,
+        32
+      ],
+      "size": [
+        1500,
+        1403
+      ]
+    },
+    {
+      "id": 802012,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.12 Heating Control Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        33
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802013,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.13 Liquid Collection Bottle Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        34,
+        35
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 802014,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.14 Main Body of the Patient Circuit",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 17,
+      "linked": 0,
+      "unlinked": 17,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "size": [
+        1500,
+        1843
+      ]
+    },
+    {
+      "id": 802015,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.15 Check Valve Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-15.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        40,
+        41
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802016,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.16 Lifting Device Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 7,
+      "linked": 0,
+      "unlinked": 7,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-16.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        42,
+        43
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 802017,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.17 Sodalime Canister Assembly",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 2,
+      "linked": 0,
+      "unlinked": 2,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-17.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        44,
+        45
+      ],
+      "size": [
+        1500,
+        1308
+      ]
+    },
+    {
+      "id": 802018,
+      "name": "WATO EX-20 / EX-30 (DW / DY) · 1.18 Others",
+      "device": "WATO EX-20 / EX-30 (DW / DY)",
+      "parts": 34,
+      "linked": 0,
+      "unlinked": 34,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-20-section-18.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-20.pdf",
+      "sourcePages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "size": [
+        1500,
+        2096
+      ]
+    },
+    {
+      "id": 802101,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.1 Main Unit",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 6,
+      "linked": 0,
+      "unlinked": 6,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        5,
+        6,
+        7
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 802102,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.2 Gas Bench Receptacle Assembly",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802103,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.3 Work Surface",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 17,
+      "linked": 0,
+      "unlinked": 17,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802104,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.4 Work Table",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 11,
+      "linked": 0,
+      "unlinked": 11,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "size": [
+        1500,
+        1261
+      ]
+    },
+    {
+      "id": 802105,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.5 Hardware Box",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 12,
+      "linked": 0,
+      "unlinked": 12,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        14,
+        15,
+        16
+      ],
+      "size": [
+        1500,
+        1545
+      ]
+    },
+    {
+      "id": 802106,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.6 Display Assembly",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 10,
+      "linked": 0,
+      "unlinked": 10,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        17,
+        18,
+        19
+      ],
+      "size": [
+        1500,
+        1072
+      ]
+    },
+    {
+      "id": 802107,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.7 Upper Half",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 12,
+      "linked": 0,
+      "unlinked": 12,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        20,
+        21,
+        22
+      ],
+      "size": [
+        1500,
+        1119
+      ]
+    },
+    {
+      "id": 802108,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.8 Main Body of the Breathing Circuit",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 18,
+      "linked": 0,
+      "unlinked": 18,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "size": [
+        1500,
+        2176
+      ]
+    },
+    {
+      "id": 802109,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.9 Lifting Device Assembly",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        28,
+        29
+      ],
+      "size": [
+        1500,
+        1214
+      ]
+    },
+    {
+      "id": 802110,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.10 Pre-pak Absorb Canister Assembly",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        30
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802111,
+      "name": "WATO EX-55 / EX-65 (KU / KT) · 1.11 Others",
+      "device": "WATO EX-55 / EX-65 (KU / KT)",
+      "parts": 35,
+      "linked": 0,
+      "unlinked": 35,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-21-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-21.pdf",
+      "sourcePages": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "size": [
+        1500,
+        2155
+      ]
+    },
+    {
+      "id": 802201,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.1 Main Unit",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 4,
+      "linked": 0,
+      "unlinked": 4,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-1.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "size": [
+        1500,
+        1072
+      ]
+    },
+    {
+      "id": 802202,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.2 Gas Bench Receptacle Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-2.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        7
+      ],
+      "size": [
+        1500,
+        930
+      ]
+    },
+    {
+      "id": 802203,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.3 AGSS Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-3.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        8
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 802204,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.4 Work Surface",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 17,
+      "linked": 0,
+      "unlinked": 17,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-4.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802205,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.5 Work Table",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 10,
+      "linked": 0,
+      "unlinked": 10,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-5.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "size": [
+        1500,
+        1214
+      ]
+    },
+    {
+      "id": 802206,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.6 Hardware Box",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 12,
+      "linked": 0,
+      "unlinked": 12,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-6.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "size": [
+        1500,
+        1843
+      ]
+    },
+    {
+      "id": 802207,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.7 Display Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 9,
+      "linked": 0,
+      "unlinked": 9,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-7.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "size": [
+        1500,
+        978
+      ]
+    },
+    {
+      "id": 802208,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.8 Upper Half",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 10,
+      "linked": 0,
+      "unlinked": 10,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-8.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802209,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.9 EFCS Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-9.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        24,
+        25
+      ],
+      "size": [
+        1500,
+        1261
+      ]
+    },
+    {
+      "id": 802210,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.10 Gas Inlet Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 1,
+      "linked": 0,
+      "unlinked": 1,
+      "status": "missing",
+      "missingIds": [
+        1
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-10.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        26
+      ],
+      "size": [
+        1500,
+        741
+      ]
+    },
+    {
+      "id": 802211,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.11 Main Body of the Breathing Circuit",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 17,
+      "linked": 0,
+      "unlinked": 17,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-11.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "size": [
+        1500,
+        2176
+      ]
+    },
+    {
+      "id": 802212,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.12 Lifting Device Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 3,
+      "linked": 0,
+      "unlinked": 3,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-12.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        32,
+        33
+      ],
+      "size": [
+        1500,
+        1261
+      ]
+    },
+    {
+      "id": 802213,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.13 Pre-pak Absorb Canister Assembly",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 5,
+      "linked": 0,
+      "unlinked": 5,
+      "status": "missing",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-13.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        34
+      ],
+      "size": [
+        1500,
+        1025
+      ]
+    },
+    {
+      "id": 802214,
+      "name": "WATO EX-55Pro / EX-65Pro (F1 / KY) · 1.14 Others",
+      "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+      "parts": 32,
+      "linked": 0,
+      "unlinked": 32,
+      "status": "table",
+      "missingIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "image": "https://detal-demo.netlify.app/catalog/assets/medical/catalog-22-section-14.jpg",
+      "source": "https://detal-demo.netlify.app/catalog/documents/medical/catalog-22.pdf",
+      "sourcePages": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "size": [
+        1500,
+        2128
+      ]
+    }
+  ],
+  "limitations": [
+    "Browser automation unavailable: no connected browsers; native pipe startup failed.",
+    "JSDOM dispatches DOM events. It does not test physical pointer hit detection, layout, touch behavior or whether every coordinate visually matches its printed number.",
+    "Asset checks are HTTP HEAD checks; they do not decode every file or visually inspect every page.",
+    "Live paid AI, real supplier prices/stock and every possible document extension were not tested.",
+    "Diagrams with missing mappings still require reliable callout annotation. No guessed coordinates were published."
+  ]
+}

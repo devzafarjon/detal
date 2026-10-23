@@ -15,6 +15,7 @@
     "build:netlify": "node scripts/build-netlify.mjs",
     "test:netlify": "node tests/netlify.test.mjs",
     "test:ui": "node --test tests/catalog-ui.test.mjs",
+    "audit:catalog": "node scripts/audit-catalog.mjs && node --test tests/catalog-audit.test.mjs && node scripts/catalog-audit-report.mjs",
     "test:pdf": "node tests/pdf.test.mjs",
     "test:a7": "node tests/a7.test.mjs",
     "test:documents": "node --test tests/document-import.test.mjs && node tests/document-conversion.test.mjs",
