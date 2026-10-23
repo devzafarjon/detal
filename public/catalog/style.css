@@ -25,3 +25,5 @@ body.auth-page{min-height:100dvh;display:flex;flex-direction:column;background:#
 .device-summary strong{color:#0f172a}.device-summary a,.catalog-variant a{color:#1d4ed8;text-decoration:underline;text-underline-offset:3px}
 .catalog-variants{margin:20px 0;display:grid;gap:10px}.catalog-variants h3{font-size:14px;margin:0;color:#334155}
 .catalog-variant{padding:14px;border:1px solid #dbe3ed;border-radius:12px;background:#f8fafc;overflow-wrap:anywhere;font-size:13px;line-height:1.6}.catalog-variant strong{font-family:ui-monospace,monospace;color:#0f172a}.catalog-variant p{margin:7px 0}.variant-remark{color:#475569}.catalog-variant a{display:inline-block;margin-top:7px}
+.model-toolbar.has-sections{grid-template-columns:repeat(3,minmax(0,1fr))}.model-toolbar .device-summary{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px}.section-picker[hidden]{display:none}
+@media(max-width:730px){.model-toolbar.has-sections{grid-template-columns:1fr}}
