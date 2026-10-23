@@ -15,7 +15,8 @@
     "build:netlify": "node scripts/build-netlify.mjs",
     "test:netlify": "node tests/netlify.test.mjs",
     "test:ui": "node --test tests/catalog-ui.test.mjs",
-    "test:pdf": "node tests/pdf.test.mjs"
+    "test:pdf": "node tests/pdf.test.mjs",
+    "test:a7": "node tests/a7.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

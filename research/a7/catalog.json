@@ -1,0 +1,5732 @@
+[
+  {
+    "id": 710001,
+    "name": "A7 · 01. Umumiy tuzilish",
+    "sectionCode": "1.1.1",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-036378-00",
+            "name": "CO2 bypass assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 3
+          }
+        ],
+        "name": "CO2 bypass assembly",
+        "article": "115-036378-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 141.86999999999998,
+            "y": 377.7000000000001
+          }
+        ],
+        "x": 141.86999999999998,
+        "y": 377.7000000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-025564-00",
+            "name": "Breathing circuit unit FRU（0635）",
+            "quantity": "1",
+            "remarks": "The PN not contain L-shape bracket assembly",
+            "sourcePage": 3
+          }
+        ],
+        "name": "Breathing circuit unit FRU（0635）",
+        "article": "115-025564-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 203.07,
+            "y": 292.0199999999999
+          }
+        ],
+        "x": 203.07,
+        "y": 292.0199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-034401-00",
+            "name": "Auxiliary gas supply assembly (American standard)",
+            "quantity": "1",
+            "remarks": "American standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-034400-00",
+            "name": "Auxiliary gas supply assembly (European standard)",
+            "quantity": "1",
+            "remarks": "European standard",
+            "sourcePage": 3
+          }
+        ],
+        "name": "Auxiliary gas supply assembly (American standard)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 403.29,
+            "y": 111.95999999999998
+          }
+        ],
+        "x": 403.29,
+        "y": 111.95999999999998,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "115-017037-00",
+            "name": "Top Deck Assembly FRU(0631)",
+            "quantity": "1",
+            "remarks": "for the machine without pendant adapter",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-024379-00",
+            "name": "Top panel assm FRU(0634/pendant version)",
+            "quantity": "1",
+            "remarks": "for the machine with pendant adapter",
+            "sourcePage": 3
+          }
+        ],
+        "name": "Top Deck Assembly FRU(0631)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 603.54,
+            "y": 44.28000000000014
+          }
+        ],
+        "x": 603.54,
+        "y": 44.28000000000014,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "801-0631-00076-00",
+            "name": "Storage Mount for Vaporizer",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 3
+          }
+        ],
+        "name": "Storage Mount for Vaporizer",
+        "article": "801-0631-00076-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1247.49,
+            "y": 292.0199999999999
+          }
+        ],
+        "x": 1247.49,
+        "y": 292.0199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 6,
+        "variants": [
+          {
+            "article": "115-034451-00",
+            "name": "Drawer Module FRU(0634)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 3
+          }
+        ],
+        "name": "Drawer Module FRU(0634)",
+        "article": "115-034451-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 805.92,
+            "y": 1120.23
+          }
+        ],
+        "x": 805.92,
+        "y": 1120.23,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 7,
+        "variants": [
+          {
+            "article": "801-0631-00140-00",
+            "name": "A5 Drawer Handle",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 3
+          }
+        ],
+        "name": "A5 Drawer Handle",
+        "article": "801-0631-00140-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 92.18399999999998,
+            "y": 1131.75
+          }
+        ],
+        "x": 92.18399999999998,
+        "y": 1131.75,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 8,
+        "variants": [
+          {
+            "article": "801-0631-00012-00",
+            "name": "System Switch Knob",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 3
+          }
+        ],
+        "name": "System Switch Knob",
+        "article": "801-0631-00012-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 92.18399999999998,
+            "y": 1028.07
+          }
+        ],
+        "x": 92.18399999999998,
+        "y": 1028.07,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 9,
+        "variants": [
+          {
+            "article": "115-023186-00",
+            "name": "Panel of gauge(FRU/0635/EU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-029978-00",
+            "name": "Panel of gauge(FRU/0635/EU/O2&AIR)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-023187-00",
+            "name": "Panel of gauge(FRU/0635/EU/big tank)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-029979-00",
+            "name": "Panel of gauge(FRU/0635/EU/O2&AIR)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-029974-00",
+            "name": "Panel of gauge(FRU/0632/US)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-029976-00",
+            "name": "Panel of gauge(FRU/0635/US/O2&AIR)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-029975-00",
+            "name": "Panel of gauge(FRU/0632/reverse EU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-029977-00",
+            "name": "Panel of gauge(FRU/0635/Rev_EU/O2&AIR)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          },
+          {
+            "article": "115-040735-00",
+            "name": "Panel of gauge FRU(0635/E_PM)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm gas type and standard",
+            "sourcePage": 3
+          }
+        ],
+        "name": "Panel of gauge(FRU/0635/EU)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 99.384,
+            "y": 942.39
+          }
+        ],
+        "x": 99.384,
+        "y": 942.39,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 10,
+        "variants": [
+          {
+            "article": "115-024850-00",
+            "name": "O2 High Pressure Gauge FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "O2 High Pressure Gauge FRU(0635)",
+        "article": "115-024850-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 308.25,
+            "y": 845.8500000000001
+          }
+        ],
+        "x": 308.25,
+        "y": 845.8500000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 11,
+        "variants": [
+          {
+            "article": "115-024851-00",
+            "name": "N2O High Pressure Gauge FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "N2O High Pressure Gauge FRU(0635)",
+        "article": "115-024851-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 369.45000000000005,
+            "y": 861.69
+          }
+        ],
+        "x": 369.45000000000005,
+        "y": 861.69,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 12,
+        "variants": [
+          {
+            "article": "115-024852-00",
+            "name": "Air High Pressure Gauge FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "Air High Pressure Gauge FRU(0635)",
+        "article": "115-024852-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 439.29,
+            "y": 910.71
+          }
+        ],
+        "x": 439.29,
+        "y": 910.71,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 13,
+        "variants": [
+          {
+            "article": "115-024848-00",
+            "name": "N2O pipeline pressure gauge FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "N2O pipeline pressure gauge FRU(0635)",
+        "article": "115-024848-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 333.45000000000005,
+            "y": 789.69
+          }
+        ],
+        "x": 333.45000000000005,
+        "y": 789.69,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 14,
+        "variants": [
+          {
+            "article": "115-024849-00",
+            "name": "Air pipeline pressure gauge FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "Air pipeline pressure gauge FRU(0635)",
+        "article": "115-024849-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 355.77,
+            "y": 665.8500000000001
+          }
+        ],
+        "x": 355.77,
+        "y": 665.8500000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 15,
+        "variants": [
+          {
+            "article": "115-024847-00",
+            "name": "O2 pipeline pressure gauge FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "O2 pipeline pressure gauge FRU(0635)",
+        "article": "115-024847-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 540.1800000000001,
+            "y": 834.33
+          }
+        ],
+        "x": 540.1800000000001,
+        "y": 834.33,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 16,
+        "variants": [
+          {
+            "article": "115-022542-00",
+            "name": "suction control assembly(CE/0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "suction control assembly(CE/0635)",
+        "article": "115-022542-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 137.54999999999998,
+            "y": 704.01
+          }
+        ],
+        "x": 137.54999999999998,
+        "y": 704.01,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 17,
+        "variants": [
+          {
+            "article": "115-027534-00",
+            "name": "Total flowmeter assembly FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "Total flowmeter assembly FRU(0635)",
+        "article": "115-027534-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 137.54999999999998,
+            "y": 654.33
+          }
+        ],
+        "x": 137.54999999999998,
+        "y": 654.33,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 18,
+        "variants": [
+          {
+            "article": "801-0631-00024-00",
+            "name": "Vaporizer Mounting Manifold",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 4
+          }
+        ],
+        "name": "Vaporizer Mounting Manifold",
+        "article": "801-0631-00024-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 311.13,
+            "y": 588.75
+          }
+        ],
+        "x": 311.13,
+        "y": 588.75,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 19,
+        "variants": [
+          {
+            "article": "115-026810-00",
+            "name": "Service door maintenance kit FRU(0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "Service door maintenance kit FRU(0635)",
+        "article": "115-026810-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 344.25,
+            "y": 1400.73
+          }
+        ],
+        "x": 344.25,
+        "y": 1400.73,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 20,
+        "variants": [
+          {
+            "article": "801-0631-00120-00",
+            "name": "work surface assembly(0631)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "work surface assembly(0631)FRU",
+        "article": "801-0631-00120-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1109.91,
+            "y": 1369.77
+          }
+        ],
+        "x": 1109.91,
+        "y": 1369.77,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 21,
+        "variants": [
+          {
+            "article": "115-017947-00",
+            "name": "suction bottle bracket assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "suction bottle bracket assembly",
+        "article": "115-017947-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1271.97,
+            "y": 1713.9900000000005
+          }
+        ],
+        "x": 1271.97,
+        "y": 1713.9900000000005,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 22,
+        "variants": [
+          {
+            "article": "115-017378-00",
+            "name": "AGSS Assembly(0631 low-flow)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-017377-00",
+            "name": "AGSS Assembly(0631 high-flow)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "AGSS Assembly(0631 low-flow)FRU",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1283.49,
+            "y": 2084.2200000000003
+          }
+        ],
+        "x": 1283.49,
+        "y": 2084.2200000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 23,
+        "variants": [
+          {
+            "article": "801-0631-00074-00",
+            "name": "AGSS Transfer Tube",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "AGSS Transfer Tube",
+        "article": "801-0631-00074-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1109.91,
+            "y": 2120.94
+          }
+        ],
+        "x": 1109.91,
+        "y": 2120.94,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 24,
+        "variants": [
+          {
+            "article": "034-000285-00",
+            "name": "casters.6\" bule and black",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "casters.6\" bule and black",
+        "article": "034-000285-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 599.22,
+            "y": 2010.0600000000004
+          }
+        ],
+        "x": 599.22,
+        "y": 2010.0600000000004,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 25,
+        "variants": [
+          {
+            "article": "115-018131-00",
+            "name": "Overflow Unit",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "Overflow Unit",
+        "article": "115-018131-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 445.77,
+            "y": 2042.46
+          }
+        ],
+        "x": 445.77,
+        "y": 2042.46,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 26,
+        "variants": [
+          {
+            "article": "115-034134-00",
+            "name": "O2 Yoke Assembly(With gauge tube)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-040983-00",
+            "name": "O2 Yoke Assembly(W/ tube/Air driven)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-056630-00",
+            "name": "O2 cylinder yoke assembly(0635)",
+            "quantity": "1",
+            "remarks": "Only for the O2-driven AM with electronic monitoring of gas supply",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-056628-00",
+            "name": "O2 cylinder yoke assembly(0635/air)",
+            "quantity": "1",
+            "remarks": "Only for the AIR-driven AM with electronic monitoring of gas supply",
+            "sourcePage": 5
+          }
+        ],
+        "name": "O2 Yoke Assembly(With gauge tube)FRU",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 155.54999999999998,
+            "y": 1742.16
+          }
+        ],
+        "x": 155.54999999999998,
+        "y": 1742.16,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 27,
+        "variants": [
+          {
+            "article": "115-034136-00",
+            "name": "N2O Yoke Assembly(With gauge tube)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          }
+        ],
+        "name": "N2O Yoke Assembly(With gauge tube)FRU",
+        "article": "115-034136-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 211.71000000000006,
+            "y": 1680.15
+          }
+        ],
+        "x": 211.71000000000006,
+        "y": 1680.15,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 28,
+        "variants": [
+          {
+            "article": "115-034135-00",
+            "name": "Air Yoke Assembly(With gauge tube)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-040985-00",
+            "name": "Air Yoke Assembly(W/ tube/Air driven)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-056631-00",
+            "name": "AIR cylinder yoke assembly(0635)",
+            "quantity": "1",
+            "remarks": "Only for the O2-driven AM with electronic monitoring of gas supply",
+            "sourcePage": 5
+          },
+          {
+            "article": "115-056629-00",
+            "name": "AIR cylinder yoke assembly(0635/air)",
+            "quantity": "1",
+            "remarks": "Only for the AIR-driven AM with electronic monitoring of gas supply",
+            "sourcePage": 6
+          }
+        ],
+        "name": "Air Yoke Assembly(With gauge tube)FRU",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.1 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 257.07,
+            "y": 1595.91
+          }
+        ],
+        "x": 257.07,
+        "y": 1595.91,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 2,
+        "box": [
+          70,
+          137.32999999999993,
+          550,
+          549
+        ]
+      },
+      {
+        "page": 4,
+        "box": [
+          70,
+          365,
+          550,
+          690
+        ]
+      }
+    ],
+    "sourcePages": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "englishTitle": "1.1.1 Structure",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.1 Structure · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-1.jpg",
+    "size": [
+      1440,
+      2283
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      2283
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710002,
+    "name": "A7 · 02. Yuqori qism",
+    "sectionCode": "1.1.2",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-064350-00",
+            "name": "gas bench receptacle assembly(PCTG)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 6
+          }
+        ],
+        "name": "gas bench receptacle assembly(PCTG)",
+        "article": "115-064350-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1080.3899999999999,
+            "y": 167.40000000000003
+          }
+        ],
+        "x": 1080.3899999999999,
+        "y": 167.40000000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-027532-00",
+            "name": "Gas mixer assembly FRU(0635)",
+            "quantity": "",
+            "remarks": "/",
+            "sourcePage": 6
+          },
+          {
+            "article": "115-036456-00",
+            "name": "gas mixer service kit(0635/O2&Air)",
+            "quantity": "",
+            "remarks": "/",
+            "sourcePage": 6
+          }
+        ],
+        "name": "Gas mixer assembly FRU(0635)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1172.5500000000002,
+            "y": 489.39000000000016
+          }
+        ],
+        "x": 1172.5500000000002,
+        "y": 489.39000000000016,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "801-0631-00116-00",
+            "name": "Flow Compensation Valve",
+            "quantity": "",
+            "remarks": "/",
+            "sourcePage": 6
+          }
+        ],
+        "name": "Flow Compensation Valve",
+        "article": "801-0631-00116-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1262.6100000000001,
+            "y": 525.3900000000001
+          }
+        ],
+        "x": 1262.6100000000001,
+        "y": 525.3900000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "115-033064-00",
+            "name": "back pressure valve assembly(0635)",
+            "quantity": "",
+            "remarks": "/",
+            "sourcePage": 6
+          }
+        ],
+        "name": "back pressure valve assembly(0635)",
+        "article": "115-033064-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1305.8100000000002,
+            "y": 601.7100000000002
+          }
+        ],
+        "x": 1305.8100000000002,
+        "y": 601.7100000000002,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "115-015898-00",
+            "name": "3-way valve assembly",
+            "quantity": "",
+            "remarks": "/",
+            "sourcePage": 6
+          }
+        ],
+        "name": "3-way valve assembly",
+        "article": "115-015898-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1366.29,
+            "y": 653.6100000000001
+          }
+        ],
+        "x": 1366.29,
+        "y": 653.6100000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 6,
+        "variants": [
+          {
+            "article": "115-016780-01",
+            "name": "ORC assembly(0632)",
+            "quantity": "1",
+            "remarks": "Need ORC calibration, this calibration needs N2O supply, if no N2O please use “ORC Maintenance Kit” from part list",
+            "sourcePage": 7
+          }
+        ],
+        "name": "ORC assembly(0632)",
+        "article": "115-016780-01",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1366.29,
+            "y": 750.0900000000001
+          }
+        ],
+        "x": 1366.29,
+        "y": 750.0900000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 7,
+        "variants": [
+          {
+            "article": "115-018012-00",
+            "name": "Li-ion Bat Pack (11.1V4500mAh LI23S002A)",
+            "quantity": "1",
+            "remarks": "Only for warranty Service, PN only contains one battery",
+            "sourcePage": 7
+          }
+        ],
+        "name": "Li-ion Bat Pack (11.1V4500mAh LI23S002A)",
+        "article": "115-018012-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1366.29,
+            "y": 827.1300000000001
+          }
+        ],
+        "x": 1366.29,
+        "y": 827.1300000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 8,
+        "variants": [
+          {
+            "article": "115-017748-00",
+            "name": "vacuum generator unit",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "vacuum generator unit",
+        "article": "115-017748-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 751.92,
+            "y": 635.5500000000001
+          }
+        ],
+        "x": 751.92,
+        "y": 635.5500000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 9,
+        "variants": [
+          {
+            "article": "801-0631-00086-00",
+            "name": "N2O Regulator Assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "N2O Regulator Assembly",
+        "article": "801-0631-00086-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1150.23,
+            "y": 993.5400000000002
+          }
+        ],
+        "x": 1150.23,
+        "y": 993.5400000000002,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 10,
+        "variants": [
+          {
+            "article": "801-0631-00087-00",
+            "name": "Regulator Assembly for O2 or N2O FRU",
+            "quantity": "1",
+            "remarks": "PN only contains one regulator",
+            "sourcePage": 7
+          }
+        ],
+        "name": "Regulator Assembly for O2 or N2O FRU",
+        "article": "801-0631-00087-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1096.23,
+            "y": 1043.2200000000003
+          }
+        ],
+        "x": 1096.23,
+        "y": 1043.2200000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 11,
+        "variants": [
+          {
+            "article": "115-015436-00",
+            "name": "N2O supply inlet assembly(0632/NIST)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          },
+          {
+            "article": "115-014825-00",
+            "name": "N2O origin inlet module(0632/DISS)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "N2O supply inlet assembly(0632/NIST)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 560.3399999999999,
+            "y": 923.7000000000003
+          }
+        ],
+        "x": 560.3399999999999,
+        "y": 923.7000000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 12,
+        "variants": [
+          {
+            "article": "115-015437-00",
+            "name": "Air supply inlet assembly(0632/NIST)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          },
+          {
+            "article": "115-014826-00",
+            "name": "air origin inlet module(0632/DISS)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "Air supply inlet assembly(0632/NIST)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 574.02,
+            "y": 979.8600000000004
+          }
+        ],
+        "x": 574.02,
+        "y": 979.8600000000004,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 13,
+        "variants": [
+          {
+            "article": "115-015435-00",
+            "name": "O2 supply inlet assembly(0632/NIST)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          },
+          {
+            "article": "115-014827-00",
+            "name": "oxygen origin inlet module(0632/DISS)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "O2 supply inlet assembly(0632/NIST)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 574.02,
+            "y": 1043.2200000000003
+          }
+        ],
+        "x": 574.02,
+        "y": 1043.2200000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 14,
+        "variants": [
+          {
+            "article": "115-018132-00",
+            "name": "Vacuum pipeline supply assembly(NIST)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          },
+          {
+            "article": "115-018133-00",
+            "name": "Vacuum pipeline supply assembly(DISS)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "Vacuum pipeline supply assembly(NIST)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 668.4000000000001,
+            "y": 1043.2200000000003
+          }
+        ],
+        "x": 668.4000000000001,
+        "y": 1043.2200000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 15,
+        "variants": [
+          {
+            "article": "051-001257-00",
+            "name": "0632 Indicator Board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "0632 Indicator Board PCBA",
+        "article": "051-001257-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 391.77,
+            "y": 923.7000000000003
+          }
+        ],
+        "x": 391.77,
+        "y": 923.7000000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 16,
+        "variants": [
+          {
+            "article": "115-017877-00",
+            "name": "system switch(0632)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "system switch(0632)",
+        "article": "115-017877-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 371.61,
+            "y": 881.1300000000005
+          }
+        ],
+        "x": 371.61,
+        "y": 881.1300000000005,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 17,
+        "variants": [
+          {
+            "article": "115-034392-00",
+            "name": "Tube of pressure gauge(0635/left)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 7
+          }
+        ],
+        "name": "Tube of pressure gauge(0635/left)FRU",
+        "article": "115-034392-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 293.13,
+            "y": 750.0900000000001
+          }
+        ],
+        "x": 293.13,
+        "y": 750.0900000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 18,
+        "variants": [
+          {
+            "article": "115-034393-00",
+            "name": "Tube of pressure gauge(0635/middle)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 8
+          }
+        ],
+        "name": "Tube of pressure gauge(0635/middle)FRU",
+        "article": "115-034393-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 293.13,
+            "y": 827.1300000000001
+          }
+        ],
+        "x": 293.13,
+        "y": 827.1300000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 19,
+        "variants": [
+          {
+            "article": "115-034394-00",
+            "name": "Tube of pressure gauge(0635/right)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 8
+          }
+        ],
+        "name": "Tube of pressure gauge(0635/right)FRU",
+        "article": "115-034394-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.2 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 574.02,
+            "y": 567.8700000000001
+          }
+        ],
+        "x": 574.02,
+        "y": 567.8700000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 6,
+        "box": [
+          70,
+          218.4699999999999,
+          550,
+          581.4100099999999
+        ]
+      }
+    ],
+    "sourcePages": [
+      6,
+      7,
+      8
+    ],
+    "englishTitle": "1.1.2 Upper Half",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.2 Upper Half · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-2.jpg",
+    "size": [
+      1440,
+      1125
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1125
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710003,
+    "name": "A7 · 03. Elektronika bloki",
+    "sectionCode": "1.1.3",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00039-00",
+            "name": "0631 top lighting board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 9
+          }
+        ],
+        "name": "0631 top lighting board PCBA",
+        "article": "801-0631-00039-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1127.91,
+            "y": 89.01000000000005
+          }
+        ],
+        "x": 1127.91,
+        "y": 89.01000000000005,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-051206-00",
+            "name": "Ventilator Control Board(DSP) FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 9
+          }
+        ],
+        "name": "Ventilator Control Board(DSP) FRU",
+        "article": "115-051206-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1127.91,
+            "y": 197.01000000000005
+          }
+        ],
+        "x": 1127.91,
+        "y": 197.01000000000005,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-040956-00",
+            "name": "0635 main control board FRU(Non FDA/VGA)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration",
+            "sourcePage": 9
+          },
+          {
+            "article": "115-044211-00",
+            "name": "Main control board(Non FDA/EPSON)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration",
+            "sourcePage": 9
+          }
+        ],
+        "name": "0635 main control board FRU(Non FDA/VGA)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1127.91,
+            "y": 352.5900000000001
+          }
+        ],
+        "x": 1127.91,
+        "y": 352.5900000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "115-018145-00",
+            "name": "0632 Power board FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 9
+          }
+        ],
+        "name": "0632 Power board FRU",
+        "article": "115-018145-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1134.3899999999999,
+            "y": 496.5900000000001
+          }
+        ],
+        "x": 1134.3899999999999,
+        "y": 496.5900000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "115-040955-00",
+            "name": "0635 mother board FRU(Non FDA/VGA)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 9
+          }
+        ],
+        "name": "0635 mother board FRU(Non FDA/VGA)",
+        "article": "115-040955-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1127.91,
+            "y": 584.52
+          }
+        ],
+        "x": 1127.91,
+        "y": 584.52,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 6,
+        "variants": [
+          {
+            "article": "801-0631-00109-00",
+            "name": "A5 Battery Interface Board",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 9
+          }
+        ],
+        "name": "A5 Battery Interface Board",
+        "article": "801-0631-00109-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1161.75,
+            "y": 676.6800000000001
+          }
+        ],
+        "x": 1161.75,
+        "y": 676.6800000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 7,
+        "variants": [
+          {
+            "article": "801-0631-00028-00",
+            "name": "Fan",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Fan",
+        "article": "801-0631-00028-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1305.8100000000002,
+            "y": 753
+          }
+        ],
+        "x": 1305.8100000000002,
+        "y": 753,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 8,
+        "variants": [
+          {
+            "article": "801-0631-00029-00",
+            "name": "Filter Power 250VAC 10A Panel Mount",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Filter Power 250VAC 10A Panel Mount",
+        "article": "801-0631-00029-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1316.6100000000001,
+            "y": 813.54
+          }
+        ],
+        "x": 1316.6100000000001,
+        "y": 813.54,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 9,
+        "variants": [
+          {
+            "article": "801-0631-00130-00",
+            "name": "Breaker (5.0A)(FRU)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Breaker (5.0A)(FRU)",
+        "article": "801-0631-00130-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1319.49,
+            "y": 872.58
+          }
+        ],
+        "x": 1319.49,
+        "y": 872.58,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 10,
+        "variants": [
+          {
+            "article": "801-0631-00031-00",
+            "name": "Breaker(3.0A)",
+            "quantity": "1",
+            "remarks": "PN only contains one Breaker",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Breaker(3.0A)",
+        "article": "801-0631-00031-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1332.4499999999998,
+            "y": 942.42
+          }
+        ],
+        "x": 1332.4499999999998,
+        "y": 942.42,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 11,
+        "variants": [
+          {
+            "article": "801-0631-00032-00",
+            "name": "Auxiliary Output Socket",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm the standard",
+            "sourcePage": 10
+          },
+          {
+            "article": "801-0631-00131-00",
+            "name": "3Pins India Power Socket 13A 250V(FRU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm the standard",
+            "sourcePage": 10
+          },
+          {
+            "article": "801-0631-00133-00",
+            "name": "0631 B type socket 220V standard(FRU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm the standard",
+            "sourcePage": 10
+          },
+          {
+            "article": "801-0631-00134-00",
+            "name": "3Pins UK Power Socket 13A 250V(FRU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm the standard",
+            "sourcePage": 10
+          },
+          {
+            "article": "801-0631-00135-00",
+            "name": "Power Socket VDE (white)(FRU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm the standard",
+            "sourcePage": 10
+          },
+          {
+            "article": "801-0631-00136-00",
+            "name": "Power Socket Brzl 10A/250Vac(FRU)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration， please check CRM system with serial number of device to confirm the standard",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Auxiliary Output Socket",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1168.23,
+            "y": 1092.96
+          }
+        ],
+        "x": 1168.23,
+        "y": 1092.96,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 12,
+        "variants": [
+          {
+            "article": "801-0631-00038-00",
+            "name": "Speaker and Connecting Cable",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Speaker and Connecting Cable",
+        "article": "801-0631-00038-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 321.93,
+            "y": 845.22
+          }
+        ],
+        "x": 321.93,
+        "y": 845.22,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 13,
+        "variants": [
+          {
+            "article": "801-0631-00146-00",
+            "name": "Solenoid valve assembly(ACGO)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 10
+          }
+        ],
+        "name": "Solenoid valve assembly(ACGO)FRU",
+        "article": "801-0631-00146-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.3 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 333.45000000000005,
+            "y": 559.3199999999999
+          }
+        ],
+        "x": 333.45000000000005,
+        "y": 559.3199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 9,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          523.80998
+        ]
+      }
+    ],
+    "sourcePages": [
+      9,
+      10
+    ],
+    "englishTitle": "1.1.3 Hardware Box",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.3 Hardware Box · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-3.jpg",
+    "size": [
+      1440,
+      1313
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1313
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710004,
+    "name": "A7 · 04. Ish yuzasi",
+    "sectionCode": "1.1.4",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-036693-00",
+            "name": "Drive Assembly(DSP)FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 11
+          }
+        ],
+        "name": "Drive Assembly(DSP)FRU",
+        "article": "115-036693-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1035.75,
+            "y": 86.12999999999998
+          }
+        ],
+        "x": 1035.75,
+        "y": 86.12999999999998,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-061228-00",
+            "name": "ACGO assembly（0634）",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration",
+            "sourcePage": 11
+          },
+          {
+            "article": "115-061229-00",
+            "name": "ACGO assembly（0634/AG）",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration",
+            "sourcePage": 11
+          },
+          {
+            "article": "115-034440-00",
+            "name": "E_ACGO service kit(w/o AA)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration",
+            "sourcePage": 11
+          },
+          {
+            "article": "115-034441-00",
+            "name": "E_ACGO service kit(w/ AA)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration",
+            "sourcePage": 11
+          }
+        ],
+        "name": "ACGO assembly（0634）",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1035.75,
+            "y": 239.48999999999995
+          }
+        ],
+        "x": 1035.75,
+        "y": 239.48999999999995,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "801-0616-00007-00",
+            "name": "Pneumatic capacitor assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 11
+          }
+        ],
+        "name": "Pneumatic capacitor assembly",
+        "article": "801-0616-00007-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1035.75,
+            "y": 379.2300000000001
+          }
+        ],
+        "x": 1035.75,
+        "y": 379.2300000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "801-0631-00044-00",
+            "name": "O2 Flush Assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 11
+          }
+        ],
+        "name": "O2 Flush Assembly",
+        "article": "801-0631-00044-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1037.91,
+            "y": 509.5499999999999
+          }
+        ],
+        "x": 1037.91,
+        "y": 509.5499999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "801-0631-00068-00",
+            "name": "Docking Station Cover",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 11
+          }
+        ],
+        "name": "Docking Station Cover",
+        "article": "801-0631-00068-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1049.43,
+            "y": 590.2799999999997
+          }
+        ],
+        "x": 1049.43,
+        "y": 590.2799999999997,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 6,
+        "variants": [
+          {
+            "article": "801-0631-00067-00",
+            "name": "O2 Connector",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 11
+          }
+        ],
+        "name": "O2 Connector",
+        "article": "801-0631-00067-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1049.43,
+            "y": 653.6399999999999
+          }
+        ],
+        "x": 1049.43,
+        "y": 653.6399999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 7,
+        "variants": [
+          {
+            "article": "801-0631-00114-00",
+            "name": "Auto/Manual spring",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 12
+          }
+        ],
+        "name": "Auto/Manual spring",
+        "article": "801-0631-00114-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1049.43,
+            "y": 709.8
+          }
+        ],
+        "x": 1049.43,
+        "y": 709.8,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 8,
+        "variants": [
+          {
+            "article": "801-0611-00097-00",
+            "name": "Journey Switch",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 12
+          }
+        ],
+        "name": "Journey Switch",
+        "article": "801-0611-00097-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1049.43,
+            "y": 763.8
+          }
+        ],
+        "x": 1049.43,
+        "y": 763.8,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 9,
+        "variants": [
+          {
+            "article": "801-0631-00113-00",
+            "name": "Auto/Manual pin",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 12
+          }
+        ],
+        "name": "Auto/Manual pin",
+        "article": "801-0631-00113-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1049.43,
+            "y": 809.22
+          }
+        ],
+        "x": 1049.43,
+        "y": 809.22,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 10,
+        "variants": [
+          {
+            "article": "801-0631-00052-00",
+            "name": "Touch Pad",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 12
+          }
+        ],
+        "name": "Touch Pad",
+        "article": "801-0631-00052-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1163.91,
+            "y": 925.86
+          }
+        ],
+        "x": 1163.91,
+        "y": 925.86,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 11,
+        "variants": [
+          {
+            "article": "115-017032-00",
+            "name": "Track Pad FRU(0631)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 12
+          }
+        ],
+        "name": "Track Pad FRU(0631)",
+        "article": "115-017032-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1188.3899999999999,
+            "y": 1040.4
+          }
+        ],
+        "x": 1188.3899999999999,
+        "y": 1040.4,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 12,
+        "variants": [
+          {
+            "article": "115-034450-00",
+            "name": "Circuit Heater FRU(0634)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 12
+          }
+        ],
+        "name": "Circuit Heater FRU(0634)",
+        "article": "115-034450-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.4 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 257.07,
+            "y": 930.1800000000001
+          }
+        ],
+        "x": 257.07,
+        "y": 930.1800000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 11,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          508.17999499999996
+        ]
+      }
+    ],
+    "sourcePages": [
+      11,
+      12
+    ],
+    "englishTitle": "1.1.4 Work Surface",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.4 Work Surface · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-4.jpg",
+    "size": [
+      1440,
+      1266
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1266
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710005,
+    "name": "A7 · 05. Nafas konturining asosiy korpusi",
+    "sectionCode": "1.1.5",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00054-00",
+            "name": "Bellows Dome, A series",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 13
+          }
+        ],
+        "name": "Bellows Dome, A series",
+        "article": "801-0631-00054-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 965.8199999999999,
+            "y": 112.0499999999999
+          }
+        ],
+        "x": 965.8199999999999,
+        "y": 112.0499999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "801-0601-00001-00",
+            "name": "Folding bag assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 13
+          }
+        ],
+        "name": "Folding bag assembly",
+        "article": "801-0601-00001-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 965.8199999999999,
+            "y": 220.76999999999992
+          }
+        ],
+        "x": 965.8199999999999,
+        "y": 220.76999999999992,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-048600-00",
+            "name": "Bag arm assembly(silvery/spacing)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Bag arm assembly(silvery/spacing)",
+        "article": "115-048600-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1116.3899999999999,
+            "y": 299.3100000000001
+          }
+        ],
+        "x": 1116.3899999999999,
+        "y": 299.3100000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "801-0631-00065-00",
+            "name": "Bag/mechanical ventilation switch",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Bag/mechanical ventilation switch",
+        "article": "801-0631-00065-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1100.5500000000002,
+            "y": 477.15000000000003
+          }
+        ],
+        "x": 1100.5500000000002,
+        "y": 477.15000000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "115-012263-00",
+            "name": "APL valve assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "APL valve assembly",
+        "article": "115-012263-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1100.5500000000002,
+            "y": 605.4000000000001
+          }
+        ],
+        "x": 1100.5500000000002,
+        "y": 605.4000000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 6,
+        "variants": [
+          {
+            "article": "801-0631-00104-00",
+            "name": "One-Way Valve",
+            "quantity": "1",
+            "remarks": "PN only contains one One-Way Valve",
+            "sourcePage": 14
+          }
+        ],
+        "name": "One-Way Valve",
+        "article": "801-0631-00104-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1100.5500000000002,
+            "y": 701.8799999999999
+          }
+        ],
+        "x": 1100.5500000000002,
+        "y": 701.8799999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 7,
+        "variants": [
+          {
+            "article": "115-051819-00",
+            "name": "Airway pressure gauge",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Airway pressure gauge",
+        "article": "115-051819-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1100.5500000000002,
+            "y": 796.9799999999999
+          }
+        ],
+        "x": 1100.5500000000002,
+        "y": 796.9799999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 8,
+        "variants": [
+          {
+            "article": "115-018436-00",
+            "name": "Upper cover FRU(0631)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Upper cover FRU(0631)",
+        "article": "115-018436-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1148.07,
+            "y": 949.6199999999999
+          }
+        ],
+        "x": 1148.07,
+        "y": 949.6199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 9,
+        "variants": [
+          {
+            "article": "115-022320-00",
+            "name": "loop low cover 2 assembly FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "loop low cover 2 assembly FRU",
+        "article": "115-022320-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1037.91,
+            "y": 1167.84
+          }
+        ],
+        "x": 1037.91,
+        "y": 1167.84,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 10,
+        "variants": [
+          {
+            "article": "115-021251-00",
+            "name": "Lower cover FRU(0632/no flowsenser)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Lower cover FRU(0632/no flowsenser)",
+        "article": "115-021251-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1037.91,
+            "y": 1309.77
+          }
+        ],
+        "x": 1037.91,
+        "y": 1309.77,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 11,
+        "variants": [
+          {
+            "article": "801-0631-00060-00",
+            "name": "Inspiratory Flow Sensor Assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Inspiratory Flow Sensor Assembly",
+        "article": "801-0631-00060-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 769.92,
+            "y": 1599.9900000000002
+          }
+        ],
+        "x": 769.92,
+        "y": 1599.9900000000002,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 12,
+        "variants": [
+          {
+            "article": "801-0631-00056-00",
+            "name": "Expiratory Flow Sensor Assembly",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Expiratory Flow Sensor Assembly",
+        "article": "801-0631-00056-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 736.08,
+            "y": 1643.19
+          }
+        ],
+        "x": 736.08,
+        "y": 1643.19,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 13,
+        "variants": [
+          {
+            "article": "801-0631-00058-00",
+            "name": "Water Collection Cup, A series",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Water Collection Cup, A series",
+        "article": "801-0631-00058-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 646.08,
+            "y": 1663.3500000000001
+          }
+        ],
+        "x": 646.08,
+        "y": 1663.3500000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 14,
+        "variants": [
+          {
+            "article": "801-0631-00057-00",
+            "name": "Insp/Exp Connector, A series",
+            "quantity": "1",
+            "remarks": "PN only contains one Insp/Exp Connector",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Insp/Exp Connector, A series",
+        "article": "801-0631-00057-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 321.93,
+            "y": 1422.0900000000001
+          }
+        ],
+        "x": 321.93,
+        "y": 1422.0900000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 15,
+        "variants": [
+          {
+            "article": "801-0631-00059-00",
+            "name": "Insp/Exp Connector Rotary Cap, A series",
+            "quantity": "1",
+            "remarks": "PN only contains one Insp/Exp Connector Rotary Cap",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Insp/Exp Connector Rotary Cap, A series",
+        "article": "801-0631-00059-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 262.83000000000004,
+            "y": 1527.9900000000002
+          }
+        ],
+        "x": 262.83000000000004,
+        "y": 1527.9900000000002,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 16,
+        "variants": [
+          {
+            "article": "115-021252-00",
+            "name": "Upper cover 2 FRU(0631/no popoff)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 14
+          }
+        ],
+        "name": "Upper cover 2 FRU(0631/no popoff)",
+        "article": "115-021252-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.5 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 321.93,
+            "y": 727.08
+          }
+        ],
+        "x": 321.93,
+        "y": 727.08,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 13,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          664.2300100000001
+        ]
+      }
+    ],
+    "sourcePages": [
+      13,
+      14
+    ],
+    "englishTitle": "1.1.5 Main Body of the Breathing Circuit",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.5 Main Body of the Breathing Circuit · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-5.jpg",
+    "size": [
+      1440,
+      1734
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1734
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710006,
+    "name": "A7 · 06. Pre-pak absorber idishi",
+    "sectionCode": "1.1.6",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-017030-00",
+            "name": "L-shape bracket assembly FUR(0631)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 15
+          }
+        ],
+        "name": "L-shape bracket assembly FUR(0631)",
+        "article": "115-017030-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.6 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1226.6100000000001,
+            "y": 571.5600000000002
+          }
+        ],
+        "x": 1226.6100000000001,
+        "y": 571.5600000000002,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "801-0631-00092-00",
+            "name": "CO2 Absorber Hose, A series",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 15
+          }
+        ],
+        "name": "CO2 Absorber Hose, A series",
+        "article": "801-0631-00092-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.6 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1035.75,
+            "y": 613.3199999999999
+          }
+        ],
+        "x": 1035.75,
+        "y": 613.3199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-036378-00",
+            "name": "CO2 Bypass Assembly FRU, A series",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 15
+          }
+        ],
+        "name": "CO2 Bypass Assembly FRU, A series",
+        "article": "115-036378-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.6 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 967.98,
+            "y": 678.1199999999999
+          }
+        ],
+        "x": 967.98,
+        "y": 678.1199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "801-0631-00100-00",
+            "name": "CO2 Absorber Base, A series",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 15
+          }
+        ],
+        "name": "CO2 Absorber Base, A series",
+        "article": "801-0631-00100-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.6 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 848.46,
+            "y": 714.1199999999999
+          }
+        ],
+        "x": 848.46,
+        "y": 714.1199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "801-0631-00066-00",
+            "name": "CO2 Absorbent Canister, A series",
+            "quantity": "1",
+            "remarks": "Only for warranty Service",
+            "sourcePage": 15
+          }
+        ],
+        "name": "CO2 Absorbent Canister, A series",
+        "article": "801-0631-00066-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.6 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 267.87000000000006,
+            "y": 337.46999999999986
+          }
+        ],
+        "x": 267.87000000000006,
+        "y": 337.46999999999986,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 15,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          383.35999499999997
+        ]
+      }
+    ],
+    "sourcePages": [
+      15
+    ],
+    "englishTitle": "1.1.6 Pre-pak Absorber Canister Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.6 Pre-pak Absorber Canister Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-6.jpg",
+    "size": [
+      1440,
+      891
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      891
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710007,
+    "name": "A7 · 07. Nafas olish va chiqarish klapanlari",
+    "sectionCode": "1.1.7",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00061-00",
+            "name": "Check valve dome, A series",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 16
+          }
+        ],
+        "name": "Check valve dome, A series",
+        "article": "801-0631-00061-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.7 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1152.3899999999999,
+            "y": 223.65000000000003
+          }
+        ],
+        "x": 1152.3899999999999,
+        "y": 223.65000000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "801-0631-00110-00",
+            "name": "valve cover",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 16
+          }
+        ],
+        "name": "valve cover",
+        "article": "801-0631-00110-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.7 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1152.3899999999999,
+            "y": 503.07
+          }
+        ],
+        "x": 1152.3899999999999,
+        "y": 503.07,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "801-0631-00111-00",
+            "name": "Check valve",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 16
+          }
+        ],
+        "name": "Check valve",
+        "article": "801-0631-00111-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.7 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1159.5900000000001,
+            "y": 779.6999999999999
+          }
+        ],
+        "x": 1159.5900000000001,
+        "y": 779.6999999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "801-0631-00104-00",
+            "name": "One-Way Valve",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 16
+          }
+        ],
+        "name": "One-Way Valve",
+        "article": "801-0631-00104-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.7 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1172.5500000000002,
+            "y": 1039.68
+          }
+        ],
+        "x": 1172.5500000000002,
+        "y": 1039.68,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 16,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          523.80998
+        ]
+      }
+    ],
+    "sourcePages": [
+      16
+    ],
+    "englishTitle": "1.1.7 Expiratory Check Valve and Inspiratory Check Valve",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.7 Expiratory Check Valve and Inspiratory Check Valve · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-7.jpg",
+    "size": [
+      1440,
+      1313
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1313
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710008,
+    "name": "A7 · 08. O₂ sensori",
+    "sectionCode": "1.1.8",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00102-00",
+            "name": "O2 sensor cabel module FRU",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 17
+          }
+        ],
+        "name": "O2 sensor cabel module FRU",
+        "article": "801-0631-00102-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.8 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 655.44,
+            "y": 95.48999999999995
+          }
+        ],
+        "x": 655.44,
+        "y": 95.48999999999995,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "0611-10-45654",
+            "name": "Sensor Oxygen (O2 sensor) MedicelMOX-2",
+            "quantity": "1",
+            "remarks": "Only for warranty Service",
+            "sourcePage": 17
+          }
+        ],
+        "name": "Sensor Oxygen (O2 sensor) MedicelMOX-2",
+        "article": "0611-10-45654",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.8 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 241.23000000000008,
+            "y": 374.1899999999999
+          }
+        ],
+        "x": 241.23000000000008,
+        "y": 374.1899999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 17,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          258.509995
+        ]
+      }
+    ],
+    "sourcePages": [
+      17
+    ],
+    "englishTitle": "1.1.8 O2 Cell Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.8 O2 Cell Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-8.jpg",
+    "size": [
+      1440,
+      517
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      517
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710009,
+    "name": "A7 · 09. Displey yig‘masi",
+    "sectionCode": "1.1.9",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-034072-00",
+            "name": "encoder knob assembly (balance gas0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 17
+          }
+        ],
+        "name": "encoder knob assembly (balance gas0635)",
+        "article": "115-034072-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.9 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1087.5900000000001,
+            "y": 580.1700000000003
+          }
+        ],
+        "x": 1087.5900000000001,
+        "y": 580.1700000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-034071-00",
+            "name": "encoder knob assembly (oxygen0635)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 18
+          }
+        ],
+        "name": "encoder knob assembly (oxygen0635)",
+        "article": "115-034071-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.9 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1087.5900000000001,
+            "y": 686.0100000000002
+          }
+        ],
+        "x": 1087.5900000000001,
+        "y": 686.0100000000002,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "051-001260-00",
+            "name": "0632 Encoder Board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 18
+          }
+        ],
+        "name": "0632 Encoder Board PCBA",
+        "article": "051-001260-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.9 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 236.19000000000005,
+            "y": 206.3400000000001
+          }
+        ],
+        "x": 236.19000000000005,
+        "y": 206.3400000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "115-034469-00",
+            "name": "encoder assembly service kit(0635)",
+            "quantity": "",
+            "remarks": "PN contains encoder knob assembly (balance gas0635), encoder knob assembly (oxygen0635), 0632 Encoder Board PCBA,and Optical Encoder 24detent 5VDC Cable",
+            "sourcePage": 18
+          }
+        ],
+        "name": "encoder assembly service kit(0635)",
+        "article": "115-034469-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.9 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 236.19000000000005,
+            "y": 744.3300000000004
+          }
+        ],
+        "x": 236.19000000000005,
+        "y": 744.3300000000004,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 17,
+        "box": [
+          70,
+          415.55999999999995,
+          550,
+          684.90001
+        ]
+      }
+    ],
+    "sourcePages": [
+      17,
+      18
+    ],
+    "englishTitle": "1.1.9 Display Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.9 Display Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-9.jpg",
+    "size": [
+      1440,
+      845
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      845
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710010,
+    "name": "A7 · 10. Displeyning asosiy korpusi",
+    "sectionCode": "1.1.10",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00019-00",
+            "name": "0631 Warning Light Board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 18
+          }
+        ],
+        "name": "0631 Warning Light Board PCBA",
+        "article": "801-0631-00019-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.10 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 797.28,
+            "y": 70.91999999999996
+          }
+        ],
+        "x": 797.28,
+        "y": 70.91999999999996,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "801-0631-00014-00",
+            "name": "Touch Screen",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 18
+          }
+        ],
+        "name": "Touch Screen",
+        "article": "801-0631-00014-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.10 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 702.24,
+            "y": 84.59999999999997
+          }
+        ],
+        "x": 702.24,
+        "y": 84.59999999999997,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-036373-00",
+            "name": "Display Exchange Package（0634）",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 19
+          }
+        ],
+        "name": "Display Exchange Package（0634）",
+        "article": "115-036373-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.10 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 466.02,
+            "y": 144.41999999999996
+          }
+        ],
+        "x": 466.02,
+        "y": 144.41999999999996,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "801-0631-00018-00",
+            "name": "Touch Screen Control Board",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 19
+          }
+        ],
+        "name": "Touch Screen Control Board",
+        "article": "801-0631-00018-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.10 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 560.3399999999999,
+            "y": 737.1300000000003
+          }
+        ],
+        "x": 560.3399999999999,
+        "y": 737.1300000000003,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "051-001258-00",
+            "name": "0632 Display Interface Board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 19
+          }
+        ],
+        "name": "0632 Display Interface Board PCBA",
+        "article": "051-001258-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.10 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 432.09000000000003,
+            "y": 748.6500000000001
+          }
+        ],
+        "x": 432.09000000000003,
+        "y": 748.6500000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 18,
+        "box": [
+          70,
+          399.96,
+          550,
+          684.90001
+        ]
+      }
+    ],
+    "sourcePages": [
+      18,
+      19
+    ],
+    "englishTitle": "1.1.10 Main Body of Display Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.10 Main Body of Display Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-10.jpg",
+    "size": [
+      1440,
+      891
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      891
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710011,
+    "name": "A7 · 11. Bug‘latgich o‘rnatish kollektori",
+    "sectionCode": "1.1.11",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00106-00",
+            "name": "Valve of Vaporizer Mounting Manifold",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 19
+          }
+        ],
+        "name": "Valve of Vaporizer Mounting Manifold",
+        "article": "801-0631-00106-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.11 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1175.43,
+            "y": 360.51000000000005
+          }
+        ],
+        "x": 1175.43,
+        "y": 360.51000000000005,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "801-0631-00107-00",
+            "name": "spring of Vaporizer Mounting Manifold",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 19
+          }
+        ],
+        "name": "spring of Vaporizer Mounting Manifold",
+        "article": "801-0631-00107-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.11 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1175.43,
+            "y": 585.9299999999998
+          }
+        ],
+        "x": 1175.43,
+        "y": 585.9299999999998,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 19,
+        "box": [
+          70,
+          165.89,
+          550,
+          606.8700099999999
+        ]
+      }
+    ],
+    "sourcePages": [
+      19
+    ],
+    "englishTitle": "1.1.11 Vaporizer Mounting Manifold Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.11 Vaporizer Mounting Manifold Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-11.jpg",
+    "size": [
+      1440,
+      1359
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1359
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710012,
+    "name": "A7 · 12. Yordamchi gaz ta’minoti",
+    "sectionCode": "1.1.12",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00002-00",
+            "name": "Flow Meter Lighting Board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 20
+          }
+        ],
+        "name": "Flow Meter Lighting Board PCBA",
+        "article": "801-0631-00002-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.12 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1073.19,
+            "y": 593.1599999999999
+          }
+        ],
+        "x": 1073.19,
+        "y": 593.1599999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 20,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          492.5799949999999
+        ]
+      }
+    ],
+    "sourcePages": [
+      20
+    ],
+    "englishTitle": "1.1.12 Auxiliary Gas Supply Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.12 Auxiliary Gas Supply Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-12.jpg",
+    "size": [
+      1440,
+      1219
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1219
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710013,
+    "name": "A7 · 13. Taglik",
+    "sectionCode": "1.1.13",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "801-0631-00072-00",
+            "name": "Indicator Drive Plate",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 21
+          }
+        ],
+        "name": "Indicator Drive Plate",
+        "article": "801-0631-00072-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.13 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 432.09000000000003,
+            "y": 813.54
+          }
+        ],
+        "x": 432.09000000000003,
+        "y": 813.54,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "034-000285-00",
+            "name": "casters.6\" bule and black",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 21
+          }
+        ],
+        "name": "casters.6\" bule and black",
+        "article": "034-000285-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.13 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1224.45,
+            "y": 545.6399999999999
+          }
+        ],
+        "x": 1224.45,
+        "y": 545.6399999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 21,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          414.55999499999996
+        ]
+      }
+    ],
+    "sourcePages": [
+      21
+    ],
+    "englishTitle": "1.1.13 Base Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.13 Base Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-13.jpg",
+    "size": [
+      1440,
+      985
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      985
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710014,
+    "name": "A7 · 14. Aravacha",
+    "sectionCode": "1.1.14",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "082-000423-00",
+            "name": "Filter.0.45um,TP026AATV004AD01",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 22
+          }
+        ],
+        "name": "Filter.0.45um,TP026AATV004AD01",
+        "article": "082-000423-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.14 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1278.45,
+            "y": 473.5499999999999
+          }
+        ],
+        "x": 1278.45,
+        "y": 473.5499999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "801-0613-00033-00",
+            "name": "AG transfer board",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 22
+          }
+        ],
+        "name": "AG transfer board",
+        "article": "801-0613-00033-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.14 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1158.8700000000001,
+            "y": 485.07
+          }
+        ],
+        "x": 1158.8700000000001,
+        "y": 485.07,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-015948-00",
+            "name": "assembly of ACGO drive valve",
+            "quantity": "1",
+            "remarks": "PN only contains one valve",
+            "sourcePage": 22
+          }
+        ],
+        "name": "assembly of ACGO drive valve",
+        "article": "115-015948-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.14 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1278.45,
+            "y": 829.3799999999999
+          }
+        ],
+        "x": 1278.45,
+        "y": 829.3799999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "115-002504-00",
+            "name": "AION 03-31 Multigas Analyzer",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 22
+          }
+        ],
+        "name": "AION 03-31 Multigas Analyzer",
+        "article": "115-002504-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.14 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 656.8800000000001,
+            "y": 813.54
+          }
+        ],
+        "x": 656.8800000000001,
+        "y": 813.54,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 22,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          398.95999499999994
+        ]
+      }
+    ],
+    "sourcePages": [
+      22
+    ],
+    "englishTitle": "1.1.14 Cart Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.14 Cart Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-14.jpg",
+    "size": [
+      1440,
+      938
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      938
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710015,
+    "name": "A7 · 15. EFCS yig‘masi",
+    "sectionCode": "1.1.15",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-044851-00",
+            "name": "Flow sensor board PCBA FRU",
+            "quantity": "1",
+            "remarks": "The O2,AIR,N2O,Total flow sensor boards are the same, PN only contains one sensor",
+            "sourcePage": 23
+          }
+        ],
+        "name": "Flow sensor board PCBA FRU",
+        "article": "115-044851-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.15 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 998.94,
+            "y": 271.17000000000013
+          }
+        ],
+        "x": 998.94,
+        "y": 271.17000000000013,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-024754-00",
+            "name": "Electronic control board FRU(Non-FDA)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 23
+          }
+        ],
+        "name": "Electronic control board FRU(Non-FDA)",
+        "article": "115-024754-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.15 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1046.5500000000002,
+            "y": 750.1199999999999
+          }
+        ],
+        "x": 1046.5500000000002,
+        "y": 750.1199999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-018143-00",
+            "name": "proportional valve module",
+            "quantity": "1",
+            "remarks": "Only used in o2 and n2o and air configuration, please check CRM system with serial number of device to confirm the configuration",
+            "sourcePage": 23
+          },
+          {
+            "article": "115-024628-00",
+            "name": "proportional valve module(0635/O2/AIR)",
+            "quantity": "1",
+            "remarks": "Only used in o2 and air configuration , please check CRM system with serial number of device to confirm the configuration",
+            "sourcePage": 23
+          }
+        ],
+        "name": "proportional valve module",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.15 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 346.40999999999997,
+            "y": 175.4099999999999
+          }
+        ],
+        "x": 346.40999999999997,
+        "y": 175.4099999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 23,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          508.17999499999996
+        ]
+      }
+    ],
+    "sourcePages": [
+      23,
+      24
+    ],
+    "englishTitle": "1.1.15 EFCS Assembly",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.15 EFCS Assembly · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-15.jpg",
+    "size": [
+      1440,
+      1266
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      1266
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710016,
+    "name": "A7 · 16. BFCS yig‘masi — O₂ va havo",
+    "sectionCode": "1.1.16",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "115-024630-00",
+            "name": "O2 needle valve (0635/with basic volume)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration, please check CRM system with serial number of device to confirm configuration",
+            "sourcePage": 24
+          },
+          {
+            "article": "115-029990-00",
+            "name": "O2 needle valve FRU(0635/US/w/guard)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration, please check CRM system with serial number of device to confirm configuration",
+            "sourcePage": 24
+          },
+          {
+            "article": "115-029991-00",
+            "name": "O2 needle valve FRU(0635/EU/w/guard)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration, please check CRM system with serial number of device to confirm configuration",
+            "sourcePage": 24
+          },
+          {
+            "article": "115-029993-00",
+            "name": "O2 needle valve FRU(0635/Canada/w/guar d)",
+            "quantity": "1",
+            "remarks": "Refer to the machine’s configuration, please check CRM system with serial number of device to confirm configuration",
+            "sourcePage": 24
+          }
+        ],
+        "name": "O2 needle valve (0635/with basic volume)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.16 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 550.98,
+            "y": 75.2999999999999
+          }
+        ],
+        "x": 550.98,
+        "y": 75.2999999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-014468-00",
+            "name": "needle valve assembly(0632)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 24
+          }
+        ],
+        "name": "needle valve assembly(0632)",
+        "article": "115-014468-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.16 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 789.36,
+            "y": 167.45999999999998
+          }
+        ],
+        "x": 789.36,
+        "y": 167.45999999999998,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "041-006773-00",
+            "name": "O2 knob of needle valve (0632)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 24
+          }
+        ],
+        "name": "O2 knob of needle valve (0632)",
+        "article": "041-006773-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.16 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1008.39,
+            "y": 273.2999999999999
+          }
+        ],
+        "x": 1008.39,
+        "y": 273.2999999999999,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "041-006775-00",
+            "name": "AIR knob of needle valve (0632)",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 24
+          }
+        ],
+        "name": "AIR knob of needle valve (0632)",
+        "article": "041-006775-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.16 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1194.93,
+            "y": 367.71
+          }
+        ],
+        "x": 1194.93,
+        "y": 367.71,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 24,
+        "box": [
+          70,
+          180.52999999999997,
+          550,
+          434.2399949999999
+        ]
+      }
+    ],
+    "sourcePages": [
+      24
+    ],
+    "englishTitle": "1.1.16 BFCS Assembly (Configure with O2 and Air)",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.16 BFCS Assembly (Configure with O2 and Air) · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-16.jpg",
+    "size": [
+      1440,
+      798
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      798
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710017,
+    "name": "A7 · 17. Igna klapanining teleskopik mexanizmi",
+    "sectionCode": "1.1.17",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "051-001286-01",
+            "name": "0632 BFCS Position Switch Board PCBA",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 25
+          }
+        ],
+        "name": "0632 BFCS Position Switch Board PCBA",
+        "article": "051-001286-01",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.17 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1046.5500000000002,
+            "y": 249.57
+          }
+        ],
+        "x": 1046.5500000000002,
+        "y": 249.57,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "115-018144-00",
+            "name": "electromagnet module of BFCS",
+            "quantity": "1",
+            "remarks": "/",
+            "sourcePage": 25
+          }
+        ],
+        "name": "electromagnet module of BFCS",
+        "article": "115-018144-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.17 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1077.51,
+            "y": 375.62999999999994
+          }
+        ],
+        "x": 1077.51,
+        "y": 375.62999999999994,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "115-014519-01",
+            "name": "backup valves in-out device(0632)",
+            "quantity": "1",
+            "remarks": "Only used in O2&N2O&Air configuration AM, please check CRM system with serial number of device to confirm configuration",
+            "sourcePage": 25
+          },
+          {
+            "article": "115-029847-00",
+            "name": "retractor of backup valves(0632/OA)",
+            "quantity": "1",
+            "remarks": "Only used in O2&Air configuration AM, please check CRM system with serial number of device to confirm configuration",
+            "sourcePage": 25
+          }
+        ],
+        "name": "backup valves in-out device(0632)",
+        "article": "",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.17 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "locations": [
+          {
+            "x": 1138.71,
+            "y": 642.8400000000001
+          }
+        ],
+        "x": 1138.71,
+        "y": 642.8400000000001,
+        "hitWidth": 46.8,
+        "hitHeight": 46.8
+      }
+    ],
+    "crops": [
+      {
+        "page": 25,
+        "box": [
+          70,
+          98.41999999999996,
+          550,
+          414.55999499999996
+        ]
+      }
+    ],
+    "sourcePages": [
+      25
+    ],
+    "englishTitle": "1.1.17 Spare Needle Valve Telescopic Mechanism",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.17 Spare Needle Valve Telescopic Mechanism · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-17.jpg",
+    "size": [
+      1440,
+      985
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      985
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  },
+  {
+    "id": 710018,
+    "name": "A7 · 18. Qo‘shimcha detallar",
+    "sectionCode": "1.1.18",
+    "parts": [
+      {
+        "id": 1,
+        "variants": [
+          {
+            "article": "082-000519-00",
+            "name": "7 mm x 10 mm transparent PU tube (polyether)",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "7 mm x 10 mm transparent PU tube (polyether)",
+        "article": "082-000519-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 2,
+        "variants": [
+          {
+            "article": "A21-000007---",
+            "name": "3/32\"X7/32\"X100ft silicone",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "3/32\"X7/32\"X100ft silicone",
+        "article": "A21-000007---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 3,
+        "variants": [
+          {
+            "article": "M6G-020014---",
+            "name": "8 mm x 5 mm transparent soft precision PU tubing",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "8 mm x 5 mm transparent soft precision PU tubing",
+        "article": "M6G-020014---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 4,
+        "variants": [
+          {
+            "article": "M6G-020018---",
+            "name": "20 x 25 mm silicone",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "20 x 25 mm silicone",
+        "article": "M6G-020018---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 5,
+        "variants": [
+          {
+            "article": "M6G-020026---",
+            "name": "4 x 6 transparent PU tube",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "4 x 6 transparent PU tube",
+        "article": "M6G-020026---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 6,
+        "variants": [
+          {
+            "article": "M6G-020046---",
+            "name": "Tubing. 4mmx2.5mm transparent PU precision hose",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Tubing. 4mmx2.5mm transparent PU precision hose",
+        "article": "M6G-020046---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 7,
+        "variants": [
+          {
+            "article": "M6G-020005---",
+            "name": "Tubing.MPF tube 2mmX3.5mm （1feet）",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Tubing.MPF tube 2mmX3.5mm （1feet）",
+        "article": "M6G-020005---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 8,
+        "variants": [
+          {
+            "article": "082-001198-00",
+            "name": "PE Tubing.ID2XOD4",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "PE Tubing.ID2XOD4",
+        "article": "082-001198-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 9,
+        "variants": [
+          {
+            "article": "60-12140-00",
+            "name": "ID3/32''XOD5/32'',Silicone",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "ID3/32''XOD5/32'',Silicone",
+        "article": "60-12140-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 10,
+        "variants": [
+          {
+            "article": "9200-10-10556",
+            "name": "Tubing.ID3/32''XOD5/32'',Silicon",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Tubing.ID3/32''XOD5/32'',Silicon",
+        "article": "9200-10-10556",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 11,
+        "variants": [
+          {
+            "article": "9200-10-10557",
+            "name": "System Tubing PUR.AION,1.4/2.8mm,60-12110-00",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "System Tubing PUR.AION,1.4/2.8mm,60-12110-00",
+        "article": "9200-10-10557",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 12,
+        "variants": [
+          {
+            "article": "082-001461-00",
+            "name": "System Tubing PUR.AION, 2.2/4.4mm,60-12120-00",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "System Tubing PUR.AION, 2.2/4.4mm,60-12120-00",
+        "article": "082-001461-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 13,
+        "variants": [
+          {
+            "article": "115-034448-00",
+            "name": "Drive gas spring tube assemblies",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Drive gas spring tube assemblies",
+        "article": "115-034448-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 14,
+        "variants": [
+          {
+            "article": "115-034449-00",
+            "name": "APL valve spring tube assemblies",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "APL valve spring tube assemblies",
+        "article": "115-034449-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 15,
+        "variants": [
+          {
+            "article": "049-000140-00",
+            "name": "Valve port sealing cushion",
+            "quantity": "/",
+            "remarks": "For the CO2 bypass shaft",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Valve port sealing cushion",
+        "article": "049-000140-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 16,
+        "variants": [
+          {
+            "article": "049-000142-00",
+            "name": "CO2 bypass assembly washer",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "CO2 bypass assembly washer",
+        "article": "049-000142-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 17,
+        "variants": [
+          {
+            "article": "049-000143-00",
+            "name": "Exterior washer of the absorber canister",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Exterior washer of the absorber canister",
+        "article": "049-000143-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 18,
+        "variants": [
+          {
+            "article": "049-000145-00",
+            "name": "Interior washer of the absorber canister",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Interior washer of the absorber canister",
+        "article": "049-000145-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 19,
+        "variants": [
+          {
+            "article": "049-000146-00",
+            "name": "CO2 absorber hose",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "CO2 absorber hose",
+        "article": "049-000146-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 20,
+        "variants": [
+          {
+            "article": "049-000240-00",
+            "name": "Pop-off rubber pad",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Pop-off rubber pad",
+        "article": "049-000240-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 21,
+        "variants": [
+          {
+            "article": "049-000243-00",
+            "name": "Bottom washer of the bellows absorber canister",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "Bottom washer of the bellows absorber canister",
+        "article": "049-000243-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 22,
+        "variants": [
+          {
+            "article": "082-000506-00",
+            "name": "AGSS filter",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 26
+          }
+        ],
+        "name": "AGSS filter",
+        "article": "082-000506-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 23,
+        "variants": [
+          {
+            "article": "082-000934-00",
+            "name": "14 x 2.65 O-ring",
+            "quantity": "/",
+            "remarks": "For the vaporizer mount",
+            "sourcePage": 27
+          }
+        ],
+        "name": "14 x 2.65 O-ring",
+        "article": "082-000934-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 24,
+        "variants": [
+          {
+            "article": "082-001499-00",
+            "name": "30 x 2 O-ring",
+            "quantity": "/",
+            "remarks": "Bag arm base",
+            "sourcePage": 27
+          }
+        ],
+        "name": "30 x 2 O-ring",
+        "article": "082-001499-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 25,
+        "variants": [
+          {
+            "article": "082-001500-00",
+            "name": "25 x 2 O-ring",
+            "quantity": "/",
+            "remarks": "APL valve",
+            "sourcePage": 27
+          }
+        ],
+        "name": "25 x 2 O-ring",
+        "article": "082-001500-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 26,
+        "variants": [
+          {
+            "article": "082-001501-00",
+            "name": "27 x 1.5 O-ring",
+            "quantity": "/",
+            "remarks": "For the check valve dome",
+            "sourcePage": 27
+          }
+        ],
+        "name": "27 x 1.5 O-ring",
+        "article": "082-001501-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 27,
+        "variants": [
+          {
+            "article": "082-001502-00",
+            "name": "18 x 2.5 O-ring",
+            "quantity": "/",
+            "remarks": "Breathing system base",
+            "sourcePage": 27
+          }
+        ],
+        "name": "18 x 2.5 O-ring",
+        "article": "082-001502-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 28,
+        "variants": [
+          {
+            "article": "082-001503-00",
+            "name": "20 x 1.5 O-ring",
+            "quantity": "/",
+            "remarks": "For the check valve",
+            "sourcePage": 27
+          }
+        ],
+        "name": "20 x 1.5 O-ring",
+        "article": "082-001503-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 29,
+        "variants": [
+          {
+            "article": "082-001504-00",
+            "name": "23.47 x 2.95 O-ring",
+            "quantity": "/",
+            "remarks": "For the water collection cup and CO2 bypass assembly",
+            "sourcePage": 27
+          }
+        ],
+        "name": "23.47 x 2.95 O-ring",
+        "article": "082-001504-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 30,
+        "variants": [
+          {
+            "article": "082-001505-00",
+            "name": "52 x 2 O-ring",
+            "quantity": "/",
+            "remarks": "Auto/Manual ventilation switch",
+            "sourcePage": 27
+          }
+        ],
+        "name": "52 x 2 O-ring",
+        "article": "082-001505-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 31,
+        "variants": [
+          {
+            "article": "082-001508-00",
+            "name": "29 x 2.62 O-ring",
+            "quantity": "/",
+            "remarks": "Bellows base",
+            "sourcePage": 27
+          }
+        ],
+        "name": "29 x 2.62 O-ring",
+        "article": "082-001508-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 32,
+        "variants": [
+          {
+            "article": "082-001514-00",
+            "name": "6.07 x 1.78 O-ring",
+            "quantity": "//",
+            "remarks": "Bottom of the breathing system cover screw",
+            "sourcePage": 27
+          }
+        ],
+        "name": "6.07 x 1.78 O-ring",
+        "article": "082-001514-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 33,
+        "variants": [
+          {
+            "article": "082-001515-00",
+            "name": "29.82 x 2.62 O-ring",
+            "quantity": "/",
+            "remarks": "APL valve",
+            "sourcePage": 27
+          }
+        ],
+        "name": "29.82 x 2.62 O-ring",
+        "article": "082-001515-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 34,
+        "variants": [
+          {
+            "article": "082-001520-00",
+            "name": "40 x 2.2 O-ring",
+            "quantity": "",
+            "remarks": "Auto/Manual ventilation switch",
+            "sourcePage": 27
+          }
+        ],
+        "name": "40 x 2.2 O-ring",
+        "article": "082-001520-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 35,
+        "variants": [
+          {
+            "article": "082-001525-00",
+            "name": "8.5 x 2.0 O-ring",
+            "quantity": "/",
+            "remarks": "O2 cell port",
+            "sourcePage": 27
+          }
+        ],
+        "name": "8.5 x 2.0 O-ring",
+        "article": "082-001525-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 36,
+        "variants": [
+          {
+            "article": "082-000665-00",
+            "name": "8.5 x 2 O-ring",
+            "quantity": "/",
+            "remarks": "For the rotating block of breathing circuit",
+            "sourcePage": 27
+          }
+        ],
+        "name": "8.5 x 2 O-ring",
+        "article": "082-000665-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 37,
+        "variants": [
+          {
+            "article": "082-000667-00",
+            "name": "4.7 x 1.8 O-ring",
+            "quantity": "/",
+            "remarks": "For the rotating block of breathing circuit",
+            "sourcePage": 27
+          }
+        ],
+        "name": "4.7 x 1.8 O-ring",
+        "article": "082-000667-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 38,
+        "variants": [
+          {
+            "article": "082-000669-00",
+            "name": "6 x 1 O-ring",
+            "quantity": "/",
+            "remarks": "For the Auto/Manual ventilation switch",
+            "sourcePage": 27
+          }
+        ],
+        "name": "6 x 1 O-ring",
+        "article": "082-000669-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 39,
+        "variants": [
+          {
+            "article": "082-000673-00",
+            "name": "15.54 x 2.62 O-ring",
+            "quantity": "/",
+            "remarks": "For the bag alarm and O2 cell cover",
+            "sourcePage": 27
+          }
+        ],
+        "name": "15.54 x 2.62 O-ring",
+        "article": "082-000673-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 40,
+        "variants": [
+          {
+            "article": "082-000679-00",
+            "name": "4.47 x 1.78 O-ring",
+            "quantity": "/",
+            "remarks": "For the CO2 bypass shaft",
+            "sourcePage": 27
+          }
+        ],
+        "name": "4.47 x 1.78 O-ring",
+        "article": "082-000679-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 41,
+        "variants": [
+          {
+            "article": "801-0631-00118-00",
+            "name": "O-ring (for the Paw gauge)",
+            "quantity": "/",
+            "remarks": "For Paw gauge",
+            "sourcePage": 27
+          }
+        ],
+        "name": "O-ring (for the Paw gauge)",
+        "article": "801-0631-00118-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 42,
+        "variants": [
+          {
+            "article": "M6M-010058---",
+            "name": "16 x 2 O-ring",
+            "quantity": "/",
+            "remarks": "For the rotating block of breathing circuit",
+            "sourcePage": 27
+          }
+        ],
+        "name": "16 x 2 O-ring",
+        "article": "M6M-010058---",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      },
+      {
+        "id": 43,
+        "variants": [
+          {
+            "article": "801-0631-00141-00",
+            "name": "Maintenance kit for O rings",
+            "quantity": "/",
+            "remarks": "/",
+            "sourcePage": 27
+          }
+        ],
+        "name": "Maintenance kit for O rings",
+        "article": "801-0631-00141-00",
+        "price": null,
+        "demoPrice": false,
+        "demoArticle": false,
+        "nameStatus": "provided_catalog",
+        "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
+        "needsReview": false,
+        "x": 0,
+        "y": 0,
+        "tableOnly": true
+      }
+    ],
+    "crops": [
+      {
+        "page": 26,
+        "box": [
+          70,
+          95,
+          530,
+          765
+        ]
+      },
+      {
+        "page": 27,
+        "box": [
+          70,
+          65,
+          530,
+          730
+        ]
+      }
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "englishTitle": "1.1.18 Others",
+    "deviceId": "a7",
+    "note": "A7 anesteziya apparati · 1.1.18 Others · Variant va komplektatsiya izohlari asl PDFdan olingan.",
+    "image": "assets/a7/section-18.jpg",
+    "size": [
+      1440,
+      4077
+    ],
+    "view": [
+      0,
+      0,
+      1440,
+      4077
+    ],
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+  }
+]
