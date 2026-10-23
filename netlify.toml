@@ -32,3 +32,15 @@
   for = "/admin/*"
   [headers.values]
     Cache-Control = "no-store"
+
+[[headers]]
+  for = "/catalog/*"
+  [headers.values]
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "credentialless"
+
+[[headers]]
+  for = "/catalog/vendor/office/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Cross-Origin-Resource-Policy = "same-origin"

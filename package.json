@@ -16,11 +16,13 @@
     "test:netlify": "node tests/netlify.test.mjs",
     "test:ui": "node --test tests/catalog-ui.test.mjs",
     "test:pdf": "node tests/pdf.test.mjs",
-    "test:a7": "node tests/a7.test.mjs"
+    "test:a7": "node tests/a7.test.mjs",
+    "test:documents": "node --test tests/document-import.test.mjs && node tests/document-conversion.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
     "@hookform/resolvers": "^5.7.1",
+    "@matbee/libreoffice-converter": "2.7.2",
     "@neondatabase/serverless": "^1.2.0",
     "@netlify/blobs": "^11.1.6",
     "@shadcn/react": "^0.3.0",
@@ -34,6 +36,7 @@
     "lucide-react": "^1.31.0",
     "next": "16.3.4",
     "next-themes": "^0.4.6",
+    "pdf-lib": "1.17.1",
     "pdfjs-dist": "5.4.149",
     "radix-ui": "^1.6.7",
     "react": "19.2.6",

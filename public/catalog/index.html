@@ -210,25 +210,28 @@
 <dialog id="uploadDialog" aria-labelledby="uploadTitle">
 <form id="uploadForm">
 <div class="list-head upload-heading">
-<h2 id="uploadTitle">Chizma yoki PDF qo‘shish</h2>
+<h2 id="uploadTitle">Hujjat yoki rasm qo‘shish</h2>
 <button class="close-button" type="button" id="closeUpload" aria-label="Yuklash oynasini yopish">
 <span data-icon="close">
 </span>
 </button>
 </div>
-<p class="upload-intro">Rasmlar: JPG, PNG yoki WebP · 12 MB gacha. PDF: 40 MB, 50 sahifagacha.</p>
+<p class="upload-intro">Hujjat yoki rasm tanlang · 40 MB gacha · hujjatlar 50 sahifagacha.</p>
 <p id="aiStatus" class="scan-note" role="status">AI ulanishi tekshirilmoqda…</p>
 <section class="pdf-import" aria-labelledby="pdfTitle">
-<h3 id="pdfTitle">Butun PDFdan sxemalarni topish</h3>
-<p>Bir PDF ichidagi barcha sxemalar alohida ajratiladi. Bitta sahifada bir nechta sxema bo‘lishi mumkin; boshqa sahifadagi mos jadval ham birlashtiriladi.</p>
-<label>PDF katalog<input id="pdfFile" type="file" accept="application/pdf,.pdf" aria-describedby="pdfLimits"></label>
-<p id="pdfLimits" class="caption">40 MB va 50 sahifagacha. AI tahlilida PDF sahifalari OpenAI xizmatiga yuboriladi. Natijalar tekshiriladigan qoralama bo‘ladi.</p>
+<h3 id="pdfTitle">Hujjatdan sxemalarni topish</h3>
+<p>Bir hujjat ichidagi barcha sxemalar alohida ajratiladi. Bitta sahifada bir nechta sxema bo‘lishi mumkin; boshqa sahifadagi mos jadval ham birlashtiriladi.</p>
+<label>Hujjat yoki rasm<input id="pdfFile" type="file" aria-describedby="pdfLimits"></label>
+<p id="pdfLimits" class="caption">40 MB va 50 sahifagacha. AI tahlilida tayyor sahifalar OpenAI xizmatiga yuboriladi. Natijalar tekshiriladigan qoralama bo‘ladi.</p>
+<details class="upload-details"><summary>Formatlar va konvertatsiya</summary><p>PDF; Word (DOC, DOCX), Excel (XLS, XLSX, CSV), PowerPoint (PPT, PPTX), OpenDocument (ODT, ODS, ODP, ODG), RTF, TXT, HTML hamda boshqa LibreOffice ochadigan formatlar. Boshqa kengaytmali hujjatni ham tanlashingiz mumkin; ochilmasa, sabab ko‘rsatiladi.</p><p>Rasmlar: JPG, PNG, WebP, GIF, BMP, AVIF, SVG, ICO. TIFF va boshqa formatlar hujjat konvertatsiyasi orqali sinab ko‘riladi. Animatsiyalarda bitta kadr olinadi.</p><p>Office hujjatlari brauzerda PDFga aylantiriladi. Birinchi foydalanishda taxminan 240 MB modul yuklanadi. Katta hujjatlar uchun kompyuterdan foydalaning. Maket va shriftlarda farq bo‘lishi mumkin — skanerlashdan oldin sxemani ko‘rib tekshiring.</p></details>
+<button id="pdfPrepare" type="button">Hujjatni ochish va tekshirish</button>
 <button id="pdfDetect" type="button" class="primary"><span data-icon="search"></span>Sxemalarni topish</button>
 <p id="pdfStatus" class="scan-status" role="status"></p>
+<div id="documentPages" class="document-pages" aria-label="Hujjat sahifalari"></div>
 <div id="pdfResults"></div>
 <details class="upload-details"><summary>Topilmagan sxemani qo‘lda qo‘shish</summary><p>Sahifani tanlang, so‘ng sxemaning hududini foizlarda belgilang. Shu sahifadan yana boshqa sxema ham qo‘shishingiz mumkin.</p><div class="form-row"><label>Sahifa<input id="pdfPage" type="number" value="1" min="1" max="50"></label><button id="pdfAdd" type="button">Sxema hududini qo‘shish</button></div></details>
 <button id="pdfImport" type="button" class="primary" hidden>Tanlangan sxemalarni skanerlash</button>
-<p class="caption">PDFni ajratish va navbat yuborilguncha oynani ochiq tuting. Soatlik AI limiti tugasa, navbat saqlanadi; shu oynada keyinroq davom ettiring.</p>
+<p class="caption">Hujjatni ajratish va navbat yuborilguncha oynani ochiq tuting. Soatlik AI limiti tugasa, navbat saqlanadi; shu oynada keyinroq davom ettiring.</p>
 </section>
 <label>Skanerlash usuli<select id="scanEngine">
 <option id="backgroundOption" value="background" disabled>AI — sahifa yopilganda ham ishlaydi</option>
@@ -242,8 +245,8 @@
 <span data-icon="upload">
 </span>
 <strong>Chizma fayllarini tanlang</strong>
-<span>JPG, PNG yoki WebP · Bir nechta fayl tanlash mumkin</span>
-<input id="uploadFile" type="file" multiple accept="image/jpeg,image/png,image/webp" required>
+<span>JPG, PNG, WebP, GIF, BMP, AVIF, SVG · bir nechta rasm tanlash mumkin</span>
+<input id="uploadFile" type="file" multiple accept="image/*" required>
 </label>
 <p class="caption">Bir nechta faylda nomlar fayl nomidan olinadi. Skan sozlamalari barcha tanlangan chizmalarga qo‘llanadi. Fon AI rejimida barcha fayllar uchun “Server qabul qildi” yozuvini kuting. Shundan keyin sahifani yopishingiz mumkin. Oddiy OCR va tezkor AI uchun sahifa ochiq turishi kerak.</p>
 <div id="uploadQueue" aria-label="Yuklash navbati">
