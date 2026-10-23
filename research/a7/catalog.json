@@ -1001,11 +1001,31 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      2283
+      1254.58
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 2,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1254.58
+        ]
+      },
+      {
+        "page": 4,
+        "box": [
+          0,
+          1274.07,
+          1440,
+          989.43
+        ]
+      }
+    ]
   },
   {
     "id": 710002,
@@ -1644,11 +1664,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1125
+      1105.5
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 6,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1105.5
+        ]
+      }
+    ]
   },
   {
     "id": 710003,
@@ -2113,11 +2144,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1313
+      1293.53
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 9,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1293.53
+        ]
+      }
+    ]
   },
   {
     "id": 710004,
@@ -2531,11 +2573,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1266
+      1246.52
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 11,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1246.52
+        ]
+      }
+    ]
   },
   {
     "id": 710005,
@@ -3048,11 +3101,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1734
+      1714.6
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 13,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1714.6
+        ]
+      }
+    ]
   },
   {
     "id": 710006,
@@ -3234,11 +3298,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      891
+      871.42
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 15,
+        "box": [
+          0,
+          0.0,
+          1440,
+          871.42
+        ]
+      }
+    ]
   },
   {
     "id": 710007,
@@ -3390,11 +3465,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1313
+      1293.53
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 16,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1293.53
+        ]
+      }
+    ]
   },
   {
     "id": 710008,
@@ -3486,11 +3572,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      517
+      497.12
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 17,
+        "box": [
+          0,
+          0.0,
+          1440,
+          497.12
+        ]
+      }
+    ]
   },
   {
     "id": 710009,
@@ -3643,11 +3740,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      845
+      825.37
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 17,
+        "box": [
+          0,
+          0.0,
+          1440,
+          825.37
+        ]
+      }
+    ]
   },
   {
     "id": 710010,
@@ -3830,11 +3938,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      891
+      871.42
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 18,
+        "box": [
+          0,
+          0.0,
+          1440,
+          871.42
+        ]
+      }
+    ]
   },
   {
     "id": 710011,
@@ -3926,11 +4045,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1359
+      1339.56
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 19,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1339.56
+        ]
+      }
+    ]
   },
   {
     "id": 710012,
@@ -3992,11 +4122,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1219
+      1199.51
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 20,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1199.51
+        ]
+      }
+    ]
   },
   {
     "id": 710013,
@@ -4088,11 +4229,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      985
+      965.44
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 21,
+        "box": [
+          0,
+          0.0,
+          1440,
+          965.44
+        ]
+      }
+    ]
   },
   {
     "id": 710014,
@@ -4244,11 +4396,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      938
+      918.44
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 22,
+        "box": [
+          0,
+          0.0,
+          1440,
+          918.44
+        ]
+      }
+    ]
   },
   {
     "id": 710015,
@@ -4378,11 +4541,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      1266
+      1246.52
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 23,
+        "box": [
+          0,
+          0.0,
+          1440,
+          1246.52
+        ]
+      }
+    ]
   },
   {
     "id": 710016,
@@ -4555,11 +4729,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      798
+      778.37
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 24,
+        "box": [
+          0,
+          0.0,
+          1440,
+          778.37
+        ]
+      }
+    ]
   },
   {
     "id": 710017,
@@ -4688,11 +4873,22 @@
     ],
     "view": [
       0,
-      0,
+      0.0,
       1440,
-      985
+      965.44
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 25,
+        "box": [
+          0,
+          0.0,
+          1440,
+          965.44
+        ]
+      }
+    ]
   },
   {
     "id": 710018,
@@ -4718,9 +4914,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 210.43,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 210.43,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 2,
@@ -4741,9 +4948,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 303.56,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 303.56,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 3,
@@ -4764,9 +4982,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 396.75,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 396.75,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 4,
@@ -4787,9 +5016,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 489.88,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 489.88,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 5,
@@ -4810,9 +5050,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 562.67,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 562.67,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 6,
@@ -4833,9 +5084,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 655.89,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 655.89,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 7,
@@ -4856,9 +5118,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 769.37,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 769.37,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 8,
@@ -4879,9 +5152,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 862.5,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 862.5,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 9,
@@ -4902,9 +5186,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.72,
+        "y": 935.35,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.72,
+            "y": 935.35,
+            "sourcePage": 26,
+            "hitWidth": 49.83,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 49.83,
+        "hitHeight": 54.0
       },
       {
         "id": 10,
@@ -4925,9 +5220,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1008.13,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1008.13,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 11,
@@ -4948,9 +5254,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1101.26,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1101.26,
+            "sourcePage": 26,
+            "hitWidth": 65.48,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 65.48,
+        "hitHeight": 54.0
       },
       {
         "id": 12,
@@ -4971,9 +5288,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1214.81,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1214.81,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 13,
@@ -4994,9 +5322,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1307.16,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1307.16,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 14,
@@ -5017,9 +5356,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1379.94,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1379.94,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 15,
@@ -5040,9 +5390,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1473.17,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1473.17,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 16,
@@ -5063,9 +5424,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1566.3,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1566.3,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 17,
@@ -5086,9 +5458,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1659.49,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1659.49,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 18,
@@ -5109,9 +5492,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1772.97,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1772.97,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 19,
@@ -5132,9 +5526,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1866.1,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1866.1,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 20,
@@ -5155,9 +5560,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 1938.98,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 1938.98,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 21,
@@ -5178,9 +5594,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2032.11,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2032.11,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 22,
@@ -5201,9 +5628,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2125.23,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2125.23,
+            "sourcePage": 26,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 23,
@@ -5224,9 +5662,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2287.76,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2287.76,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 24,
@@ -5247,9 +5696,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2380.99,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2380.99,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 25,
@@ -5270,9 +5730,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2453.77,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2453.77,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 26,
@@ -5293,9 +5764,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2546.91,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2546.91,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 27,
@@ -5316,9 +5798,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2640.04,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2640.04,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 28,
@@ -5339,9 +5832,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2712.88,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2712.88,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 29,
@@ -5362,9 +5866,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2831.06,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2831.06,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 30,
@@ -5385,9 +5900,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 2970.46,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 2970.46,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 31,
@@ -5408,9 +5934,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3063.59,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3063.59,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 32,
@@ -5431,9 +5968,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3181.83,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3181.83,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 33,
@@ -5454,9 +6002,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3300.79,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3300.79,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 34,
@@ -5477,9 +6036,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3393.92,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3393.92,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 35,
@@ -5500,9 +6070,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3487.11,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3487.11,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 36,
@@ -5523,9 +6104,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3580.24,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3580.24,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 37,
@@ -5546,9 +6138,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3693.82,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3693.82,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 38,
@@ -5569,9 +6172,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3807.3,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3807.3,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 39,
@@ -5592,9 +6206,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 3920.77,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 3920.77,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 40,
@@ -5615,9 +6240,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 4034.32,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 4034.32,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 41,
@@ -5638,9 +6274,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 4126.67,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 4126.67,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 42,
@@ -5661,9 +6308,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 4219.89,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 4219.89,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       },
       {
         "id": 43,
@@ -5684,9 +6342,20 @@
         "nameStatus": "provided_catalog",
         "nameEvidence": "A7 Parts EN V1.0 · 1.1.18 · asl inglizcha nom va artikullar.",
         "needsReview": false,
-        "x": 0,
-        "y": 0,
-        "tableOnly": true
+        "x": 85.64,
+        "y": 4313.02,
+        "tableOnly": false,
+        "locations": [
+          {
+            "x": 85.64,
+            "y": 4313.02,
+            "sourcePage": 27,
+            "hitWidth": 67.04,
+            "hitHeight": 54.0
+          }
+        ],
+        "hitWidth": 67.04,
+        "hitHeight": 54.0
       }
     ],
     "crops": [
@@ -5697,7 +6366,8 @@
           95,
           530,
           765
-        ]
+        ],
+        "table": true
       },
       {
         "page": 27,
@@ -5706,7 +6376,8 @@
           65,
           530,
           730
-        ]
+        ],
+        "table": true
       }
     ],
     "sourcePages": [
@@ -5716,17 +6387,59 @@
     "englishTitle": "1.1.18 Others",
     "deviceId": "a7",
     "note": "A7 anesteziya apparati · 1.1.18 Others · Variant va komplektatsiya izohlari asl PDFdan olingan.",
-    "image": "assets/a7/section-18.jpg",
+    "image": "assets/a7/section-18-v2.jpg",
     "size": [
-      1440,
-      4077
+      1500,
+      4393
     ],
     "view": [
       0,
-      0,
-      1440,
-      4077
+      0.0,
+      1500,
+      1092.5
     ],
-    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf"
+    "sourceDocument": "/catalog/documents/A7_Parts_EN_V1.0.pdf",
+    "pageRegions": [
+      {
+        "page": 26,
+        "box": [
+          0,
+          0.0,
+          1500,
+          1092.5
+        ]
+      },
+      {
+        "page": 26,
+        "box": [
+          0,
+          1092.5,
+          1500,
+          1092.5
+        ]
+      },
+      {
+        "page": 27,
+        "box": [
+          0,
+          2205.0,
+          1500,
+          1084.0
+        ]
+      },
+      {
+        "page": 27,
+        "box": [
+          0,
+          3289.0,
+          1500,
+          1084.0
+        ]
+      }
+    ],
+    "selectionKind": "table",
+    "mappingStatus": "verified",
+    "mappingMethod": "source_pdf_text",
+    "mappingEvidence": "Bosish joylari asl PDFdagi pozitsiya raqamlarining matn koordinatalaridan olingan."
   }
 ]

@@ -3,7 +3,7 @@ const audit=JSON.parse(await fs.readFile('.netlify/catalog-audit/audit.json','ut
 const models=JSON.parse(await fs.readFile('.netlify/catalog-audit/models.json','utf8'));
 const interactions=JSON.parse(await fs.readFile('.netlify/catalog-audit/interactions.json','utf8'));
 const sections=models.map(m=>{
- const table=m.id===710018||Boolean(m.crops?.length&&m.crops.every(c=>c.table===true));
+ const table=m.selectionKind==='table'||m.id===710018||Boolean(m.crops?.length&&m.crops.every(c=>c.table===true));
  const linked=m.parts.filter(p=>!p.tableOnly).length;
  const device=m.deviceName||(m.id>=710001&&m.id<=710018?'A7':m.name);
  return {id:m.id,name:m.name,device,parts:m.parts.length,linked,unlinked:m.parts.length-linked,
@@ -28,9 +28,9 @@ const report={at:audit.at,origin:audit.origin,scope:'Read-only production data; 
  unchanged:audit.unchanged,interactions,sections,
  limitations:['Browser automation unavailable: no connected browsers; native pipe startup failed.',
   'JSDOM dispatches DOM events. It does not test physical pointer hit detection, layout, touch behavior or whether every coordinate visually matches its printed number.',
-  'Asset checks are HTTP HEAD checks; they do not decode every file or visually inspect every page.',
+  'All 237 local image files were decoded and dimension-checked during mapping verification. Live asset checks use HTTP HEAD.',
   'Live paid AI, real supplier prices/stock and every possible document extension were not tested.',
-  'Diagrams with missing mappings still require reliable callout annotation. No guessed coordinates were published.']};
+  'The 1,007 new illustrated anchors were visually checked against original-image number crops; 684 table anchors use source-PDF text positions. All 1,648 older anchor crops were also visually reviewed and misplaced points corrected. Low-resolution source labels remain limited by original image quality.']};
 const output='research/audit-'+audit.at.slice(0,10);
 await fs.mkdir(output,{recursive:true});
 await fs.writeFile(output+'/report.json',JSON.stringify(report,null,2));

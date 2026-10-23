@@ -5,7 +5,7 @@ assert.equal(sections.length,18);
 for(const [i,m] of sections.entries()){
  validate([m]);assert.equal(m.parts.length,expected[i]);assert.ok(fs.existsSync('public/catalog/'+m.image));
  assert.deepEqual(m.parts.map(p=>p.id),Array.from({length:expected[i]},(_,n)=>n+1));
- for(const p of m.parts){assert.ok(p.variants.every(v=>v.article&&v.name&&v.sourcePage>=3&&v.sourcePage<=27));if(i<17){assert.ok(p.locations.length);for(const loc of p.locations)assert.ok(loc.x>0&&loc.y>0&&loc.x<m.size[0]&&loc.y<m.size[1]);}else assert.equal(p.tableOnly,true);}
+ for(const p of m.parts){assert.ok(p.variants.every(v=>v.article&&v.name&&v.sourcePage>=3&&v.sourcePage<=27));assert.equal(Boolean(p.tableOnly),false);assert.ok(p.locations.length);for(const loc of p.locations)assert.ok(loc.x>0&&loc.y>0&&loc.x<m.size[0]&&loc.y<m.size[1]);}
 }
 assert.equal(sections[0].parts[27].variants.length,4);
 assert.equal(sections[14].parts[2].variants[1].name,'proportional valve module(0635/O2/AIR)');

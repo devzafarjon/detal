@@ -1,0 +1,13 @@
+# Catalog callout correction — 2026-10-23
+
+The 165 previously unlinked illustrated sections now have 1,007 anchors. `verified-callouts.json` records their image coordinates. Circular-label detection and local Tesseract OCR supplied candidates; original-image number crops were reviewed for every new anchor. Oval and missed labels were placed visually. The false 11→17 match in section 801401 was corrected. Section 800803 was rerendered with its right edge extended to include label 7, retaining the original pixel scale.
+
+All 17 supplemental tables now include their continuation pages and 684 anchors extracted from numeric ID text in the source PDFs. Their versioned `-v2.jpg` assets allow deployment before database updates. Complete model definitions, page regions and source-page provenance are in `research/medical/catalog.json` and `research/a7/catalog.json`.
+
+`legacy-corrections.json` preserves three obsolete import entries in `archivedImportParts`: model 15 part 81 shared the printed 82 coordinate; model 17 part 9 overlapped the printed 100. Model 17 part 48 was placed on a component although the source skips that number. These duplicate entries were removed from active parts, without losing the archived metadata. The active catalog has 237 sections and 3,251 parts.
+
+Validation covers schema, every part's reachable anchor, overlapping hotspot centers, page navigation, per-location dimensions, selection and focus behavior. All 237 local image files were decoded and dimension-checked. All 1,648 older anchor crops were also reviewed; additional corrections are recorded in `legacy-anchor-review.json`. Model 16 internal ID 36 now displays its actual printed label 40. Model 1 part 36 uses its source-table row on the second view because no legible drawing callout was found. Real browser/touch testing is not claimed: the browser connection returned a native pipe startup error.
+
+Publish with `node scripts/publish-catalog-mappings.mjs` for a read-only plan, then `--apply` after deploying assets and validator. The updater backs up fresh models, preserves live names/prices/variants, refuses conflicting coordinate changes, uses expected revisions, and reads back every write. The baseline must be the pre-update snapshot. Re-running after an interrupted write is supported.
+
+Checks: `node --test tests/catalog-mapping.test.mjs`, `npm run test:ui`, `npm run test:medical`, `npm run test:a7`, `npm run test:netlify`, `npx tsc --noEmit`. `npm run audit:catalog` refreshes a read-only live snapshot, exhaustively exercises all rendered selection targets, and regenerates the HTML report.

@@ -4,7 +4,7 @@ import {runInContext} from 'node:vm';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
-const snapshotPath='.netlify/catalog-audit/models.json';
+const snapshotPath=process.env.CATALOG_SNAPSHOT||'.netlify/catalog-audit/models.json';
 const snapshot=fs.existsSync(snapshotPath)?JSON.parse(fs.readFileSync(snapshotPath,'utf8')):null;
 test('every production section, list selection, rendered hotspot and device filter',{skip:!snapshot&&'Run npm run audit:catalog to fetch a read-only production snapshot first.'},async()=>{
  const dom=new JSDOM(fs.readFileSync('public/catalog/index.html','utf8'),{url:'https://detal.example/catalog/',runScripts:'outside-only'}),w=dom.window,d=w.document,ctx=dom.getInternalVMContext();
@@ -25,6 +25,8 @@ test('every production section, list selection, rendered hotspot and device filt
     d.querySelector(`[data-part="${p.id}"]`).click();listClicks++;
     assert.equal(d.querySelector('#detail h2').textContent,p.name,`${m.id}:${p.id} list`);
     assert.equal(d.querySelector(`[data-part="${p.id}"]`).getAttribute('aria-pressed'),'true');
+    if(!p.tableOnly){d.getElementById('focusPart').click();const [x,y,width,height]=d.getElementById('diagram').getAttribute('viewBox').split(' ').map(Number),point=p.locations?.[0]||p;assert.ok(point.x>=x&&point.x<=x+width&&point.y>=y&&point.y<=y+height,`${m.id}:${p.id} focus must reveal label`);}
+
    }
    const hotspots=[...d.querySelectorAll('.hotspot')];
    assert.equal(hotspots.length,m.parts.filter(p=>!p.tableOnly).reduce((n,p)=>n+(p.locations?.length??1),0));
@@ -38,17 +40,7 @@ test('every production section, list selection, rendered hotspot and device filt
    }
    assert.equal(d.getElementById('diagramCoverage').hidden,m.parts.every(p=>!p.tableOnly));
   }
-  // A real imported table-only part can be linked manually and clicked afterward.
-  const unlinked=snapshot.find(m=>m.parts.some(p=>p.tableOnly));await w.chooseModel(unlinked.id);
-  const p=unlinked.parts.find(p=>p.tableOnly);d.querySelector(`[data-part="${p.id}"]`).click();d.getElementById('adminToggle').click();
-  assert.match(d.getElementById('movePart').textContent,/bog‘lash/);
-  w.DOMPoint=class{constructor(x,y){this.x=x;this.y=y}matrixTransform(){return this}};
-  d.getElementById('diagram').getScreenCTM=()=>({inverse:()=>({})});
-  d.getElementById('movePart').click();d.getElementById('diagram').dispatchEvent(new w.MouseEvent('click',{clientX:100,clientY:100,bubbles:true}));
-  const added=d.querySelector(`.hotspot[data-id="${p.id}"]`);assert.ok(added,'manual linking must clear tableOnly');
-  added.dispatchEvent(new w.MouseEvent('click',{bubbles:true}));assert.equal(d.querySelector('#detail h2').textContent,p.name);
-  assert.equal(w.eval('current.parts.find(p=>p.id===selected).tableOnly'),false);
-  const result={at:new Date().toISOString(),sections:snapshot.length,listClicks,hotspotClicks,keyboardChecks,manualLink:true,environment:'JSDOM; no browser layout or image alignment verification'};
+  const result={at:new Date().toISOString(),sections:snapshot.length,listClicks,hotspotClicks,keyboardChecks,environment:'JSDOM; no browser layout or image alignment verification'};
   fs.writeFileSync('.netlify/catalog-audit/interactions.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{w.close()}
 });

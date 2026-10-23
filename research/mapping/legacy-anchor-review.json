@@ -1,0 +1,604 @@
+[
+  {
+    "modelId": 1,
+    "partId": 10,
+    "before": {
+      "x": 194,
+      "y": 277,
+      "locations": null
+    },
+    "after": {
+      "x": 183,
+      "y": 241
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 20,
+    "before": {
+      "x": 195,
+      "y": 181,
+      "locations": null
+    },
+    "after": {
+      "x": 195,
+      "y": 277
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 21,
+    "before": {
+      "x": 346,
+      "y": 181,
+      "locations": null
+    },
+    "after": {
+      "x": 195,
+      "y": 214
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 22,
+    "before": {
+      "x": 346,
+      "y": 205,
+      "locations": null
+    },
+    "after": {
+      "x": 196,
+      "y": 139
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 23,
+    "before": {
+      "x": 346,
+      "y": 217,
+      "locations": null
+    },
+    "after": {
+      "x": 196,
+      "y": 199
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 24,
+    "before": {
+      "x": 346,
+      "y": 163,
+      "locations": null
+    },
+    "after": {
+      "x": 195,
+      "y": 181
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 25,
+    "before": {
+      "x": 195,
+      "y": 213,
+      "locations": null
+    },
+    "after": {
+      "x": 346,
+      "y": 164
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 26,
+    "before": {
+      "x": 347,
+      "y": 193,
+      "locations": null
+    },
+    "after": {
+      "x": 346,
+      "y": 181
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 27,
+    "before": {
+      "x": 235,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 346,
+      "y": 205
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 28,
+    "before": {
+      "x": 251,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 346,
+      "y": 219
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 29,
+    "before": {
+      "x": 270,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 346,
+      "y": 192
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 30,
+    "before": {
+      "x": 217,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 189,
+      "y": 338
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 31,
+    "before": {
+      "x": 203,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 204,
+      "y": 338
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 32,
+    "before": {
+      "x": 290,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 221,
+      "y": 338
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 33,
+    "before": {
+      "x": 190,
+      "y": 337,
+      "locations": null
+    },
+    "after": {
+      "x": 235,
+      "y": 338
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 34,
+    "before": {
+      "x": 326,
+      "y": 158,
+      "locations": null
+    },
+    "after": {
+      "x": 253,
+      "y": 336
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 35,
+    "before": {
+      "x": 270,
+      "y": 320,
+      "locations": null
+    },
+    "after": {
+      "x": 270,
+      "y": 338
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 36,
+    "before": {
+      "x": 165,
+      "y": 374,
+      "locations": null
+    },
+    "after": {
+      "x": 531,
+      "y": 221
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 37,
+    "before": {
+      "x": 166,
+      "y": 357,
+      "locations": null
+    },
+    "after": {
+      "x": 166,
+      "y": 372
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 40,
+    "before": {
+      "x": 343,
+      "y": 417,
+      "locations": null
+    },
+    "after": {
+      "x": 134,
+      "y": 448
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 42,
+    "before": {
+      "x": 258,
+      "y": 415,
+      "locations": null
+    },
+    "after": {
+      "x": 343,
+      "y": 417
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 43,
+    "before": {
+      "x": 309,
+      "y": 358,
+      "locations": null
+    },
+    "after": {
+      "x": 167,
+      "y": 357
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 46,
+    "before": {
+      "x": 258,
+      "y": 443,
+      "locations": null
+    },
+    "after": {
+      "x": 257,
+      "y": 416
+    }
+  },
+  {
+    "modelId": 1,
+    "partId": 47,
+    "before": {
+      "x": 134,
+      "y": 448,
+      "locations": null
+    },
+    "after": {
+      "x": 291,
+      "y": 338
+    }
+  },
+  {
+    "modelId": 12,
+    "partId": 84,
+    "before": {
+      "x": 1095,
+      "y": 727,
+      "locations": null
+    },
+    "after": {
+      "x": 1095,
+      "y": 695
+    }
+  },
+  {
+    "modelId": 14,
+    "partId": 71,
+    "before": {
+      "x": 882,
+      "y": 598,
+      "locations": null
+    },
+    "after": {
+      "x": 908,
+      "y": 595
+    }
+  },
+  {
+    "modelId": 15,
+    "partId": 24,
+    "before": {
+      "x": 256,
+      "y": 364,
+      "locations": [
+        {
+          "x": 256,
+          "y": 364
+        },
+        {
+          "x": 279,
+          "y": 374
+        }
+      ]
+    },
+    "after": {
+      "x": 279,
+      "y": 374
+    }
+  },
+  {
+    "modelId": 15,
+    "partId": 66,
+    "before": {
+      "x": 956,
+      "y": 540,
+      "locations": null
+    },
+    "after": {
+      "x": 955,
+      "y": 511
+    }
+  },
+  {
+    "modelId": 17,
+    "partId": 43,
+    "before": {
+      "x": 810,
+      "y": 518,
+      "locations": null
+    },
+    "after": {
+      "x": 809,
+      "y": 485
+    }
+  },
+  {
+    "modelId": 17,
+    "partId": 50,
+    "before": {
+      "x": 944,
+      "y": 512,
+      "locations": null
+    },
+    "after": {
+      "x": 971,
+      "y": 511
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 2,
+    "before": {
+      "x": 603,
+      "y": 225,
+      "locations": null
+    },
+    "after": {
+      "x": 691,
+      "y": 176
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 3,
+    "before": {
+      "x": 675,
+      "y": 185,
+      "locations": null
+    },
+    "after": {
+      "x": 603,
+      "y": 225
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 5,
+    "before": {
+      "x": 691,
+      "y": 176,
+      "locations": null
+    },
+    "after": {
+      "x": 544,
+      "y": 150
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 8,
+    "before": {
+      "x": 544,
+      "y": 150,
+      "locations": null
+    },
+    "after": {
+      "x": 417,
+      "y": 79
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 26,
+    "before": {
+      "x": 545,
+      "y": 227,
+      "locations": null
+    },
+    "after": {
+      "x": 563,
+      "y": 235
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 27,
+    "before": {
+      "x": 563,
+      "y": 235,
+      "locations": null
+    },
+    "after": {
+      "x": 596,
+      "y": 254
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 28,
+    "before": {
+      "x": 595,
+      "y": 254,
+      "locations": null
+    },
+    "after": {
+      "x": 627,
+      "y": 271
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 29,
+    "before": {
+      "x": 626,
+      "y": 271,
+      "locations": null
+    },
+    "after": {
+      "x": 650,
+      "y": 285
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 30,
+    "before": {
+      "x": 650,
+      "y": 285,
+      "locations": null
+    },
+    "after": {
+      "x": 626,
+      "y": 385
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 80,
+    "before": {
+      "x": 356,
+      "y": 472,
+      "locations": null
+    },
+    "after": {
+      "x": 325,
+      "y": 415
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 81,
+    "before": {
+      "x": 445,
+      "y": 479,
+      "locations": null
+    },
+    "after": {
+      "x": 512,
+      "y": 524
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 83,
+    "before": {
+      "x": 512,
+      "y": 524,
+      "locations": null
+    },
+    "after": {
+      "x": 449,
+      "y": 479
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 86,
+    "before": {
+      "x": 322,
+      "y": 414,
+      "locations": null
+    },
+    "after": {
+      "x": 354,
+      "y": 471
+    }
+  },
+  {
+    "modelId": 18,
+    "partId": 87,
+    "before": {
+      "x": 417,
+      "y": 79,
+      "locations": null
+    },
+    "after": {
+      "x": 283,
+      "y": 291
+    }
+  },
+  {
+    "modelId": 16,
+    "partId": 36,
+    "printedLabel": "40",
+    "reason": "Printed source label at the existing anchor is 40; stable internal ID retained."
+  },
+  {
+    "modelId": 14,
+    "partId": 56,
+    "reason": "Removed secondary anchor on printed 55; primary printed 56 retained."
+  },
+  {
+    "modelId": 1,
+    "partId": 36,
+    "reason": "No legible drawing callout; anchor uses printed source table row 36, available on second view."
+  },
+  {
+    "modelId": 17,
+    "partId": 48,
+    "reason": "Archived unsupported imported label; printed source goes from 47 to 49."
+  }
+]
