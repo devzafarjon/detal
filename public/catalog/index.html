@@ -90,6 +90,11 @@
 </div>
 <button id="olderJobs" type="button" hidden>Oldingi tahlillar</button>
 </section>
+<section id="ordersPanel" class="orders-panel" hidden>
+<div class="list-head"><div><span class="eyebrow">BUYURTMA SO‘ROVLARI</span><h2>Yangi so‘rovlar</h2></div><button id="ordersRefresh" type="button">Yangilash</button></div>
+<p>Bu so‘rovlar yakuniy buyurtma emas. Narx, artikul varianti va mavjudlikni mijoz bilan tasdiqlang.</p>
+<p id="ordersStatus" role="status"></p><div id="ordersList"></div>
+</section>
 <div id="actionHint" role="status"></div>
 <section id="catalogState" class="state-card" role="status">
 <div class="state-icon" id="stateIcon">
@@ -145,6 +150,8 @@
 <section id="cartPreview" class="cart-preview" aria-labelledby="cartPreviewTitle">
 <div class="cart-preview-head"><div><span class="eyebrow">TANLANGAN DETALLAR</span><h3 id="cartPreviewTitle">Karzinka</h3><p id="cartPreviewSummary" role="status">Hozircha bo‘sh</p></div><button id="cartPreviewOpen" type="button">Barchasi ↗</button></div>
 <div id="cartPreviewItems" class="cart-preview-items"></div>
+<div id="cartPreviewTotal" class="cart-total" role="status"></div>
+<button id="cartPreviewOrder" type="button" class="primary cart-order-button" disabled>Buyurtma so‘rovini yuborish</button>
 </section>
 </section>
 <button id="quickEdit" class="primary" hidden>
@@ -207,7 +214,16 @@
 <dialog id="cartDialog" class="cart-dialog" aria-labelledby="cartTitle">
 <div class="dialog-heading"><div><span class="eyebrow">SAQLANGAN TANLOV</span><h2 id="cartTitle">Karzinka</h2><p id="cartSummary" role="status"></p></div><button id="cartClose" type="button" class="close-button" aria-label="Karzinkani yopish"><span data-icon="close"></span></button></div>
 <div id="cartItems" class="cart-items"></div>
+<div id="cartTotal" class="cart-total" role="status"></div>
+<button id="cartOrder" type="button" class="primary cart-order-button" disabled>Buyurtma so‘rovini yuborish</button>
 <p class="cart-note">Tanlangan detallar shu brauzerda saqlanadi. Narx kiritilmagan yoki demo narxli detallar uchun buyurtma summasi hisoblanmaydi.</p>
+</dialog>
+<dialog id="orderDialog" class="order-dialog" aria-labelledby="orderTitle">
+<div class="dialog-heading"><div><span class="eyebrow">NARX VA MAVJUDLIK TASDIG‘I</span><h2 id="orderTitle">Buyurtma so‘rovi</h2></div><button id="orderClose" type="button" class="close-button" aria-label="So‘rov oynasini yopish"><span data-icon="close"></span></button></div>
+<p>So‘rovingiz sayt adminiga keladi. U siz bilan bog‘lanib, yakuniy narx, mavjudlik va kerak bo‘lsa artikul variantini tasdiqlaydi.</p>
+<div id="orderSummary" class="order-summary"></div>
+<form id="orderForm"><label>Ismingiz<input id="orderName" name="name" autocomplete="name" minlength="2" maxlength="100" required></label><label>Telefon raqamingiz<input id="orderPhone" name="phone" type="tel" autocomplete="tel" minlength="7" maxlength="24" placeholder="+998 90 123 45 67" required></label><label>Izoh (ixtiyoriy)<textarea id="orderNote" name="note" maxlength="1000" rows="3" placeholder="Masalan, kerakli artikul varianti yoki qurilma seriya raqami"></textarea></label><input name="website" class="order-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true"><button id="orderSubmit" type="submit" class="primary">So‘rovni yuborish</button></form>
+<p id="orderStatus" role="status"></p>
 </dialog>
 <dialog id="original" aria-labelledby="originalTitle">
 <div class="dialog-heading">
@@ -332,6 +348,7 @@
 <script src="cart.js"></script>
 <script src="admin.js">
 </script>
+<script src="order-admin.js"></script>
 <script src="ai.js">
 </script>
 <script src="pdf.js"></script>

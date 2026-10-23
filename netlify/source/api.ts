@@ -8,11 +8,13 @@ import { requestContext, authRoute } from './auth';
 import { chunkUpload } from './upload';
 import { scan } from './scan';
 import { pdfLayout } from './pdf-layout';
+import { orders } from './orders';
 export default async function handler(req:Request,context:any={}) {
  return requestContext.run({request:req,ip:context.ip||'unknown'},async()=>{
   try {
    const url=new URL(req.url),path=url.pathname;
    if(path==='/api/pdf-layout')return await pdfLayout(req);
+   if(path==='/api/orders')return await orders(req);
    if(path.startsWith('/auth/'))return await authRoute(req);
    if(path.startsWith('/api/upload/'))return await chunkUpload(req);
    if(path==='/api/scan-ai'&&(req.method==='POST'||url.searchParams.has('id')))return await scan(req);

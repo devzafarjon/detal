@@ -19,7 +19,7 @@ if(local.OPENAI_VISION_MODEL)settings.OPENAI_VISION_MODEL=local.OPENAI_VISION_MO
 if(!settings.OPENAI_API_KEY)throw Error('Missing approved OpenAI key');
 fs.writeFileSync('.env.netlify.local',Object.entries(settings).map(([k,v])=>k+'='+JSON.stringify(v)).join('\n')+'\n',{mode:0o600});
 const sql=neon(settings.DATABASE_URL);
-for(const statement of fs.readFileSync('netlify/migrations/001_catalog.sql','utf8').split(';').filter(s=>s.trim()))await sql.query(statement);
+for(const file of fs.readdirSync('netlify/migrations').filter(name=>/^\d+_.*\.sql$/.test(name)).sort())for(const statement of fs.readFileSync('netlify/migrations/'+file,'utf8').split(';').filter(s=>s.trim()))await sql.query(statement);
 const seed=fs.readFileSync('.netlify/catalog-migration.json','utf8');
 await sql.query("INSERT INTO catalogs(id,data,revision) VALUES('main',$1,1) ON CONFLICT(id) DO NOTHING",[seed]);
 console.log('Database schema and catalog imported.');

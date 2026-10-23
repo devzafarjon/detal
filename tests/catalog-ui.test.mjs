@@ -13,7 +13,7 @@ async function setup({models=[model],fail=false,admin=false,lazy=false,device=''
  w.HTMLDialogElement.prototype.close=function(value){this.open=false;this.returnValue=value||'';this.dispatchEvent(new w.Event('close'));};
  w.fetch=async url=>({ok:!fail,json:async()=>url==='/api/session'?{admin}:String(url).includes('/api/catalog?id=')?{model:structuredClone(models.find(m=>m.id===Number(String(url).split('id=')[1]))),revision:1}:{models:structuredClone(lazy?models.map(m=>({id:m.id,name:m.name,partCount:m.parts.length})):models),error:'Aloqa xatosi'}});
  runInContext('const models=[];',dom.getInternalVMContext());
- for(const file of ['devices','ui','app','cart','admin','pdf'])runInContext(readFileSync(`public/catalog/${file}.js`,'utf8'),dom.getInternalVMContext());
+ for(const file of ['devices','ui','app','cart','admin','order-admin','pdf'])runInContext(readFileSync(`public/catalog/${file}.js`,'utf8'),dom.getInternalVMContext());
  await new Promise(resolve=>setTimeout(resolve,10));return dom;
 }
 test('catalog loads, model search filters and selected part is accessible',async()=>{const dom=await setup(),w=dom.window,d=w.document;try{assert.equal(d.body.dataset.state,'ready');assert.equal(d.querySelectorAll('.metric').length,2);assert.equal(d.querySelectorAll('.part').length,2);d.querySelector('[data-part="2"]').click();assert.match(d.getElementById('detail').textContent,/Stator/);assert.equal(d.querySelector('[data-part="2"]').getAttribute('aria-pressed'),'true');const search=d.getElementById('search');search.value='missing';search.dispatchEvent(new w.Event('input'));assert.match(d.getElementById('parts').textContent,/Detal topilmadi/);const modelSearch=d.getElementById('modelSearch');modelSearch.value='750';modelSearch.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(d.querySelectorAll('[data-suggest-model]').length,1);modelSearch.value='missing';modelSearch.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(d.getElementById('devicePicker').disabled,true);}finally{w.close();}});
@@ -127,5 +127,30 @@ test('right card shows detail above the cart and adds the chosen quantity',async
   d.getElementById('cartAddPlus').click();assert.equal(d.getElementById('cartAddQty').value,'2');d.getElementById('cartAddQty').value='4';d.getElementById('cartAddQty').dispatchEvent(new w.Event('change',{bubbles:true}));d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'4');assert.equal(d.querySelector('#cartPreviewItems .cart-item h3').textContent,'Rotor');assert.equal(d.querySelector('#cartPreviewItems .cart-stepper input').value,'4');
   d.querySelector('#cartPreviewItems [data-cart-plus]').click();assert.equal(d.getElementById('cartCount').textContent,'5');d.querySelector('#cartPreviewItems [data-cart-remove]').click();assert.equal(d.getElementById('cartCount').textContent,'0');assert.match(d.getElementById('cartPreviewItems').textContent,/Karzinka bo‘sh/);
   d.getElementById('cartAddQty').value='0';d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'0');assert.match(d.getElementById('cartPartStatus').textContent,/1 dan 999/);
+ }finally{w.close()}
+});
+
+test('cart prices, partial total and order request reflect selected quantities',async()=>{
+ const item=structuredClone(model);item.parts[1].demoPrice=true;
+ const dom=await setup({models:[item]}),w=dom.window,d=w.document;
+ try{
+  d.querySelector('[data-part="2"]').click();d.getElementById('cartAddQty').value='3';d.getElementById('cartAdd').click();
+  assert.match(d.getElementById('cartPreviewItems').textContent,/150/);assert.match(d.getElementById('cartPreviewTotal').textContent,/150/);assert.match(d.getElementById('cartPreviewTotal').textContent,/demo/);
+  d.querySelector('[data-part="1"]').click();d.getElementById('cartAdd').click();assert.match(d.getElementById('cartTotal').textContent,/narxsiz/);assert.equal(d.getElementById('cartPreviewOrder').disabled,false);
+  d.getElementById('cartPreviewOrder').click();assert.equal(d.getElementById('orderDialog').open,true);
+  d.getElementById('orderName').value='Test Mijoz';d.getElementById('orderPhone').value='+998 90 123 45 67';
+  let sent;w.fetch=async(url,options)=>{assert.equal(url,'/api/orders');sent=JSON.parse(options.body);return {ok:true,json:async()=>({id:'12345678-0000-0000-0000-000000000000'})}};
+  d.getElementById('orderForm').dispatchEvent(new w.Event('submit',{cancelable:true,bubbles:true}));await new Promise(resolve=>setTimeout(resolve,5));
+  assert.deepEqual(sent.items,[{modelId:1,partId:2,qty:3},{modelId:1,partId:1,qty:1}]);assert.equal(sent.price,undefined);assert.match(d.getElementById('orderStatus').textContent,/So‘rov qabul qilindi/);assert.equal(d.getElementById('cartCount').textContent,'4');
+ }finally{w.close()}
+});
+
+test('admin panel shows saved order requests and updates their status',async()=>{
+ const dom=await setup({admin:true}),w=dom.window,d=w.document;
+ try{
+  const order={id:'12345678-0000-0000-0000-000000000000',customer_name:'Test Mijoz',phone:'+998 90 123 45 67',note:'Iltimos, bog‘laning',items:[{modelName:'Bosch',label:'2',name:'Stator',article:'S-2',qty:2,lineCents:'10000000',demoPrice:false,variantRequired:false}],subtotal_cents:'10000000',missing_price_count:0,demo_price_count:0,status:'new',created_at:Date.now()};
+  let update;w.fetch=async(url,options)=>{if(url==='/api/orders'&&options?.method==='PATCH'){update=JSON.parse(options.body);order.status=update.status;return {ok:true,json:async()=>({id:order.id,status:order.status})}}if(url==='/api/orders')return {ok:true,json:async()=>({orders:[order]})};throw Error('Unexpected URL')};
+  d.getElementById('adminToggle').click();await new Promise(resolve=>setTimeout(resolve,5));assert.equal(d.getElementById('ordersPanel').hidden,false);assert.match(d.getElementById('ordersList').textContent,/Test Mijoz/);assert.match(d.getElementById('ordersList').textContent,/100/);
+  const select=d.querySelector('[data-order-status]');select.value='contacted';select.dispatchEvent(new w.Event('change',{bubbles:true}));await new Promise(resolve=>setTimeout(resolve,5));assert.deepEqual(update,{id:order.id,status:'contacted'});assert.match(d.getElementById('ordersList').textContent,/Bog‘lanildi/);
  }finally{w.close()}
 });

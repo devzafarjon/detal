@@ -24,7 +24,7 @@ The Netlify target uses `netlify.toml` and `npm run build:netlify`. It bundles t
 - Production: https://detal-demo.netlify.app
 - Admin: `/admin/` (email/password, secure 8-hour cookie; no public registration).
 - Required secret variables: `DATABASE_URL`, `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH` (`salt:scrypt_hex`), `SESSION_SECRET`, and `OPENAI_API_KEY`. Optional: `OPENAI_VISION_MODEL`.
-- Schema: `netlify/migrations/001_catalog.sql`. Apply through a direct database connection before deploying. Existing rows are preserved.
+- Schema: apply all numbered files in `netlify/migrations/` in order through a direct database connection before deploying. Existing rows are preserved.
 - Images up to 12 MiB upload in 3 MiB chunks when needed. AI scans use background Responses requests and polling; results remain editable drafts.
 - Validate: `npm run test:netlify`, `npx tsc --noEmit`, `npm run build:netlify`.
 - Deploy with an authorized Netlify CLI: `netlify deploy --prod`.
@@ -36,7 +36,9 @@ The deployment was verified using API integration tests and remote catalog/auth/
 
 ## Visitor cart
 
-The catalog cart is a browser-local shortlist, keyed by drawing ID and part ID. The right detail card shows part information above a live cart list. Visitors choose an amount (1–999) before adding, can adjust quantities or remove lines in that lower section, and can return to a saved part's diagram. Adding a part keeps its drawing callout and list row marked across drawing changes and reloads. The data is stored in `localStorage` under `detal-cart-v1`; when browser storage is unavailable, it lasts only for the open page. It is not an order, checkout, or server-side account cart. Names and articles are snapshots of the part at the time it was added. Validation: `npm run test:ui`.
+The catalog cart is a browser-local shortlist, keyed by drawing ID and part ID. The right detail card shows part information above a live cart list. Visitors choose an amount (1–999) before adding, can adjust quantities or remove lines in that lower section, and can return to a saved part's diagram. Adding a part keeps its drawing callout and list row marked across drawing changes and reloads. The data is stored in `localStorage` under `detal-cart-v1`; when browser storage is unavailable, it lasts only for the open page. Unit prices, line totals and the subtotal for priced lines appear in both cart views. Missing and demo prices are flagged, and the subtotal is not a final quote.
+
+Visitors can submit up to 30 distinct lines as an order request with their name and phone number. `/api/orders` re-reads all parts and prices from the catalog, then stores the request in Neon. The cart remains in the browser after submission. Admins see requests in the catalog admin panel and can mark them new, contacted or closed. Admins must confirm availability, variant and final price with the customer; the site does not take payment. Requests are limited to five per IP per hour. Validation: `npm run test:ui` and `npm run test:netlify`.
 
 ## PDF catalogs on Netlify
 
