@@ -1,0 +1,177 @@
+[
+  {
+    "name": "A7_Parts_EN_V1.0 (2).docx",
+    "sha256": "2ff44e49db5ba852252afe1d14b46f16d91f48ebc45b7561281d644cdf4d3e2a",
+    "duplicateOf": null,
+    "existingDevice": "a7",
+    "disposition": "Existing A7 catalog retained; PDF is byte-identical, DOCX articles cross-checked."
+  },
+  {
+    "name": "A7_Parts_EN_V1.0 (2).pdf",
+    "sha256": "d6d79cc3626f7cdb0c16ae09c7f9087a3a3b6a1a412b4e7a7aa0de0892bdc642",
+    "duplicateOf": null,
+    "existingDevice": "a7",
+    "disposition": "Existing A7 catalog retained; PDF is byte-identical, DOCX articles cross-checked."
+  },
+  {
+    "name": "A7_Parts_EN_V1.0.docx",
+    "sha256": "2ff44e49db5ba852252afe1d14b46f16d91f48ebc45b7561281d644cdf4d3e2a",
+    "duplicateOf": "A7_Parts_EN_V1.0 (2).docx",
+    "existingDevice": "a7",
+    "disposition": "Existing A7 catalog retained; PDF is byte-identical, DOCX articles cross-checked."
+  },
+  {
+    "name": "A7_Parts_EN_V1.0.pdf",
+    "sha256": "d6d79cc3626f7cdb0c16ae09c7f9087a3a3b6a1a412b4e7a7aa0de0892bdc642",
+    "duplicateOf": "A7_Parts_EN_V1.0 (2).pdf",
+    "existingDevice": "a7",
+    "disposition": "Existing A7 catalog retained; PDF is byte-identical, DOCX articles cross-checked."
+  },
+  {
+    "name": "BeneFusion SP5 Syringe Pump Parts_V1.0_EN.pdf",
+    "sha256": "49fc3713eeccb91d237092679fc8e15a19a67ea40261daab51cf73f8bfc1b647",
+    "duplicateOf": null,
+    "key": "catalog-05",
+    "pdf": "public/catalog/documents/medical/catalog-05.pdf",
+    "renderedPdfSha256": "49fc3713eeccb91d237092679fc8e15a19a67ea40261daab51cf73f8bfc1b647"
+  },
+  {
+    "name": "BeneFusion VP5 Infusion Pump Parts_V1.0_EN.pdf",
+    "sha256": "0fc1ae649c88551d60f8d7ed5e3ce119f694864b8ad5b5ea13a3136a27f31e4b",
+    "duplicateOf": null,
+    "key": "catalog-06",
+    "pdf": "public/catalog/documents/medical/catalog-06.pdf",
+    "renderedPdfSha256": "0fc1ae649c88551d60f8d7ed5e3ce119f694864b8ad5b5ea13a3136a27f31e4b"
+  },
+  {
+    "name": "BeneHeart D3&D2 Parts_EN_V1.0.pdf",
+    "sha256": "3b45a157eb97784cf523a58d9c42185ea0c0fb09b8ed9a9950fb3da857b81008",
+    "duplicateOf": null,
+    "key": "catalog-07",
+    "pdf": "public/catalog/documents/medical/catalog-07.pdf",
+    "renderedPdfSha256": "3b45a157eb97784cf523a58d9c42185ea0c0fb09b8ed9a9950fb3da857b81008"
+  },
+  {
+    "name": "BeneHeart D6&D5 Parts_EN_V1.0.pdf",
+    "sha256": "ec741f97ec53c9901ebc4e9764f146df518b7327445aaea587747df89a2cb025",
+    "duplicateOf": null,
+    "key": "catalog-08",
+    "pdf": "public/catalog/documents/medical/catalog-08.pdf",
+    "renderedPdfSha256": "ec741f97ec53c9901ebc4e9764f146df518b7327445aaea587747df89a2cb025"
+  },
+  {
+    "name": "BeneView T1_Parts_EN_V1.0.pdf",
+    "sha256": "aff706eca29a19448c054dc195bdd46030e7b9d8c5fd69e46b4bc3bf4c10d20f",
+    "duplicateOf": null,
+    "key": "catalog-09",
+    "pdf": "public/catalog/documents/medical/catalog-09.pdf",
+    "renderedPdfSha256": "aff706eca29a19448c054dc195bdd46030e7b9d8c5fd69e46b4bc3bf4c10d20f"
+  },
+  {
+    "name": "BeneView T5_Parts_EN_V1.0.pdf",
+    "sha256": "0ec9cf63aa61e144b50a841edb7ce7e68e76421512d0f2cdb607ba157c9fc609",
+    "duplicateOf": null,
+    "key": "catalog-10",
+    "pdf": "public/catalog/documents/medical/catalog-10.pdf",
+    "renderedPdfSha256": "0ec9cf63aa61e144b50a841edb7ce7e68e76421512d0f2cdb607ba157c9fc609"
+  },
+  {
+    "name": "BeneView T6&8&9_Parts_EN_V1.0.pdf",
+    "sha256": "6f0dd6da911c36f9c87d1d45f62fc19f4b77d40f021a2e4613f515b3e2de7897",
+    "duplicateOf": null,
+    "key": "catalog-11",
+    "pdf": "public/catalog/documents/medical/catalog-11.pdf",
+    "renderedPdfSha256": "6f0dd6da911c36f9c87d1d45f62fc19f4b77d40f021a2e4613f515b3e2de7897"
+  },
+  {
+    "name": "BeneVision N17N15N12 parts_V1.0_EN.pdf",
+    "sha256": "59c8573427ff96d6f4c48a86b26a26b0651297fb56e1eb413bb15fc7f8f01503",
+    "duplicateOf": null,
+    "key": "catalog-12",
+    "pdf": "public/catalog/documents/medical/catalog-12.pdf",
+    "renderedPdfSha256": "59c8573427ff96d6f4c48a86b26a26b0651297fb56e1eb413bb15fc7f8f01503"
+  },
+  {
+    "name": "BeneVision N1_Parts_EN_V1.0.pdf",
+    "sha256": "b8a7f3ad933460cebd75fa6f6d520b16735bbf2d6ac33ddd1a2959d2bc797519",
+    "duplicateOf": null,
+    "key": "catalog-13",
+    "pdf": "public/catalog/documents/medical/catalog-13.pdf",
+    "renderedPdfSha256": "b8a7f3ad933460cebd75fa6f6d520b16735bbf2d6ac33ddd1a2959d2bc797519"
+  },
+  {
+    "name": "BeneVision N22N19 parts_V1.0_EN.pdf",
+    "sha256": "ed9941f038135889ce01fa4507622112525f5f67c2bcaba31d6e0eaa25d9c9dd",
+    "duplicateOf": null,
+    "key": "catalog-14",
+    "pdf": "public/catalog/documents/medical/catalog-14.pdf",
+    "renderedPdfSha256": "ed9941f038135889ce01fa4507622112525f5f67c2bcaba31d6e0eaa25d9c9dd"
+  },
+  {
+    "name": "SV300&SV350 Parts_EN_V1.2.docx",
+    "sha256": "ae8889cf4f0c4724c3873608692c13493ac55a4e9254de38024e52550c0fb229",
+    "duplicateOf": null,
+    "key": "catalog-15",
+    "pdf": "public/catalog/documents/medical/catalog-15.pdf",
+    "originalDocument": "/catalog/documents/medical/catalog-15.docx",
+    "renderedPdfSha256": "84be9991aba21c18d8ca1b0f4db985b397694e3b7fe44f68ecfdcb44e51c137e"
+  },
+  {
+    "name": "SV600&800_Parts_EN_V1.0 (2).pdf",
+    "sha256": "c47882b27e3b9daa90eb56875568901a56ae87afaf3a4baebb8a5beb46581463",
+    "duplicateOf": null,
+    "key": "catalog-16",
+    "pdf": "public/catalog/documents/medical/catalog-16.pdf",
+    "renderedPdfSha256": "c47882b27e3b9daa90eb56875568901a56ae87afaf3a4baebb8a5beb46581463"
+  },
+  {
+    "name": "SV600&800_Parts_EN_V1.0.pdf",
+    "sha256": "c47882b27e3b9daa90eb56875568901a56ae87afaf3a4baebb8a5beb46581463",
+    "duplicateOf": "SV600&800_Parts_EN_V1.0 (2).pdf"
+  },
+  {
+    "name": "SynoVent E3&E5 Ventilator Parts_EN_V2.0.docx",
+    "sha256": "06720a7f431a5ef08a09ccbbbf59240fd3451b382744c49058cf8ddc3383015e",
+    "duplicateOf": null,
+    "key": "catalog-18",
+    "pdf": "public/catalog/documents/medical/catalog-18.pdf",
+    "originalDocument": "/catalog/documents/medical/catalog-18.docx",
+    "renderedPdfSha256": "30cd5526dac729e6c71034e21a86e449d96981150ad139e318199e033194feb2"
+  },
+  {
+    "name": "WATO EX-35(KG-) Anesthesia Machine Parts_EN_V3.0.docx",
+    "sha256": "d3df847f893985dca7f05f013bd32733ff33fb2a4314b5f5c10bbda3b8135452",
+    "duplicateOf": null,
+    "key": "catalog-19",
+    "pdf": "public/catalog/documents/medical/catalog-19.pdf",
+    "originalDocument": "/catalog/documents/medical/catalog-19.docx",
+    "renderedPdfSha256": "953ae1bcc193da44a69af65314d1008436bd4c3ff18d7e2fd071381a2a713f1e"
+  },
+  {
+    "name": "WATO_EX_20&30DW_&DY_Anesthesia_Machine_Parts_EN_V2_0.docx",
+    "sha256": "fbd63ce6dc5ec5c3396abce163f458e8b9b6fe297fba7ad5d31bd3caf74691a9",
+    "duplicateOf": null,
+    "key": "catalog-20",
+    "pdf": "public/catalog/documents/medical/catalog-20.pdf",
+    "originalDocument": "/catalog/documents/medical/catalog-20.docx",
+    "renderedPdfSha256": "1a5f6faabe69fb31eababbf5349f67f63e0bba89a07414bbdc10c1513ece592d"
+  },
+  {
+    "name": "WATO_EX_55&65KU_&KT_Anesthesia_Machine_Parts_EN_V2_0.docx",
+    "sha256": "ea0a9c8e057eac8e56ba1f6ef93b3b48b2e9f10ea22556bd2504238bcf568274",
+    "duplicateOf": null,
+    "key": "catalog-21",
+    "pdf": "public/catalog/documents/medical/catalog-21.pdf",
+    "originalDocument": "/catalog/documents/medical/catalog-21.docx",
+    "renderedPdfSha256": "517fe747cb0d361bbd570262b7dc1bf2ea0150fd7bfe9a315e4a74dc5bd69e2f"
+  },
+  {
+    "name": "WATO_EX_55Pro&65ProF1_&KY_Anesthesia_Machine_Parts_EN_V2_0.docx",
+    "sha256": "31ff0888a5456636b13186b114775690ea70c00409d80d505b7290de9897194c",
+    "duplicateOf": null,
+    "key": "catalog-22",
+    "pdf": "public/catalog/documents/medical/catalog-22.pdf",
+    "originalDocument": "/catalog/documents/medical/catalog-22.docx",
+    "renderedPdfSha256": "bcd5089bff00177906d1f740693dae62d21a81b6211ce52f530aed1e471328d3"
+  }
+]

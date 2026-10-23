@@ -1,0 +1,121 @@
+[
+  {
+    "device": "BeneFusion SP5",
+    "id": "catalog-05",
+    "sections": 6,
+    "positions": 79,
+    "articleEntries": 87
+  },
+  {
+    "device": "BeneFusion VP5",
+    "id": "catalog-06",
+    "sections": 6,
+    "positions": 55,
+    "articleEntries": 78
+  },
+  {
+    "device": "BeneHeart D3 / D2",
+    "id": "catalog-07",
+    "sections": 6,
+    "positions": 79,
+    "articleEntries": 103
+  },
+  {
+    "device": "BeneHeart D6 / D5",
+    "id": "catalog-08",
+    "sections": 6,
+    "positions": 92,
+    "articleEntries": 118
+  },
+  {
+    "device": "BeneView T1",
+    "id": "catalog-09",
+    "sections": 9,
+    "positions": 54,
+    "articleEntries": 86
+  },
+  {
+    "device": "BeneView T5",
+    "id": "catalog-10",
+    "sections": 13,
+    "positions": 137,
+    "articleEntries": 211
+  },
+  {
+    "device": "BeneView T6 / T8 / T9",
+    "id": "catalog-11",
+    "sections": 14,
+    "positions": 184,
+    "articleEntries": 289
+  },
+  {
+    "device": "BeneVision N17 / N15 / N12",
+    "id": "catalog-12",
+    "sections": 19,
+    "positions": 117,
+    "articleEntries": 136
+  },
+  {
+    "device": "BeneVision N1",
+    "id": "catalog-13",
+    "sections": 7,
+    "positions": 63,
+    "articleEntries": 90
+  },
+  {
+    "device": "BeneVision N22 / N19",
+    "id": "catalog-14",
+    "sections": 10,
+    "positions": 108,
+    "articleEntries": 141
+  },
+  {
+    "device": "SV300 / SV350",
+    "id": "catalog-15",
+    "sections": 16,
+    "positions": 83,
+    "articleEntries": 93
+  },
+  {
+    "device": "SV600 / SV650 / SV800 / SV850",
+    "id": "catalog-16",
+    "sections": 16,
+    "positions": 97,
+    "articleEntries": 107
+  },
+  {
+    "device": "SynoVent E3 / E5",
+    "id": "catalog-18",
+    "sections": 12,
+    "positions": 91,
+    "articleEntries": 103
+  },
+  {
+    "device": "WATO EX-35 (KG)",
+    "id": "catalog-19",
+    "sections": 14,
+    "positions": 119,
+    "articleEntries": 150
+  },
+  {
+    "device": "WATO EX-20 / EX-30 (DW / DY)",
+    "id": "catalog-20",
+    "sections": 18,
+    "positions": 126,
+    "articleEntries": 224
+  },
+  {
+    "device": "WATO EX-55 / EX-65 (KU / KT)",
+    "id": "catalog-21",
+    "sections": 11,
+    "positions": 132,
+    "articleEntries": 189
+  },
+  {
+    "device": "WATO EX-55Pro / EX-65Pro (F1 / KY)",
+    "id": "catalog-22",
+    "sections": 14,
+    "positions": 129,
+    "articleEntries": 175
+  }
+]

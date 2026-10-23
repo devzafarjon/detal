@@ -17,7 +17,8 @@
     "test:ui": "node --test tests/catalog-ui.test.mjs",
     "test:pdf": "node tests/pdf.test.mjs",
     "test:a7": "node tests/a7.test.mjs",
-    "test:documents": "node --test tests/document-import.test.mjs && node tests/document-conversion.test.mjs"
+    "test:documents": "node --test tests/document-import.test.mjs && node tests/document-conversion.test.mjs",
+    "test:medical": "node tests/medical.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
