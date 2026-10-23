@@ -90,8 +90,7 @@
 </div>
 <button id="olderJobs" type="button" hidden>Oldingi tahlillar</button>
 </section>
-<div id="actionHint" role="status">
-</div>
+<div id="actionHint" role="status"></div>
 <section id="catalogState" class="state-card" role="status">
 <div class="state-icon" id="stateIcon">
 <span data-icon="refresh">
@@ -141,7 +140,12 @@
 </div>
 </section>
 <aside>
-<section id="detail" class="detail" aria-live="polite">
+<section id="detail" class="detail">
+<div id="detailContent" aria-live="polite"></div>
+<section id="cartPreview" class="cart-preview" aria-labelledby="cartPreviewTitle">
+<div class="cart-preview-head"><div><span class="eyebrow">TANLANGAN DETALLAR</span><h3 id="cartPreviewTitle">Karzinka</h3><p id="cartPreviewSummary" role="status">Hozircha bo‘sh</p></div><button id="cartPreviewOpen" type="button">Barchasi ↗</button></div>
+<div id="cartPreviewItems" class="cart-preview-items"></div>
+</section>
 </section>
 <button id="quickEdit" class="primary" hidden>
 <span data-icon="edit">

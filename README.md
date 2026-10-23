@@ -36,7 +36,7 @@ The deployment was verified using API integration tests and remote catalog/auth/
 
 ## Visitor cart
 
-The catalog cart is a browser-local shortlist, keyed by drawing ID and part ID. Adding a part keeps its drawing callout and list row marked across drawing changes and reloads. Visitors can set quantities (1–999), remove a line, and return to its diagram. The data is stored in `localStorage` under `detal-cart-v1`; when browser storage is unavailable, it lasts only for the open page. It is not an order, checkout, or server-side account cart. Names and articles are snapshots of the part at the time it was added. Validation: `npm run test:ui`.
+The catalog cart is a browser-local shortlist, keyed by drawing ID and part ID. The right detail card shows part information above a live cart list. Visitors choose an amount (1–999) before adding, can adjust quantities or remove lines in that lower section, and can return to a saved part's diagram. Adding a part keeps its drawing callout and list row marked across drawing changes and reloads. The data is stored in `localStorage` under `detal-cart-v1`; when browser storage is unavailable, it lasts only for the open page. It is not an order, checkout, or server-side account cart. Names and articles are snapshots of the part at the time it was added. Validation: `npm run test:ui`.
 
 ## PDF catalogs on Netlify
 

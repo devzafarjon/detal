@@ -103,20 +103,29 @@ test('cart keeps parts from multiple diagrams, updates quantities and restores s
  try{
   d.querySelector('[data-part="2"]').click();d.getElementById('cartAdd').click();d.getElementById('cartAdd').click();
   assert.equal(d.getElementById('cartCount').textContent,'2');assert.equal(d.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);assert.equal(d.querySelector('.part[data-part="2"] .part-cart-count').textContent,'✓ 2');
-  await w.chooseModel(2);d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'3');
-  d.getElementById('cartOpen').click();assert.equal(d.getElementById('cartDialog').open,true);assert.equal(d.querySelectorAll('.cart-item').length,2);
-  const first=d.querySelector('.cart-item[data-model-id="1"]');first.querySelector('[data-cart-minus]').click();assert.equal(d.getElementById('cartCount').textContent,'2');
-  const quantityInput=d.querySelector('.cart-item[data-model-id="1"] .cart-stepper input');quantityInput.value='5';quantityInput.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(d.getElementById('cartCount').textContent,'6');
-  const blankInput=d.querySelector('.cart-item[data-model-id="1"] .cart-stepper input');blankInput.value='';blankInput.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(d.getElementById('cartCount').textContent,'6');
-  d.querySelector('.cart-item[data-model-id="2"] [data-cart-remove]').click();assert.equal(d.getElementById('cartCount').textContent,'5');assert.equal(d.querySelector('.hotspot[data-id="1"]').classList.contains('in-cart'),false);
+  await w.chooseModel(2);assert.equal(d.querySelectorAll('#cartPreviewItems .cart-item').length,1);d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'3');assert.equal(d.querySelectorAll('#cartPreviewItems .cart-item').length,2);
+  d.getElementById('cartOpen').click();assert.equal(d.getElementById('cartDialog').open,true);assert.equal(d.querySelectorAll('#cartItems .cart-item').length,2);
+  const first=d.querySelector('#cartItems .cart-item[data-model-id="1"]');first.querySelector('[data-cart-minus]').click();assert.equal(d.getElementById('cartCount').textContent,'2');
+  const quantityInput=d.querySelector('#cartItems .cart-item[data-model-id="1"] .cart-stepper input');quantityInput.value='5';quantityInput.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(d.getElementById('cartCount').textContent,'6');
+  const blankInput=d.querySelector('#cartItems .cart-item[data-model-id="1"] .cart-stepper input');blankInput.value='';blankInput.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(d.getElementById('cartCount').textContent,'6');
+  d.querySelector('#cartItems .cart-item[data-model-id="2"] [data-cart-remove]').click();assert.equal(d.getElementById('cartCount').textContent,'5');assert.equal(d.querySelector('.hotspot[data-id="1"]').classList.contains('in-cart'),false);
   const saved=w.localStorage.getItem('detal-cart-v1');assert.equal(JSON.parse(saved)[0].qty,5);
   const restored=await setup({models:[model,second],cartData:saved}),rd=restored.window.document;
-  try{assert.equal(rd.getElementById('cartCount').textContent,'5');assert.equal(rd.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);rd.getElementById('cartOpen').click();rd.querySelector('[data-cart-remove]').click();assert.equal(rd.getElementById('cartCount').textContent,'0');assert.match(rd.getElementById('cartItems').textContent,/Karzinka bo‘sh/);}finally{restored.window.close()}
+  try{assert.equal(rd.getElementById('cartCount').textContent,'5');assert.equal(rd.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);rd.getElementById('cartOpen').click();rd.querySelector('#cartItems [data-cart-remove]').click();assert.equal(rd.getElementById('cartCount').textContent,'0');assert.match(rd.getElementById('cartItems').textContent,/Karzinka bo‘sh/);}finally{restored.window.close()}
  }finally{w.close()}
 });
 
 test('cart opens the saved diagram and ignores malformed stored data',async()=>{
  const data=JSON.stringify([{modelId:1,partId:2,modelName:'Bosch 750',name:'Stator',label:'2',article:'S-2',qty:1},{modelId:1,partId:1,qty:-4}]);
  const dom=await setup({cartData:data}),w=dom.window,d=w.document;w.HTMLElement.prototype.scrollIntoView=function(){};
- try{assert.equal(d.getElementById('cartCount').textContent,'1');d.getElementById('cartOpen').click();d.querySelector('[data-cart-go]').click();await new Promise(resolve=>setTimeout(resolve,5));assert.equal(d.getElementById('cartDialog').open,false);assert.equal(d.querySelector('#detail h2').textContent,'Stator');assert.equal(d.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);assert.equal(d.querySelector('[data-cart-minus]').disabled,true);}finally{w.close()}
+ try{assert.equal(d.getElementById('cartCount').textContent,'1');d.getElementById('cartOpen').click();d.querySelector('#cartItems [data-cart-go]').click();await new Promise(resolve=>setTimeout(resolve,5));assert.equal(d.getElementById('cartDialog').open,false);assert.equal(d.querySelector('#detail h2').textContent,'Stator');assert.equal(d.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);assert.equal(d.querySelector('#cartItems [data-cart-minus]').disabled,true);}finally{w.close()}
+});
+
+test('right card shows detail above the cart and adds the chosen quantity',async()=>{
+ const dom=await setup(),w=dom.window,d=w.document;
+ try{assert.ok(d.getElementById('detailContent').compareDocumentPosition(d.getElementById('cartPreview'))&w.Node.DOCUMENT_POSITION_FOLLOWING);assert.match(d.getElementById('detailContent').textContent,/Rotor/);assert.match(d.getElementById('cartPreviewItems').textContent,/Karzinka bo‘sh/);
+  d.getElementById('cartAddPlus').click();assert.equal(d.getElementById('cartAddQty').value,'2');d.getElementById('cartAddQty').value='4';d.getElementById('cartAddQty').dispatchEvent(new w.Event('change',{bubbles:true}));d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'4');assert.equal(d.querySelector('#cartPreviewItems .cart-item h3').textContent,'Rotor');assert.equal(d.querySelector('#cartPreviewItems .cart-stepper input').value,'4');
+  d.querySelector('#cartPreviewItems [data-cart-plus]').click();assert.equal(d.getElementById('cartCount').textContent,'5');d.querySelector('#cartPreviewItems [data-cart-remove]').click();assert.equal(d.getElementById('cartCount').textContent,'0');assert.match(d.getElementById('cartPreviewItems').textContent,/Karzinka bo‘sh/);
+  d.getElementById('cartAddQty').value='0';d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'0');assert.match(d.getElementById('cartPartStatus').textContent,/1 dan 999/);
+ }finally{w.close()}
 });
