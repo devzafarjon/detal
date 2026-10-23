@@ -6,13 +6,14 @@ import test from 'node:test';
 import postcss from 'postcss';
 const html=readFileSync('public/catalog/index.html','utf8');
 const model={id:1,name:'Bosch 750',image:'/test.png',view:[0,0,100,100],size:[100,100],parts:[{id:1,name:'Rotor',article:'R-1',price:null,x:30,y:40},{id:2,name:'Stator',article:'S-2',price:50000,x:60,y:40}]};
-async function setup({models=[model],fail=false,admin=false,lazy=false,device=''}={}){
+async function setup({models=[model],fail=false,admin=false,lazy=false,device='',cartData}={}){
  const dom=new JSDOM(html,{url:'https://detal.example/catalog/?device='+encodeURIComponent(device),runScripts:'outside-only'}),w=dom.window;
+ if(cartData!==undefined)w.localStorage.setItem('detal-cart-v1',cartData);
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};
  w.HTMLDialogElement.prototype.close=function(value){this.open=false;this.returnValue=value||'';this.dispatchEvent(new w.Event('close'));};
  w.fetch=async url=>({ok:!fail,json:async()=>url==='/api/session'?{admin}:String(url).includes('/api/catalog?id=')?{model:structuredClone(models.find(m=>m.id===Number(String(url).split('id=')[1]))),revision:1}:{models:structuredClone(lazy?models.map(m=>({id:m.id,name:m.name,partCount:m.parts.length})):models),error:'Aloqa xatosi'}});
  runInContext('const models=[];',dom.getInternalVMContext());
- for(const file of ['devices','ui','app','admin','pdf'])runInContext(readFileSync(`public/catalog/${file}.js`,'utf8'),dom.getInternalVMContext());
+ for(const file of ['devices','ui','app','cart','admin','pdf'])runInContext(readFileSync(`public/catalog/${file}.js`,'utf8'),dom.getInternalVMContext());
  await new Promise(resolve=>setTimeout(resolve,10));return dom;
 }
 test('catalog loads, model search filters and selected part is accessible',async()=>{const dom=await setup(),w=dom.window,d=w.document;try{assert.equal(d.body.dataset.state,'ready');assert.equal(d.querySelectorAll('.metric').length,2);assert.equal(d.querySelectorAll('.part').length,2);d.querySelector('[data-part="2"]').click();assert.match(d.getElementById('detail').textContent,/Stator/);assert.equal(d.querySelector('[data-part="2"]').getAttribute('aria-pressed'),'true');const search=d.getElementById('search');search.value='missing';search.dispatchEvent(new w.Event('input'));assert.match(d.getElementById('parts').textContent,/Detal topilmadi/);const modelSearch=d.getElementById('modelSearch');modelSearch.value='750';modelSearch.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(d.querySelectorAll('[data-suggest-model]').length,1);modelSearch.value='missing';modelSearch.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(d.getElementById('devicePicker').disabled,true);}finally{w.close();}});
@@ -94,4 +95,28 @@ test('long diagrams navigate pages, focus the selected part and use per-location
  const item=structuredClone(model);item.size=[100,600];item.view=[0,0,100,100];item.pageRegions=[{page:1,box:[0,0,100,100]},{page:2,box:[0,500,100,100]}];item.parts[1].y=550;item.parts[1].locations=[{x:60,y:550,hitWidth:24,hitHeight:12}];
  const dom=await setup({models:[item]}),w=dom.window,d=w.document;w.HTMLElement.prototype.scrollIntoView=function(){};
  try{const svg=d.getElementById('diagram');assert.equal(d.getElementById('pageNavigation').hidden,false);assert.equal(d.getElementById('previousPage').disabled,true);assert.equal(d.querySelector('.hotspot[data-id="2"]').getAttribute('tabindex'),'-1');d.getElementById('nextPage').click();assert.equal(svg.getAttribute('viewBox'),'0 500 100 100');assert.equal(d.getElementById('nextPage').disabled,true);assert.equal(d.querySelector('.hotspot[data-id="2"]').getAttribute('tabindex'),'0');d.getElementById('previousPage').click();d.querySelector('[data-part="2"]').click();d.getElementById('focusPart').click();assert.equal(d.getElementById('diagramPage').value,'1');const [x,y,width,height]=svg.getAttribute('viewBox').split(' ').map(Number);assert.ok(60>=x&&60<=x+width&&550>=y&&550<=y+height);assert.equal(d.querySelector('.hotspot[data-id="2"] rect').getAttribute('width'),'24');assert.equal(d.querySelector('.hotspot[data-id="2"] rect').getAttribute('height'),'12');d.getElementById('reset').click();assert.equal(svg.getAttribute('viewBox'),'0 500 100 100');for(let i=0;i<20;i++)d.getElementById('plus').click();assert.equal(d.getElementById('reset').textContent,'1200%');}finally{w.close()}
+});
+
+test('cart keeps parts from multiple diagrams, updates quantities and restores saved markers',async()=>{
+ const second={...structuredClone(model),id:2,name:'Bosch 800',parts:[{id:1,name:'Rotor B',article:'RB-1',price:null,x:30,y:40}]};
+ const dom=await setup({models:[model,second]}),w=dom.window,d=w.document;
+ try{
+  d.querySelector('[data-part="2"]').click();d.getElementById('cartAdd').click();d.getElementById('cartAdd').click();
+  assert.equal(d.getElementById('cartCount').textContent,'2');assert.equal(d.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);assert.equal(d.querySelector('.part[data-part="2"] .part-cart-count').textContent,'✓ 2');
+  await w.chooseModel(2);d.getElementById('cartAdd').click();assert.equal(d.getElementById('cartCount').textContent,'3');
+  d.getElementById('cartOpen').click();assert.equal(d.getElementById('cartDialog').open,true);assert.equal(d.querySelectorAll('.cart-item').length,2);
+  const first=d.querySelector('.cart-item[data-model-id="1"]');first.querySelector('[data-cart-minus]').click();assert.equal(d.getElementById('cartCount').textContent,'2');
+  const quantityInput=d.querySelector('.cart-item[data-model-id="1"] .cart-stepper input');quantityInput.value='5';quantityInput.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(d.getElementById('cartCount').textContent,'6');
+  const blankInput=d.querySelector('.cart-item[data-model-id="1"] .cart-stepper input');blankInput.value='';blankInput.dispatchEvent(new w.Event('change',{bubbles:true}));assert.equal(d.getElementById('cartCount').textContent,'6');
+  d.querySelector('.cart-item[data-model-id="2"] [data-cart-remove]').click();assert.equal(d.getElementById('cartCount').textContent,'5');assert.equal(d.querySelector('.hotspot[data-id="1"]').classList.contains('in-cart'),false);
+  const saved=w.localStorage.getItem('detal-cart-v1');assert.equal(JSON.parse(saved)[0].qty,5);
+  const restored=await setup({models:[model,second],cartData:saved}),rd=restored.window.document;
+  try{assert.equal(rd.getElementById('cartCount').textContent,'5');assert.equal(rd.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);rd.getElementById('cartOpen').click();rd.querySelector('[data-cart-remove]').click();assert.equal(rd.getElementById('cartCount').textContent,'0');assert.match(rd.getElementById('cartItems').textContent,/Karzinka bo‘sh/);}finally{restored.window.close()}
+ }finally{w.close()}
+});
+
+test('cart opens the saved diagram and ignores malformed stored data',async()=>{
+ const data=JSON.stringify([{modelId:1,partId:2,modelName:'Bosch 750',name:'Stator',label:'2',article:'S-2',qty:1},{modelId:1,partId:1,qty:-4}]);
+ const dom=await setup({cartData:data}),w=dom.window,d=w.document;w.HTMLElement.prototype.scrollIntoView=function(){};
+ try{assert.equal(d.getElementById('cartCount').textContent,'1');d.getElementById('cartOpen').click();d.querySelector('[data-cart-go]').click();await new Promise(resolve=>setTimeout(resolve,5));assert.equal(d.getElementById('cartDialog').open,false);assert.equal(d.querySelector('#detail h2').textContent,'Stator');assert.equal(d.querySelector('.hotspot[data-id="2"]').classList.contains('in-cart'),true);assert.equal(d.querySelector('[data-cart-minus]').disabled,true);}finally{w.close()}
 });

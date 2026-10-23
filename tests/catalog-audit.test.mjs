@@ -11,7 +11,7 @@ test('every production section, list selection, rendered hotspot and device filt
  w.fetch=async url=>({ok:true,json:async()=>url==='/api/session'?{admin:true}:{models:structuredClone(snapshot)}});
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true};w.HTMLElement.prototype.scrollIntoView=function(){};
  runInContext('const models=[];',ctx);
- for(const file of ['devices','ui','app','admin','pdf'])runInContext(fs.readFileSync(`public/catalog/${file}.js`,'utf8'),ctx);
+ for(const file of ['devices','ui','app','cart','admin','pdf'])runInContext(fs.readFileSync(`public/catalog/${file}.js`,'utf8'),ctx);
  await new Promise(r=>setTimeout(r,20));let listClicks=0,hotspotClicks=0,keyboardChecks=0;
  try{
   assert.equal(d.body.dataset.state,'ready');

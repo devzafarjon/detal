@@ -15,6 +15,7 @@
 </a>
 <div class="header-actions">
 <span id="syncStatus" class="sync-indicator" role="status">Katalog yuklanmoqda…</span>
+<button id="cartOpen" type="button" class="cart-open" aria-label="Karzinkani ochish, 0 ta detal">Karzinka <span id="cartCount" class="cart-count" aria-hidden="true">0</span></button>
 <a class="button" id="adminSignIn" href="/signin-with-chatgpt?return_to=%2Fcatalog%2F" target="_top">Admin kirishi</a>
 <button id="adminToggle" class="primary" hidden><span data-icon="shield"></span>Admin panel</button>
 </div>
@@ -199,6 +200,11 @@
 <span class="footer-brand">detal.</span> <span>Siz yuborgan chizmalar asosida</span>
 </footer>
 </main>
+<dialog id="cartDialog" class="cart-dialog" aria-labelledby="cartTitle">
+<div class="dialog-heading"><div><span class="eyebrow">SAQLANGAN TANLOV</span><h2 id="cartTitle">Karzinka</h2><p id="cartSummary" role="status"></p></div><button id="cartClose" type="button" class="close-button" aria-label="Karzinkani yopish"><span data-icon="close"></span></button></div>
+<div id="cartItems" class="cart-items"></div>
+<p class="cart-note">Tanlangan detallar shu brauzerda saqlanadi. Narx kiritilmagan yoki demo narxli detallar uchun buyurtma summasi hisoblanmaydi.</p>
+</dialog>
 <dialog id="original" aria-labelledby="originalTitle">
 <div class="dialog-heading">
 <h2 id="originalTitle">Asl chizma va detallar jadvali</h2>
@@ -319,6 +325,7 @@
 <script src="devices.js"></script>
 <script src="app.js">
 </script>
+<script src="cart.js"></script>
 <script src="admin.js">
 </script>
 <script src="ai.js">

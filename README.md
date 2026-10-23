@@ -34,6 +34,10 @@ The Netlify target uses `netlify.toml` and `npm run build:netlify`. It bundles t
 
 The deployment was verified using API integration tests and remote catalog/auth/upload checks. The OpenAI model-access endpoint was checked; no paid image-analysis request was used in deployment testing.
 
+## Visitor cart
+
+The catalog cart is a browser-local shortlist, keyed by drawing ID and part ID. Adding a part keeps its drawing callout and list row marked across drawing changes and reloads. Visitors can set quantities (1–999), remove a line, and return to its diagram. The data is stored in `localStorage` under `detal-cart-v1`; when browser storage is unavailable, it lasts only for the open page. It is not an order, checkout, or server-side account cart. Names and articles are snapshots of the part at the time it was added. Validation: `npm run test:ui`.
+
 ## PDF catalogs on Netlify
 
 Admin → New drawing → **Butun PDFdan sxemalarni topish** accepts one PDF (up to 40 MiB / 50 pages). Self-hosted Mozilla PDF.js renders the document. `/api/pdf-layout` submits all page previews together for structured, asynchronous layout detection: zero/multiple schematics per page and matching parts tables on other pages. A PDF page is never automatically treated as a catalog item.
